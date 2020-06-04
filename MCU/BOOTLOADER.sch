@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 5 9
 Title ""
 Date ""
 Rev ""
@@ -200,7 +200,8 @@ P 5700 3750
 F 0 "U501" H 6294 3771 50  0000 L CNN
 F 1 "MKL02Z32VFG4" H 6294 3680 50  0000 L CNN
 F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm" H 5600 4250 50  0001 C CNN
-F 3 "" H 5600 4250 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/KL02P32M48SF0.pdf" H 5600 4250 50  0001 C CNN
+F 4 "This chip must be purchased from PJRC!! " H 5700 3750 50  0001 C CNN "Note"
 	1    5700 3750
 	1    0    0    -1  
 $EndComp

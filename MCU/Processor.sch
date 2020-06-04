@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 3 9
 Title ""
 Date ""
 Rev ""
@@ -402,4 +402,12 @@ Wire Wire Line
 Connection ~ 9050 5050
 Wire Wire Line
 	9050 5050 9050 5150
+Text HLabel 9350 2550 2    50   Input ~ 0
+VDD_USB_CAP
+Text HLabel 9350 2450 2    50   Input ~ 0
+VDD_SNVS_IN
+Wire Wire Line
+	8950 2450 9350 2450
+Wire Wire Line
+	9350 2550 8950 2550
 $EndSCHEMATC
