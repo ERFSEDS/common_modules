@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_ST_STM32F4:STM32F401RBTx U?
+L MCU_ST_STM32F4:STM32F401RBTx U301
 U 1 1 5EE690AA
 P 6050 3700
-F 0 "U?" H 6050 6300 50  0000 C CNN
+F 0 "U301" H 6050 6300 50  0000 C CNN
 F 1 "STM32F401RBTx" H 6050 6200 50  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5450 2000 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00086815.pdf" H 6050 3700 50  0001 C CNN
@@ -42,4 +42,12 @@ Wire Wire Line
 	5000 5200 5350 5200
 Wire Wire Line
 	5350 5300 5000 5300
+Text HLabel 7150 2400 2    50   Input ~ 0
+TXD
+Text HLabel 7150 2500 2    50   Input ~ 0
+RXD
+Wire Wire Line
+	6650 2400 7150 2400
+Wire Wire Line
+	7150 2500 6650 2500
 $EndSCHEMATC
