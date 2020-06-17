@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 6 8
 Title ""
 Date "2020-06-14"
 Rev "1"
@@ -57,17 +57,6 @@ F 4 "0ZCJ0025AF2E" V 5050 2500 50  0001 C CNN "DIGIKEY"
 $EndComp
 Wire Wire Line
 	4500 2500 4900 2500
-$Comp
-L power:VBUS #PWR0605
-U 1 1 5EE8255A
-P 8000 2500
-F 0 "#PWR0605" H 8000 2350 50  0001 C CNN
-F 1 "VBUS" V 8015 2628 50  0000 L CNN
-F 2 "" H 8000 2500 50  0001 C CNN
-F 3 "" H 8000 2500 50  0001 C CNN
-	1    8000 2500
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5200 2500 5450 2500
 $Comp
@@ -102,7 +91,6 @@ F 4 "490-1040-1-ND" V 6050 2500 50  0001 C CNN "DIGIKEY"
 	1    6050 2500
 	0    1    1    0   
 $EndComp
-Connection ~ 8000 2500
 Wire Wire Line
 	6200 2500 8000 2500
 $Comp
@@ -357,4 +345,9 @@ F 3 "" H 6250 4650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6250 4650 6400 4650
+Text HLabel 8500 2500 2    50   Input ~ 0
+VUSB
+Wire Wire Line
+	8000 2500 8500 2500
+Connection ~ 8000 2500
 $EndSCHEMATC
