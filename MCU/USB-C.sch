@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 6 9
 Title ""
 Date "2020-06-14"
 Rev "1"
@@ -350,4 +350,20 @@ VUSB
 Wire Wire Line
 	8000 2500 8500 2500
 Connection ~ 8000 2500
+NoConn ~ 4500 2700
+NoConn ~ 4500 2800
+NoConn ~ 4500 3100
+NoConn ~ 4500 3300
+NoConn ~ 4500 3500
+NoConn ~ 4500 3600
+NoConn ~ 4500 3800
+NoConn ~ 4500 3900
+NoConn ~ 4500 4100
+NoConn ~ 4500 4200
+NoConn ~ 4500 4400
+NoConn ~ 4500 4500
+NoConn ~ 4500 4700
+NoConn ~ 4500 4800
+NoConn ~ 7500 3800
+NoConn ~ 8400 3700
 $EndSCHEMATC

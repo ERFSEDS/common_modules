@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 2 9
 Title ""
 Date "2020-06-14"
 Rev "1"
@@ -90,4 +90,10 @@ Wire Wire Line
 	2550 4150 2550 4750
 Wire Wire Line
 	2550 4750 2400 4750
+$Sheet
+S 1550 5050 850  850 
+U 5EEB14DB
+F0 "FILTERING" 50
+F1 "FILTERING.sch" 50
+$EndSheet
 $EndSCHEMATC
