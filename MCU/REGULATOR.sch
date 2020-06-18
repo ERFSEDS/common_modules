@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L dk_PMIC-Voltage-Regulators-Linear:MIC5219-3_3YM5-TR U?
+L dk_PMIC-Voltage-Regulators-Linear:MIC5219-3_3YM5-TR U701
 U 1 1 5EEA61D5
 P 6800 3600
-F 0 "U?" H 6800 3887 60  0000 C CNN
+F 0 "U701" H 6800 3887 60  0000 C CNN
 F 1 "MIC5219-3_3YM5-TR" H 6800 3781 60  0000 C CNN
 F 2 "digikey-footprints:SOT-753" H 7000 3800 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579712" H 7000 3900 60  0001 L CNN
@@ -34,10 +34,10 @@ F 12 "Active" H 7000 4800 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0702
 U 1 1 5EEA8B33
 P 7650 3600
-F 0 "#PWR?" H 7650 3450 50  0001 C CNN
+F 0 "#PWR0702" H 7650 3450 50  0001 C CNN
 F 1 "+3.3V" V 7665 3728 50  0000 L CNN
 F 2 "" H 7650 3600 50  0001 C CNN
 F 3 "" H 7650 3600 50  0001 C CNN
@@ -47,10 +47,10 @@ $EndComp
 Wire Wire Line
 	7100 3600 7400 3600
 $Comp
-L Device:C C?
+L Device:C C701
 U 1 1 5EEA92CD
 P 7400 3750
-F 0 "C?" H 7515 3796 50  0000 L CNN
+F 0 "C701" H 7515 3796 50  0000 L CNN
 F 1 "1uF" H 7515 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7438 3600 50  0001 C CNN
 F 3 "~" H 7400 3750 50  0001 C CNN
@@ -61,10 +61,10 @@ Connection ~ 7400 3600
 Wire Wire Line
 	7400 3600 7650 3600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0701
 U 1 1 5EEA986E
 P 6800 4100
-F 0 "#PWR?" H 6800 3850 50  0001 C CNN
+F 0 "#PWR0701" H 6800 3850 50  0001 C CNN
 F 1 "GND" H 6805 3927 50  0000 C CNN
 F 2 "" H 6800 4100 50  0001 C CNN
 F 3 "" H 6800 4100 50  0001 C CNN
@@ -82,10 +82,10 @@ Wire Wire Line
 	6800 4000 6800 4100
 NoConn ~ 7100 3700
 $Comp
-L dk_Diodes-Rectifiers-Arrays:BAT54C-7-F D?
+L dk_Diodes-Rectifiers-Arrays:BAT54C-7-F D701
 U 1 1 5EEAA20B
 P 4600 3600
-F 0 "D?" H 4650 3947 60  0000 C CNN
+F 0 "D701" H 4650 3947 60  0000 C CNN
 F 1 "BAT54C-7-F" H 4650 3841 60  0000 C CNN
 F 2 "digikey-footprints:SOT-23-3" H 4800 3800 60  0001 L CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 4800 3900 60  0001 L CNN

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 8 10
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Red-cache:Connector_Generic_Conn_01x02 J?
+L Red-cache:Connector_Generic_Conn_01x02 J801
 U 1 1 5EEB3AB5
 P 4950 3300
-F 0 "J?" H 4868 2975 50  0000 C CNN
+F 0 "J801" H 4868 2975 50  0000 C CNN
 F 1 "Connector_Generic_Conn_01x02" H 4868 3066 50  0000 C CNN
 F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 4950 3300 50  0001 C CNN
 F 3 "" H 4950 3300 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "" H 4950 3300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0801
 U 1 1 5EEB4049
 P 5650 3300
-F 0 "#PWR?" H 5650 3050 50  0001 C CNN
+F 0 "#PWR0801" H 5650 3050 50  0001 C CNN
 F 1 "GND" V 5655 3172 50  0000 R CNN
 F 2 "" H 5650 3300 50  0001 C CNN
 F 3 "" H 5650 3300 50  0001 C CNN
