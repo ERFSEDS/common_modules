@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 4 11
 Title ""
 Date "2020-06-14"
 Rev "1"
@@ -59,16 +59,14 @@ Wire Wire Line
 $Comp
 L Device:R_US R401
 U 1 1 5EE707DE
-P 2950 3550
-F 0 "R401" V 2745 3550 50  0000 C CNN
-F 1 "R_US" V 2836 3550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2990 3540 50  0001 C CNN
-F 3 "~" H 2950 3550 50  0001 C CNN
-	1    2950 3550
+P 2750 3550
+F 0 "R401" V 2545 3550 50  0000 C CNN
+F 1 "R_US" V 2636 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2790 3540 50  0001 C CNN
+F 3 "~" H 2750 3550 50  0001 C CNN
+	1    2750 3550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3200 3550 3100 3550
 $Comp
 L Device:Crystal Y402
 U 1 1 5EE717EC
@@ -91,12 +89,12 @@ Wire Wire Line
 $Comp
 L Device:C C401
 U 1 1 5EE73815
-P 2650 3700
-F 0 "C401" H 2765 3746 50  0000 L CNN
-F 1 "6pF" H 2765 3655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2688 3550 50  0001 C CNN
-F 3 "~" H 2650 3700 50  0001 C CNN
-	1    2650 3700
+P 3000 3700
+F 0 "C401" H 3115 3746 50  0000 L CNN
+F 1 "6pF" H 3115 3655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3038 3550 50  0001 C CNN
+F 3 "~" H 3000 3700 50  0001 C CNN
+	1    3000 3700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -113,8 +111,6 @@ $EndComp
 Connection ~ 3700 3550
 Wire Wire Line
 	3700 3550 3900 3550
-Wire Wire Line
-	2650 3850 3350 3850
 Connection ~ 3350 3850
 Wire Wire Line
 	3350 3850 3350 3750
@@ -165,8 +161,12 @@ Connection ~ 8100 3850
 Wire Wire Line
 	8100 3850 8550 3850
 Wire Wire Line
-	2450 3550 2650 3550
-Connection ~ 2650 3550
+	3000 3850 3350 3850
 Wire Wire Line
-	2650 3550 2800 3550
+	3000 3550 3200 3550
+Wire Wire Line
+	3000 3550 2900 3550
+Connection ~ 3000 3550
+Wire Wire Line
+	2600 3550 2450 3550
 $EndSCHEMATC

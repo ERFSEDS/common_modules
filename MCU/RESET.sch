@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 10 11
 Title ""
 Date ""
 Rev ""
@@ -18,18 +18,18 @@ L dk_Pushbutton-Switches:GPTS203211B S1001
 U 1 1 5EEE3482
 P 5700 3550
 F 0 "S1001" H 5700 3825 50  0000 C CNN
-F 1 "GPTS203211B" H 5700 3734 50  0000 C CNN
-F 2 "digikey-footprints:PushButton_12x12mm_THT_GPTS203211B" H 5900 3750 50  0001 L CNN
-F 3 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 5900 3850 60  0001 L CNN
-F 4 "CW181-ND" H 5900 3950 60  0001 L CNN "Digi-Key_PN"
-F 5 "GPTS203211B" H 5900 4050 60  0001 L CNN "MPN"
+F 1 "KSR223GLFG" H 5700 3734 50  0000 C CNN
+F 2 "NOVA FOOTPRINTS:KSR223GLFG" H 5900 3750 50  0001 L CNN
+F 3 "https://www.ckswitches.com/media/1466/ksr.pdf" H 5900 3850 60  0001 L CNN
+F 4 "401-1704-1-ND" H 5900 3950 60  0001 L CNN "Digi-Key_PN"
+F 5 "" H 5900 4050 60  0001 L CNN "MPN"
 F 6 "Switches" H 5900 4150 60  0001 L CNN "Category"
-F 7 "Pushbutton Switches" H 5900 4250 60  0001 L CNN "Family"
-F 8 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 5900 4350 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590" H 5900 4450 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH PUSHBUTTON SPST 1A 30V" H 5900 4550 60  0001 L CNN "Description"
-F 11 "CW Industries" H 5900 4650 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5900 4750 60  0001 L CNN "Status"
+F 7 "" H 5900 4250 60  0001 L CNN "Family"
+F 8 "" H 5900 4350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "" H 5900 4450 60  0001 L CNN "DK_Detail_Page"
+F 10 "" H 5900 4550 60  0001 L CNN "Description"
+F 11 "" H 5900 4650 60  0001 L CNN "Manufacturer"
+F 12 "" H 5900 4750 60  0001 L CNN "Status"
 	1    5700 3550
 	1    0    0    -1  
 $EndComp

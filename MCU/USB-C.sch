@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
+Sheet 6 11
 Title ""
 Date "2020-06-14"
 Rev "1"
@@ -104,8 +104,6 @@ F 3 "~" H 5150 3000 50  0001 C CNN
 	1    5150 3000
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4500 3000 5000 3000
 Wire Wire Line
 	4500 3200 5000 3200
 Wire Wire Line
@@ -366,4 +364,14 @@ NoConn ~ 4500 4700
 NoConn ~ 4500 4800
 NoConn ~ 7500 3800
 NoConn ~ 8400 3700
+Wire Wire Line
+	5000 3000 4500 3000
+Text Label 4750 3000 0    50   ~ 0
+D1-
+Text Label 4750 3200 0    50   ~ 0
+D1+
+Text Label 5500 3000 0    50   ~ 0
+D2-
+Text Label 5500 3200 0    50   ~ 0
+D2+
 $EndSCHEMATC

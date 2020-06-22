@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 8 11
 Title ""
 Date ""
 Rev ""
@@ -14,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Red-cache:Connector_Generic_Conn_01x02 J801
+L NOVA-MCU-(STM)-rescue:Connector_Generic_Conn_01x02-Red-cache J?
 U 1 1 5EEB3AB5
 P 4950 3300
+AR Path="/5EEB3AB5" Ref="J?"  Part="1" 
+AR Path="/5EE654BB/5EEB3769/5EEB3AB5" Ref="J801"  Part="1" 
 F 0 "J801" H 4868 2975 50  0000 C CNN
 F 1 "Connector_Generic_Conn_01x02" H 4868 3066 50  0000 C CNN
 F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 4950 3300 50  0001 C CNN

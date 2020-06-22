@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 7 11
 Title ""
 Date ""
 Rev ""
@@ -103,11 +103,11 @@ F 12 "Active" H 4800 4800 60  0001 L CNN "Status"
 $EndComp
 Wire Wire Line
 	4900 3600 6350 3600
-Text HLabel 3900 3500 0    50   Input ~ 0
+Text HLabel 3900 3700 0    50   Input ~ 0
 VUSB
 Wire Wire Line
 	4400 3500 3900 3500
-Text HLabel 3900 3700 0    50   Input ~ 0
+Text HLabel 3900 3500 0    50   Input ~ 0
 BATTERY
 Wire Wire Line
 	3900 3700 4400 3700
