@@ -57,13 +57,13 @@ F 3 "~" H 8900 3700 50  0001 C CNN
 	1    8900 3700
 	1    0    0    -1  
 $EndComp
-Text HLabel 2600 3150 2    50   Input ~ 0
-1
-Text HLabel 2600 3250 2    50   Input ~ 0
-2
-Text HLabel 2600 3350 2    50   Input ~ 0
-3
 Text HLabel 2600 3450 2    50   Input ~ 0
+1
+Text HLabel 2600 3350 2    50   Input ~ 0
+2
+Text HLabel 2600 3250 2    50   Input ~ 0
+3
+Text HLabel 2600 3150 2    50   Input ~ 0
 4
 Text HLabel 2600 3550 2    50   Input ~ 0
 5
@@ -115,11 +115,11 @@ Text HLabel 7250 3500 2    50   Input ~ 0
 28
 Text HLabel 7250 3600 2    50   Input ~ 0
 29
-Text HLabel 7250 3700 2    50   Input ~ 0
+Text HLabel 7250 3900 2    50   Input ~ 0
 30
 Text HLabel 7250 3800 2    50   Input ~ 0
 31
-Text HLabel 7250 3900 2    50   Input ~ 0
+Text HLabel 7250 3700 2    50   Input ~ 0
 32
 Text HLabel 7250 4000 2    50   Input ~ 0
 33
@@ -137,13 +137,13 @@ Text HLabel 9850 3400 2    50   Input ~ 0
 39
 Text HLabel 9850 3500 2    50   Input ~ 0
 40
-Text HLabel 9850 3600 2    50   Input ~ 0
-41
-Text HLabel 9850 3700 2    50   Input ~ 0
-42
-Text HLabel 9850 3800 2    50   Input ~ 0
-43
 Text HLabel 9850 3900 2    50   Input ~ 0
+41
+Text HLabel 9850 3800 2    50   Input ~ 0
+42
+Text HLabel 9850 3700 2    50   Input ~ 0
+43
+Text HLabel 9850 3600 2    50   Input ~ 0
 44
 Text HLabel 9850 4000 2    50   Input ~ 0
 45
