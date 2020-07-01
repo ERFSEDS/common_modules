@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_C_Receptacle J601
+L Nova~Microcontroller:USB_C_Receptacle J601
 U 1 1 5EE7E0E1
 P 3900 3500
 F 0 "J601" H 4007 4767 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 4007 4676 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" H 4050 3500 50  0001 C CNN
+F 2 "NOVA MCU (STM):USB_C_Receptacle_Amphenol_12401610E4-2A" H 4050 3500 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4050 3500 50  0001 C CNN
 F 4 "12401598E4#2A" H 3900 3500 50  0001 C CNN "DIGIKEY"
 	1    3900 3500
@@ -44,12 +44,12 @@ Wire Wire Line
 	3600 5300 3900 5300
 Connection ~ 3900 5300
 $Comp
-L Device:Fuse F601
+L Nova~Microcontroller:Fuse F601
 U 1 1 5EE8054D
 P 5050 2500
 F 0 "F601" V 4853 2500 50  0000 C CNN
 F 1 "500mA" V 4944 2500 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4980 2500 50  0001 C CNN
+F 2 "NOVA MCU (STM):Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4980 2500 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcj-series.pdf" H 5050 2500 50  0001 C CNN
 F 4 "0ZCJ0025AF2E" V 5050 2500 50  0001 C CNN "DIGIKEY"
 	1    5050 2500
@@ -60,12 +60,12 @@ Wire Wire Line
 Wire Wire Line
 	5200 2500 5450 2500
 $Comp
-L dk_Interface-Controllers:FT234XD-R U601
+L Nova~Microcontroller:FT234XD-R U601
 U 1 1 5EE8343B
 P 7900 3500
 F 0 "U601" H 7450 4000 60  0000 C CNN
 F 1 "FT234XD-R" H 7450 3900 60  0000 C CNN
-F 2 "digikey-footprints:DFN-12-1EP_3x3mm" H 8100 3700 60  0001 L CNN
+F 2 "NOVA MCU (STM):DFN-12-1EP_3x3mm" H 8100 3700 60  0001 L CNN
 F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT234XD.pdf" H 8100 3800 60  0001 L CNN
 F 4 "768-1178-1-ND" H 8100 3900 60  0001 L CNN "Digi-Key_PN"
 F 5 "FT234XD-R" H 8100 4000 60  0001 L CNN "MPN"
@@ -80,12 +80,12 @@ F 12 "Active" H 8100 4700 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Ferrite_Bead FB601
+L Nova~Microcontroller:Ferrite_Bead FB601
 U 1 1 5EE89DD0
 P 6050 2500
 F 0 "FB601" V 5776 2500 50  0000 C CNN
 F 1 "600 OHM" V 5867 2500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5980 2500 50  0001 C CNN
+F 2 "NOVA MCU (STM):R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5980 2500 50  0001 C CNN
 F 3 "https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf" H 6050 2500 50  0001 C CNN
 F 4 "490-1040-1-ND" V 6050 2500 50  0001 C CNN "DIGIKEY"
 	1    6050 2500
@@ -94,12 +94,12 @@ $EndComp
 Wire Wire Line
 	6200 2500 8000 2500
 $Comp
-L Device:R_US R601
+L Nova~Microcontroller:R_US R601
 U 1 1 5EE8D72F
 P 5150 3000
 F 0 "R601" V 4945 3000 50  0000 C CNN
 F 1 "27 OHM" V 5036 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5190 2990 50  0001 C CNN
+F 2 "NOVA MCU (STM):R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5190 2990 50  0001 C CNN
 F 3 "~" H 5150 3000 50  0001 C CNN
 	1    5150 3000
 	0    1    1    0   
@@ -182,23 +182,23 @@ $EndComp
 Wire Wire Line
 	7250 3600 7500 3600
 $Comp
-L Device:C C602
+L Nova~Microcontroller:C C602
 U 1 1 5EE93320
 P 5950 3750
 F 0 "C602" H 6065 3796 50  0000 L CNN
 F 1 "47pF" H 6065 3705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5988 3600 50  0001 C CNN
+F 2 "NOVA MCU (STM):C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5988 3600 50  0001 C CNN
 F 3 "~" H 5950 3750 50  0001 C CNN
 	1    5950 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C603
+L Nova~Microcontroller:C C603
 U 1 1 5EE93CEE
 P 6400 3750
 F 0 "C603" H 6515 3796 50  0000 L CNN
 F 1 "47pF" H 6515 3705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6515 3659 50  0001 L CNN
+F 2 "NOVA MCU (STM):C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6515 3659 50  0001 L CNN
 F 3 "~" H 6400 3750 50  0001 C CNN
 	1    6400 3750
 	1    0    0    -1  
@@ -234,12 +234,12 @@ Wire Wire Line
 	6400 4050 6200 4050
 Connection ~ 6200 4050
 $Comp
-L Device:R_US R602
+L Nova~Microcontroller:R_US R602
 U 1 1 5EE8E4DE
 P 5150 3200
 F 0 "R602" V 5350 3200 50  0000 C CNN
 F 1 "27 OHM" V 5250 3200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5190 3190 50  0001 C CNN
+F 2 "NOVA MCU (STM):R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5190 3190 50  0001 C CNN
 F 3 "~" H 5150 3200 50  0001 C CNN
 	1    5150 3200
 	0    1    1    0   
@@ -247,12 +247,12 @@ $EndComp
 Wire Wire Line
 	8500 3500 9400 3500
 $Comp
-L Device:C C604
+L Nova~Microcontroller:C C604
 U 1 1 5EE97E32
 P 9400 3650
 F 0 "C604" H 9515 3696 50  0000 L CNN
 F 1 "100nF" H 9515 3605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9515 3559 50  0001 L CNN
+F 2 "NOVA MCU (STM):C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9515 3559 50  0001 L CNN
 F 3 "~" H 9400 3650 50  0001 C CNN
 	1    9400 3650
 	1    0    0    -1  
@@ -274,12 +274,12 @@ $EndComp
 Wire Wire Line
 	9400 3800 9400 3950
 $Comp
-L Device:C C601
+L Nova~Microcontroller:C C601
 U 1 1 5EE98E46
 P 5450 2350
 F 0 "C601" H 5565 2396 50  0000 L CNN
 F 1 "10nF" H 5565 2305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5565 2259 50  0001 L CNN
+F 2 "NOVA MCU (STM):C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5565 2259 50  0001 L CNN
 F 3 "~" H 5450 2350 50  0001 C CNN
 	1    5450 2350
 	1    0    0    -1  
@@ -301,23 +301,23 @@ $EndComp
 Wire Wire Line
 	5450 2200 5450 2000
 $Comp
-L Device:LED D601
+L Nova~Microcontroller:LED D601
 U 1 1 5EE9CC36
 P 7150 4650
 F 0 "D601" H 7143 4395 50  0000 C CNN
 F 1 "LED" H 7143 4486 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7150 4650 50  0001 C CNN
+F 2 "NOVA MCU (STM):LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7150 4650 50  0001 C CNN
 F 3 "~" H 7150 4650 50  0001 C CNN
 	1    7150 4650
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_US R603
+L Nova~Microcontroller:R_US R603
 U 1 1 5EE9D264
 P 6550 4650
 F 0 "R603" V 6345 4650 50  0000 C CNN
 F 1 "270 OHM" V 6436 4650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6590 4640 50  0001 C CNN
+F 2 "NOVA MCU (STM):R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6590 4640 50  0001 C CNN
 F 3 "~" H 6550 4650 50  0001 C CNN
 	1    6550 4650
 	0    1    1    0   
@@ -373,23 +373,23 @@ D2-
 Text Label 5500 3200 0    50   ~ 0
 D2+
 $Comp
-L Device:R_US R604
+L Nova~Microcontroller:R_US R604
 U 1 1 5EF2AE69
 P 6200 3000
 F 0 "R604" V 5995 3000 50  0000 C CNN
 F 1 "5K" V 6086 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6240 2990 50  0001 C CNN
+F 2 "NOVA MCU (STM):R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6240 2990 50  0001 C CNN
 F 3 "~" H 6200 3000 50  0001 C CNN
 	1    6200 3000
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R605
+L Nova~Microcontroller:R_US R605
 U 1 1 5EF2B785
 P 6450 2750
 F 0 "R605" V 6245 2750 50  0000 C CNN
 F 1 "5K" V 6336 2750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6490 2740 50  0001 C CNN
+F 2 "NOVA MCU (STM):R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6490 2740 50  0001 C CNN
 F 3 "~" H 6450 2750 50  0001 C CNN
 	1    6450 2750
 	0    1    1    0   

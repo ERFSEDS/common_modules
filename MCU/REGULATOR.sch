@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 10 10
 Title ""
 Date ""
 Rev ""
@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L dk_PMIC-Voltage-Regulators-Linear:MIC5219-3_3YM5-TR U701
+L Nova~Microcontroller:MIC5219-3_3YM5-TR U701
 U 1 1 5EEA61D5
 P 6800 3600
 F 0 "U701" H 6800 3887 60  0000 C CNN
 F 1 "MIC5219-3_3YM5-TR" H 6800 3781 60  0000 C CNN
-F 2 "digikey-footprints:SOT-753" H 7000 3800 60  0001 L CNN
+F 2 "NOVA MCU (STM):SOT-753" H 7000 3800 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579712" H 7000 3900 60  0001 L CNN
 F 4 "576-1281-1-ND" H 7000 4000 60  0001 L CNN "Digi-Key_PN"
 F 5 "MIC5219-3.3YM5-TR" H 7000 4100 60  0001 L CNN "MPN"
@@ -47,12 +47,12 @@ $EndComp
 Wire Wire Line
 	7100 3600 7400 3600
 $Comp
-L Device:C C701
+L Nova~Microcontroller:C C701
 U 1 1 5EEA92CD
 P 7400 3750
 F 0 "C701" H 7515 3796 50  0000 L CNN
 F 1 "1uF" H 7515 3705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7438 3600 50  0001 C CNN
+F 2 "NOVA MCU (STM):C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7438 3600 50  0001 C CNN
 F 3 "~" H 7400 3750 50  0001 C CNN
 	1    7400 3750
 	1    0    0    -1  

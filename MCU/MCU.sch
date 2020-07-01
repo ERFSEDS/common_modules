@@ -71,12 +71,12 @@ Wire Wire Line
 Wire Wire Line
 	5000 2200 5350 2200
 $Comp
-L MCU_ST_STM32F4:STM32F401RBTx U301
+L Nova~Microcontroller:STM32F401RCTx U301
 U 1 1 5EE690AA
 P 6050 3700
 F 0 "U301" H 6050 6150 50  0000 C CNN
 F 1 "STM32F401RBTx" H 6050 6000 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5450 2000 50  0001 R CNN
+F 2 "NOVA MCU (STM):LQFP-64_10x10mm_P0.5mm" H 5450 2000 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00086815.pdf" H 6050 3700 50  0001 C CNN
 	1    6050 3700
 	1    0    0    -1  

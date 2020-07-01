@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L dk_Pushbutton-Switches:GPTS203211B S1001
+L Nova~Microcontroller:GPTS203211B S1001
 U 1 1 5EEE3482
 P 5700 3550
 F 0 "S1001" H 5700 3825 50  0000 C CNN
 F 1 "KSR223GLFG" H 5700 3734 50  0000 C CNN
-F 2 "NOVA FOOTPRINTS:KSR223GLFG" H 5900 3750 50  0001 L CNN
+F 2 "NOVA MCU (STM):KSR223GLFG" H 5900 3750 50  0001 L CNN
 F 3 "https://www.ckswitches.com/media/1466/ksr.pdf" H 5900 3850 60  0001 L CNN
 F 4 "401-1704-1-ND" H 5900 3950 60  0001 L CNN "Digi-Key_PN"
 F 5 "" H 5900 4050 60  0001 L CNN "MPN"
@@ -62,12 +62,12 @@ Wire Wire Line
 Text HLabel 6850 3550 2    50   Input ~ 0
 RESET
 $Comp
-L Device:C C1001
+L Nova~Microcontroller:C C1001
 U 1 1 5EEE5880
 P 6350 3700
 F 0 "C1001" H 6465 3746 50  0000 L CNN
 F 1 "0.1uF" H 6465 3655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6388 3550 50  0001 C CNN
+F 2 "NOVA MCU (STM):C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6388 3550 50  0001 C CNN
 F 3 "~" H 6350 3700 50  0001 C CNN
 	1    6350 3700
 	1    0    0    -1  
