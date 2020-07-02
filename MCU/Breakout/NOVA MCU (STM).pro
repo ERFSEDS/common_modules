@@ -1,4 +1,4 @@
-update=6/24/2020 12:47:10 AM
+update=7/1/2020 10:31:19 PM
 version=1
 last_client=kicad
 [general]
@@ -238,7 +238,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=C:/Users/ckeer/Downloads/Title_Block.kicad_wks
+PageLayoutDescrFile=C:/Users/ckeer/OneDrive/Documents/Github/common_modules/Title_Block.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
