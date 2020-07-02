@@ -71,7 +71,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 2200 5350 2200
 $Comp
-L Nova~Microcontroller:STM32F401RCTx U301
+L Nova_Microcontroller:STM32F401RBTx U301
 U 1 1 5EE690AA
 P 6050 3700
 F 0 "U301" H 6050 6150 50  0000 C CNN

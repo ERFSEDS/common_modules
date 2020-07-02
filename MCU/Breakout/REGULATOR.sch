@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Nova~Microcontroller:MIC5219-3_3YM5-TR U701
+L Nova_Microcontroller:MIC5219-3_3YM5-TR U701
 U 1 1 5EEA61D5
 P 6800 3600
 F 0 "U701" H 6800 3887 60  0000 C CNN
@@ -47,7 +47,7 @@ $EndComp
 Wire Wire Line
 	7100 3600 7400 3600
 $Comp
-L Nova~Microcontroller:C C701
+L Nova_Microcontroller:C C701
 U 1 1 5EEA92CD
 P 7400 3750
 F 0 "C701" H 7515 3796 50  0000 L CNN

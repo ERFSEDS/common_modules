@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Nova~Microcontroller:GPTS203211B S1001
+L Nova_Microcontroller:GPTS203211B S1001
 U 1 1 5EEE3482
 P 5700 3550
 F 0 "S1001" H 5700 3825 50  0000 C CNN
@@ -62,7 +62,7 @@ Wire Wire Line
 Text HLabel 6850 3550 2    50   Input ~ 0
 RESET
 $Comp
-L Nova~Microcontroller:C C1001
+L Nova_Microcontroller:C C1001
 U 1 1 5EEE5880
 P 6350 3700
 F 0 "C1001" H 6465 3746 50  0000 L CNN

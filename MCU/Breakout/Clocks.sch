@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Nova~Microcontroller:Crystal_GND24 Y401
+L Nova_Microcontroller:Crystal_GND24 Y401
 U 1 1 5EE6B82C
 P 3350 3550
 F 0 "Y401" H 3300 4300 50  0000 L CNN
@@ -57,7 +57,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 3550 3700 3550
 $Comp
-L Nova~Microcontroller:R_US R401
+L Nova_Microcontroller:R_US R401
 U 1 1 5EE707DE
 P 2750 3550
 F 0 "R401" V 2545 3550 50  0000 C CNN
@@ -68,7 +68,7 @@ F 3 "~" H 2750 3550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Nova~Microcontroller:Crystal Y402
+L Nova_Microcontroller:Crystal Y402
 U 1 1 5EE717EC
 P 8050 3550
 F 0 "Y402" H 8050 3818 50  0000 C CNN
@@ -87,7 +87,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 3550 8550 3550
 $Comp
-L Device:C C401
+L Nova_Microcontroller:C C401
 U 1 1 5EE73815
 P 3000 3700
 F 0 "C401" H 3115 3746 50  0000 L CNN
@@ -98,7 +98,7 @@ F 3 "~" H 3000 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C402
+L Nova_Microcontroller:C C402
 U 1 1 5EE74215
 P 3700 3700
 F 0 "C402" H 3815 3746 50  0000 L CNN
@@ -117,7 +117,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 3850 3700 3850
 $Comp
-L Device:C C403
+L Nova_Microcontroller:C C403
 U 1 1 5EE74A4A
 P 7600 3700
 F 0 "C403" H 7715 3746 50  0000 L CNN
@@ -131,7 +131,7 @@ Connection ~ 7600 3550
 Wire Wire Line
 	7600 3550 7900 3550
 $Comp
-L Device:C C404
+L Nova_Microcontroller:C C404
 U 1 1 5EE7523E
 P 8550 3700
 F 0 "C404" H 8665 3746 50  0000 L CNN
