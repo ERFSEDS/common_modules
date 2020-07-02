@@ -81,8 +81,6 @@ Connection ~ 6800 4000
 Wire Wire Line
 	6800 4000 6800 4100
 NoConn ~ 7100 3700
-Text HLabel 4400 3600 0    50   Input ~ 0
-VUSB
 Wire Wire Line
 	6500 3700 6350 3700
 Wire Wire Line
@@ -106,4 +104,15 @@ Wire Wire Line
 	5650 3600 6350 3600
 Wire Wire Line
 	4400 3600 5650 3600
+$Comp
+L power:VBUS #PWR?
+U 1 1 5EFD7376
+P 4400 3600
+F 0 "#PWR?" H 4400 3450 50  0001 C CNN
+F 1 "VBUS" V 4415 3727 50  0000 L CNN
+F 2 "" H 4400 3600 50  0001 C CNN
+F 3 "" H 4400 3600 50  0001 C CNN
+	1    4400 3600
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
