@@ -1,4 +1,4 @@
-update=7/1/2020 10:31:19 PM
+update=7/1/2020 11:01:10 PM
 version=1
 last_client=kicad
 [general]
@@ -239,7 +239,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=C:/Users/ckeer/OneDrive/Documents/Github/common_modules/Title_Block.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=../../ERFSEDS/Project Cerberus/Nova MCU/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
