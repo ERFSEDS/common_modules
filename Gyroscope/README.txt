@@ -1,7 +1,7 @@
 The Gyroscope is more accurately described as an IMU, it allows for reading both
-rotation information as a Gyroscope however it also allows for reading 
-however only values less that 24g which makes it not ideal for the requirements so
-a dedicated accelerometer is also used. 
+rotational information as a Gyroscope however it also allows for reading 
+accelleration values less that 24g which makes it not ideal for the requirements 
+so a dedicated accelerometer is also used. 
 
 The IMU also has a temperature sensor that can be used to monitor the temperature
 inside the rocket.
@@ -29,7 +29,7 @@ Register Name: Register Value
 Register Purpose
 
 ACC_STATUS: 0x03
-Gives the status of the data in the acceleroemter
+Gives the status of the data in the accelerometer
 
 ACC_Data: 0x12-0x17
 Data for the accelerometers in 2's compliment each axis split into two registers
