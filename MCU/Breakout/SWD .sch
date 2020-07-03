@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 10
-Title ""
-Date ""
-Rev ""
+Title "Microcontroller"
+Date "2020-07-02"
+Rev "1"
 Comp ""
 Comment1 ""
 Comment2 ""
