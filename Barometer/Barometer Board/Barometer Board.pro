@@ -1,6 +1,6 @@
-update=5/21/2020 5:14:30 PM
+update=7/4/2020 8:29:07 PM
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -14,7 +14,7 @@ LibDir=
 [eeschema/libraries]
 [schematic_editor]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=C:/Users/Penguin/Documents/Project Cerberus/Title_Block.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Barometer_Breakout.net
+LastNetListRead=Barometer Board.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
