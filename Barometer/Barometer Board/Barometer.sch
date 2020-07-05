@@ -98,4 +98,5 @@ Wire Wire Line
 	6900 3600 7150 3600
 Wire Wire Line
 	6900 3700 7150 3700
+NoConn ~ 5100 3700
 $EndSCHEMATC
