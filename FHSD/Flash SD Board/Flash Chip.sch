@@ -53,22 +53,6 @@ F 3 "" H 6700 3250 50  0001 C CNN
 	1    6700 3250
 	0    1    1    0   
 $EndComp
-$Comp
-L Flash-Chip:W25N512GVPIT U?
-U 1 1 5F0606AF
-P 5450 3400
-AR Path="/5F04F60C" Ref="U?"  Part="1" 
-AR Path="/5F0430E6/5F0432C4/5F04F60C" Ref="U?"  Part="1" 
-AR Path="/5F0430E6/5F04B12E/5F04F60C" Ref="U?"  Part="1" 
-AR Path="/5F0430E6/5F04B12E/5F0606AF" Ref="U401"  Part="1" 
-AR Path="/5F0606AF" Ref="U401"  Part="1" 
-F 0 "U401" H 5450 3815 50  0000 C CNN
-F 1 "W25N512GVPIT" H 5450 3724 50  0000 C CNN
-F 2 "Flash SD Board:W25N512GVPIT" H 5450 3700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/949/w25n512gv_rev_c_021319-1608269.pdf" H 5450 3700 50  0001 C CNN
-	1    5450 3400
-	1    0    0    -1  
-$EndComp
 Text HLabel 6000 3350 2    50   Input ~ 0
 HOLD
 Text HLabel 4850 3450 0    50   Input ~ 0
@@ -91,5 +75,16 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6438 3100 50  
 F 3 "~" H 6400 3250 50  0001 C CNN
 	1    6400 3250
 	0    1    1    0   
+$EndComp
+$Comp
+L FlashChip:W25N512GVPIT U10
+U 1 1 5F01567A
+P 5450 3400
+F 0 "U10" H 5450 3815 50  0000 C CNN
+F 1 "W25N512GVPIT" H 5450 3724 50  0000 C CNN
+F 2 "Footprint Library:W25N512GVPIT" H 5450 3700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/949/w25n512gv_rev_c_021319-1608269.pdf" H 5450 3700 50  0001 C CNN
+	1    5450 3400
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
