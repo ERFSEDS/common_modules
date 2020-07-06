@@ -83,7 +83,7 @@ Wire Wire Line
 	4950 3500 4950 3600
 Connection ~ 4950 3600
 Text HLabel 7150 3400 2    50   Input ~ 0
-CLK
+SCLK
 Text HLabel 7150 3500 2    50   Input ~ 0
 SDI
 Text HLabel 7150 3600 2    50   Input ~ 0
@@ -98,5 +98,11 @@ Wire Wire Line
 	6900 3600 7150 3600
 Wire Wire Line
 	6900 3700 7150 3700
-NoConn ~ 5100 3700
+Wire Wire Line
+	5100 3700 5100 4050
+Wire Wire Line
+	5100 4050 6900 4050
+Wire Wire Line
+	6900 4050 6900 3700
+Connection ~ 6900 3700
 $EndSCHEMATC

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 5900 3500 2    50   Input ~ 0
-CLK
+SCLK
 Text HLabel 5900 3600 2    50   Input ~ 0
 SDI
 Text HLabel 5900 3700 2    50   Input ~ 0
