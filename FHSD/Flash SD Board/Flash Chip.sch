@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 6000 3450 2    50   Input ~ 0
-CLK
+SCLK
 Text HLabel 6000 3550 2    50   Input ~ 0
 MOSI
 Text HLabel 4850 3350 0    50   Input ~ 0
@@ -62,19 +62,17 @@ Wire Wire Line
 Wire Wire Line
 	4850 3450 5100 3450
 Wire Wire Line
-	5800 3250 6250 3250
-Wire Wire Line
 	6700 3250 6550 3250
 $Comp
 L Device:C C401
 U 1 1 5F06D2E9
-P 6400 3250
-F 0 "C401" V 6148 3250 50  0000 C CNN
-F 1 "100nF" V 6239 3250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6438 3100 50  0001 C CNN
-F 3 "~" H 6400 3250 50  0001 C CNN
-	1    6400 3250
-	0    1    1    0   
+P 6550 3400
+F 0 "C401" V 6298 3400 50  0000 C CNN
+F 1 "100nF" V 6389 3400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6588 3250 50  0001 C CNN
+F 3 "~" H 6550 3400 50  0001 C CNN
+	1    6550 3400
+	-1   0    0    1   
 $EndComp
 $Comp
 L FlashChip:W25N512GVPIT U10
@@ -85,6 +83,22 @@ F 1 "W25N512GVPIT" H 5450 3724 50  0000 C CNN
 F 2 "Footprint Library:W25N512GVPIT" H 5450 3700 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/949/w25n512gv_rev_c_021319-1608269.pdf" H 5450 3700 50  0001 C CNN
 	1    5450 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3250 6550 3250
+Connection ~ 6550 3250
+Wire Wire Line
+	6550 3550 6550 3700
+$Comp
+L power:GND #PWR0102
+U 1 1 5F03FC8A
+P 6550 3700
+F 0 "#PWR0102" H 6550 3450 50  0001 C CNN
+F 1 "GND" H 6555 3527 50  0000 C CNN
+F 2 "" H 6550 3700 50  0001 C CNN
+F 3 "" H 6550 3700 50  0001 C CNN
+	1    6550 3700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
