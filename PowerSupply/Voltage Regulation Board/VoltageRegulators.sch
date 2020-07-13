@@ -214,8 +214,6 @@ NoConn ~ 2700 3850
 NoConn ~ 2700 3950
 NoConn ~ 2700 4250
 NoConn ~ 2700 4350
-Wire Wire Line
-	7600 4600 7750 4600
 Connection ~ 7600 4600
 $Comp
 L power:+3V3 #PWR?
@@ -404,8 +402,6 @@ Wire Wire Line
 Connection ~ 7300 5350
 Wire Wire Line
 	7300 5350 7600 5350
-Wire Wire Line
-	7150 4600 7600 4600
 $Comp
 L 3v3_Regulator:TLV1117LV33DCYR 3v3Reg401
 U 1 1 5F123DAD
@@ -428,4 +424,8 @@ F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%
 	1    7850 3150
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	7150 4600 7600 4600
+Wire Wire Line
+	7600 4600 7750 4600
 $EndSCHEMATC
