@@ -1,22 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 4_Pin_header
-#
-DEF 4_Pin_header U 0 40 Y Y 1 F N
-F0 "U" -200 300 50 H V C CNN
-F1 "4_Pin_header" 250 300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S 100 0 0 -300 0 1 0 N
-X ~ 1 200 0 100 L 50 50 1 1 I
-X ~ 2 200 -100 100 L 50 50 1 1 I
-X ~ 3 200 -200 100 L 50 50 1 1 I
-X ~ 4 200 -300 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # H3LIS331DL
 #
 DEF H3LIS331DL U 0 40 Y Y 1 F N
