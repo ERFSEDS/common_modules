@@ -403,9 +403,11 @@ Connection ~ 7300 5350
 Wire Wire Line
 	7300 5350 7600 5350
 $Comp
-L 3v3_Regulator:TLV1117LV33DCYR 3v3Reg401
+L PowerRegulators:TLV1117LV33DCYR 3v3Reg401
 U 1 1 5F123DAD
 P 7150 4700
+AR Path="/5F123DAD" Ref="3v3Reg401"  Part="1" 
+AR Path="/5F0C9147/5F123DAD" Ref="3v3Reg401"  Part="1" 
 F 0 "3v3Reg401" H 8550 4213 60  0000 C CNN
 F 1 "TLV1117LV33DCYR" H 8550 4319 60  0000 C CNN
 F 2 "FootprintLibrary:TLV1117LV33DCYR" H 8550 4940 60  0001 C CNN
@@ -414,7 +416,7 @@ F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%
 	-1   0    0    1   
 $EndComp
 $Comp
-L 5v_Regulator:LM78M05CDTX_NOPB 5vReg401
+L PowerRegulators:LM78M05CDTX_NOPB 5vReg401
 U 1 1 5F10F960
 P 7850 3150
 F 0 "5vReg401" H 8950 2663 60  0000 C CNN
