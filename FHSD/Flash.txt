@@ -12,5 +12,11 @@ void copyFlashData(word address, *byte data[]){
 }
 
 void resetFlash(){
+	enableReset
 	reset
 }
+
+void chipErase(){
+	Erase
+}
+
