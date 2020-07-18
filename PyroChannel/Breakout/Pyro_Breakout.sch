@@ -1,0 +1,219 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 5800 1900 1400 1300
+U 5F12F7A1
+F0 "arm" 50
+F1 "arm.sch" 50
+F2 "arm" I L 5800 2250 50 
+F3 "Arm_Signal_OUT" O R 7200 2250 50 
+$EndSheet
+$Sheet
+S 8250 1800 1450 1350
+U 5F146B30
+F0 "pyro1" 50
+F1 "PyroChannel.sch" 50
+F2 "ARM_Voltage" I L 8250 2250 50 
+F3 "FIRE" I L 8250 2600 50 
+F4 "pyroCorrect" O L 8250 2850 50 
+$EndSheet
+$Sheet
+S 8250 3450 1450 1350
+U 5F1C91C3
+F0 "Pyro2" 50
+F1 "PyroChannel.sch" 50
+F2 "ARM_Voltage" I L 8250 3900 50 
+F3 "FIRE" I L 8250 4250 50 
+F4 "pyroCorrect" O L 8250 4500 50 
+$EndSheet
+Wire Wire Line
+	7200 2250 7550 2250
+Wire Wire Line
+	7550 3900 7550 2250
+Connection ~ 7550 2250
+Wire Wire Line
+	7550 3900 8250 3900
+Wire Wire Line
+	7550 2250 8250 2250
+Text Label 7750 2600 0    50   ~ 0
+fire1
+Text Label 7750 2850 0    50   ~ 0
+pyroCorrect1
+Text Label 7750 4250 0    50   ~ 0
+fire2
+Text Label 7750 4500 0    50   ~ 0
+pyroCorrect2
+Wire Wire Line
+	7750 4250 8250 4250
+Wire Wire Line
+	7750 4500 8250 4500
+Wire Wire Line
+	7750 2850 8250 2850
+Wire Wire Line
+	7750 2600 8250 2600
+$Comp
+L power:+BATT #PWR0101
+U 1 1 5F1CBF48
+P 4850 2700
+F 0 "#PWR0101" H 4850 2550 50  0001 C CNN
+F 1 "+BATT" H 4865 2873 50  0000 C CNN
+F 2 "" H 4850 2700 50  0001 C CNN
+F 3 "" H 4850 2700 50  0001 C CNN
+	1    4850 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F1CCE09
+P 4850 3250
+F 0 "#PWR0102" H 4850 3000 50  0001 C CNN
+F 1 "GND" H 4855 3077 50  0000 C CNN
+F 2 "" H 4850 3250 50  0001 C CNN
+F 3 "" H 4850 3250 50  0001 C CNN
+	1    4850 3250
+	1    0    0    -1  
+$EndComp
+Text Label 5200 3900 0    50   ~ 0
+fire1
+Text Label 4900 4000 0    50   ~ 0
+pyroCorrect1
+Text Label 5200 4100 0    50   ~ 0
+fire2
+Text Label 4900 4200 0    50   ~ 0
+pyroCorrect2
+Wire Wire Line
+	4850 4200 5350 4200
+Wire Wire Line
+	4850 4100 5350 4100
+Wire Wire Line
+	4850 4000 5350 4000
+Wire Wire Line
+	4850 3900 5350 3900
+Wire Wire Line
+	5250 5200 4850 5200
+Text Label 5200 4300 0    50   ~ 0
+arm
+$Comp
+L power:GND #PWR0104
+U 1 1 5F1DA5F7
+P 5250 5200
+F 0 "#PWR0104" H 5250 4950 50  0001 C CNN
+F 1 "GND" H 5255 5027 50  0000 C CNN
+F 2 "" H 5250 5200 50  0001 C CNN
+F 3 "" H 5250 5200 50  0001 C CNN
+	1    5250 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2250 5800 2250
+Text Label 5550 2250 0    50   ~ 0
+arm
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F1E4B91
+P 4850 2950
+F 0 "#FLG0101" H 4850 3025 50  0001 C CNN
+F 1 "PWR_FLAG" V 4850 3078 50  0000 L CNN
+F 2 "" H 4850 2950 50  0001 C CNN
+F 3 "~" H 4850 2950 50  0001 C CNN
+	1    4850 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5F1E5582
+P 4850 3050
+F 0 "#FLG0102" H 4850 3125 50  0001 C CNN
+F 1 "PWR_FLAG" V 4850 3178 50  0000 L CNN
+F 2 "" H 4850 3050 50  0001 C CNN
+F 3 "~" H 4850 3050 50  0001 C CNN
+	1    4850 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Pyro_Library:Conn_01x02 J103
+U 1 1 5F1E8227
+P 4650 5200
+F 0 "J103" H 4568 4875 50  0000 C CNN
+F 1 "Conn_01x02" H 4568 4966 50  0000 C CNN
+F 2 "PyroChannel:PinSocket_1x02_P2.54mm_Vertical" H 4650 5200 50  0001 C CNN
+F 3 "~" H 4650 5200 50  0001 C CNN
+F 4 "732-5315-ND" H 4650 5200 50  0001 C CNN "digikey"
+	1    4650 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Pyro_Library:Conn_01x05 J102
+U 1 1 5F1E9138
+P 4650 4100
+F 0 "J102" H 4568 3675 50  0000 C CNN
+F 1 "Conn_01x05" H 4568 3766 50  0000 C CNN
+F 2 "PyroChannel:PinSocket_1x05_P2.54mm_Vertical" H 4650 4100 50  0001 C CNN
+F 3 "~" H 4650 4100 50  0001 C CNN
+F 4 "732-5318-ND" H 4650 4100 50  0001 C CNN "digikey"
+	1    4650 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 5F1EC181
+P 5250 5100
+F 0 "#PWR0103" H 5250 4950 50  0001 C CNN
+F 1 "+3V3" H 5265 5273 50  0000 C CNN
+F 2 "" H 5250 5100 50  0001 C CNN
+F 3 "" H 5250 5100 50  0001 C CNN
+	1    5250 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5100 4850 5100
+Wire Wire Line
+	4850 4300 5350 4300
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5F1F08E8
+P 5250 5100
+F 0 "#FLG0103" H 5250 5175 50  0001 C CNN
+F 1 "PWR_FLAG" V 5250 5228 50  0000 L CNN
+F 2 "" H 5250 5100 50  0001 C CNN
+F 3 "~" H 5250 5100 50  0001 C CNN
+	1    5250 5100
+	0    1    1    0   
+$EndComp
+Connection ~ 5250 5100
+$Comp
+L Pyro_Library:Conn_01x02 J101
+U 1 1 5F1F7B3F
+P 4450 3050
+F 0 "J101" H 4368 2725 50  0000 C CNN
+F 1 "Conn_01x02" H 4368 2816 50  0000 C CNN
+F 2 "PyroChannel:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal" H 4450 3050 50  0001 C CNN
+F 3 "~" H 4450 3050 50  0001 C CNN
+F 4 "B07YYTWQYD" H 4450 3050 50  0001 C CNN "amazon"
+	1    4450 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 2950 4850 2950
+Wire Wire Line
+	4850 3050 4650 3050
+Connection ~ 4850 2950
+Wire Wire Line
+	4850 2700 4850 2950
+Connection ~ 4850 3050
+Wire Wire Line
+	4850 3050 4850 3250
+$EndSCHEMATC
