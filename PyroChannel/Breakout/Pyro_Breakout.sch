@@ -94,17 +94,6 @@ F 3 "~" H 4850 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 5F1E5582
-P 4850 3050
-F 0 "#FLG0102" H 4850 3125 50  0001 C CNN
-F 1 "PWR_FLAG" V 4850 3178 50  0000 L CNN
-F 2 "" H 4850 3050 50  0001 C CNN
-F 3 "~" H 4850 3050 50  0001 C CNN
-	1    4850 3050
-	0    1    1    0   
-$EndComp
-$Comp
 L Pyro_Library:Conn_01x02 J103
 U 1 1 5F1E8227
 P 4650 5200
@@ -174,7 +163,6 @@ Wire Wire Line
 Connection ~ 4850 2950
 Wire Wire Line
 	4850 2700 4850 2950
-Connection ~ 4850 3050
 Wire Wire Line
 	4850 3050 4850 3250
 $Sheet
@@ -204,21 +192,22 @@ F3 "pyroCorrect" O L 6950 4500 50
 F4 "fireOut" O R 8200 4500 50 
 $EndSheet
 $Comp
-L Device:CP C?
+L Device:CP C101
 U 1 1 5F1A93B5
 P 5550 3000
-F 0 "C?" H 5668 3046 50  0000 L CNN
-F 1 "CP" H 5668 2955 50  0000 L CNN
-F 2 "" H 5588 2850 50  0001 C CNN
+F 0 "C101" H 5668 3046 50  0000 L CNN
+F 1 "1mF" H 5668 2955 50  0000 L CNN
+F 2 "PyroChannel:CP_Radial_D10.0mm_P5.00mm" H 5588 2850 50  0001 C CNN
 F 3 "~" H 5550 3000 50  0001 C CNN
+F 4 "1189-3703-1-ND" H 5550 3000 50  0001 C CNN "digikey"
 	1    5550 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR?
+L power:+BATT #PWR0105
 U 1 1 5F1AE2E0
 P 5550 2700
-F 0 "#PWR?" H 5550 2550 50  0001 C CNN
+F 0 "#PWR0105" H 5550 2550 50  0001 C CNN
 F 1 "+BATT" H 5565 2873 50  0000 C CNN
 F 2 "" H 5550 2700 50  0001 C CNN
 F 3 "" H 5550 2700 50  0001 C CNN
@@ -226,10 +215,10 @@ F 3 "" H 5550 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0106
 U 1 1 5F1AE51F
 P 5550 3250
-F 0 "#PWR?" H 5550 3000 50  0001 C CNN
+F 0 "#PWR0106" H 5550 3000 50  0001 C CNN
 F 1 "GND" H 5555 3077 50  0000 C CNN
 F 2 "" H 5550 3250 50  0001 C CNN
 F 3 "" H 5550 3250 50  0001 C CNN
@@ -255,8 +244,8 @@ Wire Wire Line
 	9100 3750 8800 3750
 Text Label 8800 3750 0    50   ~ 0
 arm
-Text Notes 7550 3750 0    50   ~ 0
-This will cause a warning,\ntwo outputs connected\njust ignore it its fine\n-Nathan
+Text Notes 3450 2350 0    50   ~ 0
+No flag on GND is intentional\nremoves a dumb error that \nan output is hooked up to an output
 Text Notes 5150 2300 0    50   ~ 0
 when copying this for your\nflight computer you need this!\nchange the value as needed\n
 Text Notes 5700 2750 0    50   ~ 0
