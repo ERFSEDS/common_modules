@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -13,59 +13,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 5800 1900 1400 1300
-U 5F12F7A1
-F0 "arm" 50
-F1 "arm.sch" 50
-F2 "arm" I L 5800 2250 50 
-F3 "Arm_Signal_OUT" O R 7200 2250 50 
-$EndSheet
-$Sheet
-S 8250 1800 1450 1350
-U 5F146B30
-F0 "pyro1" 50
-F1 "PyroChannel.sch" 50
-F2 "ARM_Voltage" I L 8250 2250 50 
-F3 "FIRE" I L 8250 2600 50 
-F4 "pyroCorrect" O L 8250 2850 50 
-F5 "fireOut" O R 9700 3050 50 
-$EndSheet
-$Sheet
-S 8250 3450 1450 1350
-U 5F1C91C3
-F0 "Pyro2" 50
-F1 "PyroChannel.sch" 50
-F2 "ARM_Voltage" I L 8250 3900 50 
-F3 "FIRE" I L 8250 4250 50 
-F4 "pyroCorrect" O L 8250 4500 50 
-F5 "fireOut" O R 9700 4750 50 
-$EndSheet
-Wire Wire Line
-	7200 2250 7550 2250
-Wire Wire Line
-	7550 3900 7550 2250
-Connection ~ 7550 2250
-Wire Wire Line
-	7550 3900 8250 3900
-Wire Wire Line
-	7550 2250 8250 2250
-Text Label 7750 2600 0    50   ~ 0
+Text Label 6450 2600 0    50   ~ 0
 fire1
-Text Label 7750 2850 0    50   ~ 0
+Text Label 6450 2850 0    50   ~ 0
 pyroCorrect1
-Text Label 7750 4250 0    50   ~ 0
+Text Label 6450 4250 0    50   ~ 0
 fire2
-Text Label 7750 4500 0    50   ~ 0
+Text Label 6450 4500 0    50   ~ 0
 pyroCorrect2
 Wire Wire Line
-	7750 4250 8250 4250
+	6450 4250 6950 4250
 Wire Wire Line
-	7750 4500 8250 4500
+	6450 4500 6950 4500
 Wire Wire Line
-	7750 2850 8250 2850
+	6450 2850 6950 2850
 Wire Wire Line
-	7750 2600 8250 2600
+	6450 2600 6950 2600
 $Comp
 L power:+BATT #PWR0101
 U 1 1 5F1CBF48
@@ -119,10 +82,6 @@ F 3 "" H 5250 5200 50  0001 C CNN
 	1    5250 5200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5550 2250 5800 2250
-Text Label 5550 2250 0    50   ~ 0
-arm
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5F1E4B91
@@ -219,9 +178,87 @@ Connection ~ 4850 3050
 Wire Wire Line
 	4850 3050 4850 3250
 $Sheet
-S 6450 4950 1150 600 
+S 9100 3300 1150 600 
 U 5F18FD4A
 F0 "ArmSchematic" 50
 F1 "ArmSchematic.sch" 50
+F2 "FireOut" I L 9100 3600 50 
+F3 "arm" I L 9100 3750 50 
 $EndSheet
+$Sheet
+S 6950 2250 1250 900 
+U 5F19FDB4
+F0 "pyro1" 50
+F1 "PyroChannel.sch" 50
+F2 "FIRE" I L 6950 2600 50 
+F3 "pyroCorrect" O L 6950 2850 50 
+F4 "fireOut" O R 8200 2850 50 
+$EndSheet
+$Sheet
+S 6950 3950 1250 900 
+U 5F1A022A
+F0 "Pyro2" 50
+F1 "PyroChannel.sch" 50
+F2 "FIRE" I L 6950 4250 50 
+F3 "pyroCorrect" O L 6950 4500 50 
+F4 "fireOut" O R 8200 4500 50 
+$EndSheet
+$Comp
+L Device:CP C?
+U 1 1 5F1A93B5
+P 5550 3000
+F 0 "C?" H 5668 3046 50  0000 L CNN
+F 1 "CP" H 5668 2955 50  0000 L CNN
+F 2 "" H 5588 2850 50  0001 C CNN
+F 3 "~" H 5550 3000 50  0001 C CNN
+	1    5550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5F1AE2E0
+P 5550 2700
+F 0 "#PWR?" H 5550 2550 50  0001 C CNN
+F 1 "+BATT" H 5565 2873 50  0000 C CNN
+F 2 "" H 5550 2700 50  0001 C CNN
+F 3 "" H 5550 2700 50  0001 C CNN
+	1    5550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F1AE51F
+P 5550 3250
+F 0 "#PWR?" H 5550 3000 50  0001 C CNN
+F 1 "GND" H 5555 3077 50  0000 C CNN
+F 2 "" H 5550 3250 50  0001 C CNN
+F 3 "" H 5550 3250 50  0001 C CNN
+	1    5550 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3250 5550 3150
+Wire Wire Line
+	5550 2850 5550 2700
+Wire Wire Line
+	9100 3600 8550 3600
+Wire Wire Line
+	8550 3600 8550 2850
+Wire Wire Line
+	8550 2850 8200 2850
+Wire Wire Line
+	8550 3600 8550 4500
+Wire Wire Line
+	8550 4500 8200 4500
+Connection ~ 8550 3600
+Wire Wire Line
+	9100 3750 8800 3750
+Text Label 8800 3750 0    50   ~ 0
+arm
+Text Notes 7550 3750 0    50   ~ 0
+This will cause a warning,\ntwo outputs connected\njust ignore it its fine\n-Nathan
+Text Notes 5150 2300 0    50   ~ 0
+when copying this for your\nflight computer you need this!\nchange the value as needed\n
+Text Notes 5700 2750 0    50   ~ 0
+ |\n |\n |\n_|_\n\_/\n
 $EndSCHEMATC

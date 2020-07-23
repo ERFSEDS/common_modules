@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 6350 3300 0    50   Input ~ 0
-ARM_Voltage
 Text HLabel 5950 5050 0    50   Input ~ 0
 FIRE
 $Comp
@@ -53,10 +51,6 @@ Wire Wire Line
 	7600 4000 7600 3850
 Wire Wire Line
 	5950 5050 6150 5050
-Wire Wire Line
-	6350 3300 6500 3300
-Wire Wire Line
-	6500 3300 6500 3650
 $Comp
 L Pyro_Library:R_US R301
 U 1 1 5F169767
@@ -73,21 +67,6 @@ F 4 "PWR263S-35-3R30J-ND" H 6500 5800 50  0001 C CNN "digikey"
 $EndComp
 Wire Wire Line
 	6500 5500 6500 5650
-$Comp
-L power:GND #PWR0301
-U 1 1 5F16BE7F
-P 6500 6150
-AR Path="/5F146B30/5F16BE7F" Ref="#PWR0301"  Part="1" 
-AR Path="/5F1C91C3/5F16BE7F" Ref="#PWR0401"  Part="1" 
-F 0 "#PWR0301" H 6500 5900 50  0001 C CNN
-F 1 "GND" H 6505 5977 50  0000 C CNN
-F 2 "" H 6500 6150 50  0001 C CNN
-F 3 "" H 6500 6150 50  0001 C CNN
-	1    6500 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6500 5950 6500 6150
 Wire Wire Line
 	7600 4850 7600 5050
 Wire Wire Line
@@ -190,4 +169,23 @@ F 4 "311-10.0KCRCT-ND" H 7600 5350 50  0001 C CNN "digikey"
 	1    7600 5350
 	1    0    0    -1  
 $EndComp
+Text HLabel 6600 6300 2    50   Output ~ 0
+fireOut
+Wire Wire Line
+	6500 6300 6600 6300
+Wire Wire Line
+	6500 5950 6500 6300
+$Comp
+L power:+BATT #PWR?
+U 1 1 5F199721
+P 6500 3400
+F 0 "#PWR?" H 6500 3250 50  0001 C CNN
+F 1 "+BATT" H 6515 3573 50  0000 C CNN
+F 2 "" H 6500 3400 50  0001 C CNN
+F 3 "" H 6500 3400 50  0001 C CNN
+	1    6500 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3400 6500 3650
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -44,10 +44,6 @@ Wire Wire Line
 	4100 1850 4100 2050
 Connection ~ 4100 2050
 Wire Wire Line
-	3750 2950 3300 2950
-Text HLabel 3300 2950 0    50   Input ~ 0
-arm
-Wire Wire Line
 	4100 3800 4500 3800
 $Comp
 L power:GND #PWR0202
@@ -62,6 +58,8 @@ F 3 "" H 4400 2350 50  0001 C CNN
 $EndComp
 Text HLabel 4500 3800 2    50   Output ~ 0
 Arm_Signal_OUT
+Wire Wire Line
+	4100 3400 4100 3800
 $Comp
 L Pyro_Library:IRLML6344TRPBFee Q?
 U 1 1 5F1C391F
@@ -76,6 +74,8 @@ F 4 "IRLML6344TRPBFCT-ND" H 3900 2950 50  0001 C CNN "digikey"
 	1    3900 2950
 	1    0    0    -1  
 $EndComp
+Text HLabel 3300 2950 0    50   Input ~ 0
+arm
 Wire Wire Line
-	4100 3400 4100 3800
+	3750 2950 3300 2950
 $EndSCHEMATC
