@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -19,6 +19,7 @@ U 1 1 5F191330
 P 6050 3650
 AR Path="/5F146B30/5F191330" Ref="Q?"  Part="1" 
 AR Path="/5F12F7A1/5F191330" Ref="Q?"  Part="1" 
+AR Path="/5F18FD4A/5F191330" Ref="Q?"  Part="1" 
 F 0 "Q?" H 6500 3300 50  0000 L CNN
 F 1 "IRLML6344TRPBFee" H 6350 3200 50  0000 L CNN
 F 2 "PyroChannel:SOT-23" H 10650 4750 50  0001 C CNN
