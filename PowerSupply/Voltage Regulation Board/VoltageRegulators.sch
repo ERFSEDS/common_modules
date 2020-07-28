@@ -73,7 +73,7 @@ AR Path="/5F0C9147/5F0EA8DA" Ref="D201"  Part="1"
 F 0 "D201" H 3350 3415 50  0000 C CNN
 F 1 "DIODE" H 3350 3324 50  0000 C CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3350 3150 50  0001 C CNN
-F 3 "~" H 3350 3150 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/avx-corporation/SD0805S020S1R0/478-7800-1-ND/3749510" H 3350 3150 50  0001 C CNN
 	1    3350 3150
 	1    0    0    -1  
 $EndComp
@@ -110,19 +110,6 @@ Wire Wire Line
 	2900 3150 3150 3150
 Wire Wire Line
 	2700 3150 2900 3150
-$Comp
-L pspice:DIODE D?
-U 1 1 5F0EA8FC
-P 9500 3150
-AR Path="/5F0EA8FC" Ref="D?"  Part="1" 
-AR Path="/5F0C9147/5F0EA8FC" Ref="D202"  Part="1" 
-F 0 "D202" H 9500 3415 50  0000 C CNN
-F 1 "DIODE" H 9500 3324 50  0000 C CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9500 3150 50  0001 C CNN
-F 3 "~" H 9500 3150 50  0001 C CNN
-	1    9500 3150
-	-1   0    0    1   
-$EndComp
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 J?
 U 1 1 5F0EA902
@@ -207,7 +194,7 @@ F 3 "" H 9750 2850 50  0001 C CNN
 	1    9750 2850
 	-1   0    0    1   
 $EndComp
-NoConn ~ 8450 3050
+NoConn ~ 8850 2850
 NoConn ~ 2700 3650
 NoConn ~ 2700 3750
 NoConn ~ 2700 3850
@@ -360,10 +347,6 @@ F 3 "~" H 9200 3150 50  0001 C CNN
 $EndComp
 Connection ~ 9200 3150
 Wire Wire Line
-	9200 3150 9300 3150
-Wire Wire Line
-	9700 3150 9950 3150
-Wire Wire Line
 	1950 4800 1950 4950
 Wire Wire Line
 	4050 4700 4050 4600
@@ -430,4 +413,6 @@ Wire Wire Line
 	7150 4600 7600 4600
 Wire Wire Line
 	7600 4600 7750 4600
+Wire Wire Line
+	9200 3150 9950 3150
 $EndSCHEMATC
