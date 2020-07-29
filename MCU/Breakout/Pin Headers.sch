@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Nova_Microcontroller:Conn_01x12_Male J501
+L NOVA-MCU-(STM)-rescue:Conn_01x12_Male-Nova_Microcontroller J501
 U 1 1 5EEE75A5
 P 1950 3650
 F 0 "J501" H 2058 4331 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "~" H 1950 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Nova_Microcontroller:Conn_01x12_Male J502
+L NOVA-MCU-(STM)-rescue:Conn_01x12_Male-Nova_Microcontroller J502
 U 1 1 5EEE92FC
 P 3950 3700
 F 0 "J502" H 4058 4381 50  0000 C CNN
@@ -36,7 +36,7 @@ F 3 "~" H 3950 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Nova_Microcontroller:Conn_01x12_Male J503
+L NOVA-MCU-(STM)-rescue:Conn_01x12_Male-Nova_Microcontroller J503
 U 1 1 5EEEA56A
 P 6450 3700
 F 0 "J503" H 6558 4381 50  0000 C CNN
@@ -47,7 +47,7 @@ F 3 "~" H 6450 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Nova_Microcontroller:Conn_01x12_Male J504
+L NOVA-MCU-(STM)-rescue:Conn_01x12_Male-Nova_Microcontroller J504
 U 1 1 5EEEB241
 P 8900 3700
 F 0 "J504" H 9008 4381 50  0000 C CNN

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Nova_Microcontroller:Conn_01x06_Male J1101
+L NOVA-MCU-(STM)-rescue:Conn_01x06_Male-Nova_Microcontroller J1101
 U 1 1 5EF13F12
 P 5150 3600
 F 0 "J1101" H 5258 3981 50  0000 C CNN
