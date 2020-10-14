@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 19 21
 Title ""
 Date ""
 Rev ""
@@ -75,7 +75,7 @@ F 3 "~" H 6550 3400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L FlashChip:W25N512GVPIT U10
+L Flash_Chip:W25N512GVPIT U10
 U 1 1 5F01567A
 P 5450 3400
 F 0 "U10" H 5450 3815 50  0000 C CNN

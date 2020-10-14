@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 7 21
 Title "Microcontroller"
 Date "2020-07-02"
 Rev "1"
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L NOVA-MCU-(STM)-rescue:GPTS203211B-Nova_Microcontroller S1001
+L Nova_Microcontroller:GPTS203211B S1001
 U 1 1 5EEE3482
 P 5700 3550
 F 0 "S1001" H 5700 3825 50  0000 C CNN
@@ -57,12 +57,10 @@ F 3 "" H 6350 4050 50  0001 C CNN
 	1    6350 4050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5900 3550 6350 3550
 Text HLabel 6850 3550 2    50   Input ~ 0
 RESET
 $Comp
-L NOVA-MCU-(STM)-rescue:C-Nova_Microcontroller C1001
+L Device:C C1001
 U 1 1 5EEE5880
 P 6350 3700
 F 0 "C1001" H 6465 3746 50  0000 L CNN
@@ -72,9 +70,6 @@ F 3 "~" H 6350 3700 50  0001 C CNN
 	1    6350 3700
 	1    0    0    -1  
 $EndComp
-Connection ~ 6350 3550
-Wire Wire Line
-	6350 3550 6850 3550
 Wire Wire Line
 	6350 3850 6350 4050
 $Bitmap
@@ -7642,4 +7637,6 @@ C8 24 80 5C 90 49 00 B9 20 93 00 72 41 26 01 E4 82 4C 02 C8 05 99 04 90 0B 32 09
 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Wire Wire Line
+	5900 3550 6850 3550
 $EndSCHEMATC

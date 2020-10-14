@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 11 21
 Title "Microcontroller"
 Date "2020-07-02"
 Rev "1"
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L NOVA-MCU-(STM)-rescue:Crystal_GND24-Nova_Microcontroller Y401
+L Nova_Microcontroller:Crystal_GND24 Y401
 U 1 1 5EE6B82C
 P 3350 3550
 F 0 "Y401" H 3300 4300 50  0000 L CNN
@@ -54,10 +54,8 @@ Wire Wire Line
 	3350 3950 3350 3850
 Wire Wire Line
 	3350 3350 3350 3150
-Wire Wire Line
-	3500 3550 3700 3550
 $Comp
-L NOVA-MCU-(STM)-rescue:Crystal-Nova_Microcontroller Y402
+L Nova_Microcontroller:Crystal Y402
 U 1 1 5EE717EC
 P 8050 3550
 F 0 "Y402" H 8050 3818 50  0000 C CNN
@@ -71,24 +69,18 @@ Text HLabel 9050 3550 2    50   Input ~ 0
 RTCCRYSTALIN
 Text HLabel 7200 3550 0    50   Input ~ 0
 RTCCRYSTALOUT
-Wire Wire Line
-	7200 3550 7600 3550
-Wire Wire Line
-	8200 3550 8550 3550
-Connection ~ 3700 3550
-Wire Wire Line
-	3700 3550 3900 3550
 Connection ~ 3350 3850
 Wire Wire Line
 	3350 3850 3350 3750
 Wire Wire Line
 	3350 3850 3700 3850
 $Comp
-L NOVA-MCU-(STM)-rescue:C-Nova_Microcontroller C403
+L Device:C C403
 U 1 1 5EE74A4A
 P 7600 3700
 AR Path="/5EE74A4A" Ref="C403"  Part="1" 
 AR Path="/5EE654BB/5EE655E0/5EE74A4A" Ref="C403"  Part="1" 
+AR Path="/5F319C9C/5EE74A4A" Ref="C403"  Part="1" 
 F 0 "C403" H 7715 3746 50  0000 L CNN
 F 1 "18pf" H 7715 3655 50  0000 L CNN
 F 2 "NOVA MCU (STM):C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7638 3550 50  0001 C CNN
@@ -96,15 +88,13 @@ F 3 "~" H 7600 3700 50  0001 C CNN
 	1    7600 3700
 	1    0    0    -1  
 $EndComp
-Connection ~ 7600 3550
-Wire Wire Line
-	7600 3550 7900 3550
 $Comp
-L NOVA-MCU-(STM)-rescue:C-Nova_Microcontroller C404
+L Device:C C404
 U 1 1 5EE7523E
 P 8550 3700
 AR Path="/5EE7523E" Ref="C404"  Part="1" 
 AR Path="/5EE654BB/5EE655E0/5EE7523E" Ref="C404"  Part="1" 
+AR Path="/5F319C9C/5EE7523E" Ref="C404"  Part="1" 
 F 0 "C404" H 8665 3746 50  0000 L CNN
 F 1 "18pf" H 8665 3655 50  0000 L CNN
 F 2 "NOVA MCU (STM):C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8588 3550 50  0001 C CNN
@@ -112,9 +102,6 @@ F 3 "~" H 8550 3700 50  0001 C CNN
 	1    8550 3700
 	1    0    0    -1  
 $EndComp
-Connection ~ 8550 3550
-Wire Wire Line
-	8550 3550 9050 3550
 Wire Wire Line
 	7600 3850 8100 3850
 $Comp
@@ -134,14 +121,9 @@ Wire Wire Line
 Wire Wire Line
 	3000 3850 3350 3850
 Wire Wire Line
-	3000 3550 3200 3550
-Wire Wire Line
-	3000 3550 2900 3550
-Connection ~ 3000 3550
-Wire Wire Line
 	2600 3550 2450 3550
 $Comp
-L NOVA-MCU-(STM)-rescue:R_US-Nova_Microcontroller R401
+L Device:R_US R401
 U 1 1 5EE707DE
 P 2750 3550
 F 0 "R401" V 2545 3550 50  0000 C CNN
@@ -7786,11 +7768,12 @@ FD 2F F4 F9 A0 3B 67 FA D8 61 00 00 00 00 49 45 4E 44 AE 42 60 82
 EndData
 $EndBitmap
 $Comp
-L NOVA-MCU-(STM)-rescue:C-Nova_Microcontroller C402
+L Device:C C402
 U 1 1 5EE74215
 P 3700 3700
 AR Path="/5EE74215" Ref="C402"  Part="1" 
 AR Path="/5EE654BB/5EE655E0/5EE74215" Ref="C402"  Part="1" 
+AR Path="/5F319C9C/5EE74215" Ref="C402"  Part="1" 
 F 0 "C402" H 3815 3746 50  0000 L CNN
 F 1 "10pf" H 3815 3655 50  0000 L CNN
 F 2 "NOVA MCU (STM):C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3738 3550 50  0001 C CNN
@@ -7799,11 +7782,12 @@ F 3 "~" H 3700 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NOVA-MCU-(STM)-rescue:C-Nova_Microcontroller C401
+L Device:C C401
 U 1 1 5EE73815
 P 3000 3700
 AR Path="/5EE73815" Ref="C401"  Part="1" 
 AR Path="/5EE654BB/5EE655E0/5EE73815" Ref="C401"  Part="1" 
+AR Path="/5F319C9C/5EE73815" Ref="C401"  Part="1" 
 F 0 "C401" H 2700 3750 50  0000 L CNN
 F 1 "10pf" H 2700 3650 50  0000 L CNN
 F 2 "NOVA MCU (STM):C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3038 3550 50  0001 C CNN
@@ -7811,4 +7795,12 @@ F 3 "~" H 3000 3700 50  0001 C CNN
 	1    3000 3700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3500 3550 3900 3550
+Wire Wire Line
+	7200 3550 7900 3550
+Wire Wire Line
+	8200 3550 9050 3550
+Wire Wire Line
+	2900 3550 3200 3550
 $EndSCHEMATC

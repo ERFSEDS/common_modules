@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 6 21
 Title "Microcontroller"
 Date "2020-07-02"
 Rev "1"
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L NOVA-MCU-(STM)-rescue:Conn_01x06_Male-Nova_Microcontroller J1101
+L Connector:Conn_01x06_Male J1101
 U 1 1 5EF13F12
 P 5150 3600
 F 0 "J1101" H 5258 3981 50  0000 C CNN

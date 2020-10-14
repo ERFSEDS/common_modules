@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
+Sheet 8 21
 Title "Microcontroller"
 Date "2020-07-02"
 Rev "1"
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L NOVA-MCU-(STM)-rescue:C-Nova_Microcontroller C901
+L Device:C C901
 U 1 1 5EEB15D0
 P 1600 3450
 F 0 "C901" H 1715 3496 50  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "~" H 1600 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NOVA-MCU-(STM)-rescue:C-Nova_Microcontroller C902
+L Device:C C902
 U 1 1 5EEA7BC1
 P 2150 3450
 F 0 "C902" H 2265 3496 50  0000 L CNN
@@ -36,7 +36,7 @@ F 3 "~" H 2150 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NOVA-MCU-(STM)-rescue:C-Nova_Microcontroller C903
+L Device:C C903
 U 1 1 5EEA7EAA
 P 2650 3450
 F 0 "C903" H 2765 3496 50  0000 L CNN
@@ -47,7 +47,7 @@ F 3 "~" H 2650 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NOVA-MCU-(STM)-rescue:C-Nova_Microcontroller C904
+L Device:C C904
 U 1 1 5EEA8258
 P 3150 3450
 F 0 "C904" H 3265 3496 50  0000 L CNN
@@ -58,7 +58,7 @@ F 3 "~" H 3150 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NOVA-MCU-(STM)-rescue:C-Nova_Microcontroller C905
+L Device:C C905
 U 1 1 5EEA85B4
 P 3650 3450
 F 0 "C905" H 3765 3496 50  0000 L CNN
@@ -69,7 +69,7 @@ F 3 "~" H 3650 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NOVA-MCU-(STM)-rescue:C-Nova_Microcontroller C906
+L Device:C C906
 U 1 1 5EEA893A
 P 4150 3450
 F 0 "C906" H 4265 3496 50  0000 L CNN
@@ -160,7 +160,7 @@ Connection ~ 3650 3000
 Wire Wire Line
 	3650 3000 4150 3000
 $Comp
-L NOVA-MCU-(STM)-rescue:C-Nova_Microcontroller C909
+L Device:C C909
 U 1 1 5EEADB63
 P 6350 3450
 F 0 "C909" H 6468 3496 50  0000 L CNN
@@ -197,7 +197,7 @@ $EndComp
 Wire Wire Line
 	6350 3300 6350 3100
 $Comp
-L NOVA-MCU-(STM)-rescue:C-Nova_Microcontroller C907
+L Device:C C907
 U 1 1 5EEAF36F
 P 4900 3450
 F 0 "C907" H 5015 3496 50  0000 L CNN
@@ -208,7 +208,7 @@ F 3 "~" H 4900 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NOVA-MCU-(STM)-rescue:C-Nova_Microcontroller C908
+L Device:C C908
 U 1 1 5EEAF915
 P 5450 3450
 F 0 "C908" H 5565 3496 50  0000 L CNN
@@ -254,7 +254,7 @@ Connection ~ 5150 3100
 Wire Wire Line
 	5150 3100 5450 3100
 $Comp
-L NOVA-MCU-(STM)-rescue:C-Nova_Microcontroller C910
+L Device:C C910
 U 1 1 5EEB4CA7
 P 7350 3450
 F 0 "C910" H 7465 3496 50  0000 L CNN
@@ -265,7 +265,7 @@ F 3 "~" H 7350 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NOVA-MCU-(STM)-rescue:C-Nova_Microcontroller C911
+L Device:C C911
 U 1 1 5EEB51E9
 P 8000 3450
 F 0 "C911" H 8115 3496 50  0000 L CNN
@@ -340,7 +340,7 @@ Wire Wire Line
 Text Notes 7500 2350 0    50   ~ 0
 VREF CAPS
 $Comp
-L NOVA-MCU-(STM)-rescue:C-Nova_Microcontroller C912
+L Device:C C912
 U 1 1 5EEBBE66
 P 9450 3450
 F 0 "C912" H 9565 3496 50  0000 L CNN
@@ -351,7 +351,7 @@ F 3 "~" H 9450 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NOVA-MCU-(STM)-rescue:C-Nova_Microcontroller C913
+L Device:C C913
 U 1 1 5EEBC1C7
 P 10050 3450
 F 0 "C913" H 10165 3496 50  0000 L CNN
