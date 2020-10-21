@@ -259,7 +259,7 @@ AR Path="/5F0C9147/5F123DAD" Ref="3v3Reg?"  Part="1"
 AR Path="/5F3B0B4B/5F123DAD" Ref="3v3Reg1"  Part="1" 
 F 0 "3v3Reg1" H 10050 3213 60  0000 C CNN
 F 1 "TLV1117LV33DCYR" H 10050 3319 60  0000 C CNN
-F 2 "FootprintLibrary:TLV1117LV33DCYR" H 10050 3940 60  0001 C CNN
+F 2 "Power:TLV1117LV33DCYR" H 10050 3940 60  0001 C CNN
 F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv1117lv" H 11550 4200 60  0001 C CNN
 	1    8650 3700
 	-1   0    0    1   
