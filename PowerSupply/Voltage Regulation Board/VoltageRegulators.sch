@@ -13,20 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L pspice:DIODE D?
-U 1 1 5F0EA8DA
-P 4900 3350
-AR Path="/5F0EA8DA" Ref="D?"  Part="1" 
-AR Path="/5F0C9147/5F0EA8DA" Ref="D?"  Part="1" 
-AR Path="/5F3B0B4B/5F0EA8DA" Ref="D2"  Part="1" 
-F 0 "D2" H 4900 3615 50  0000 C CNN
-F 1 "DIODE" H 4900 3524 50  0000 C CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4900 3350 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/avx-corporation/SD0805S020S1R0/478-7800-1-ND/3749510" H 4900 3350 50  0001 C CNN
-	1    4900 3350
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3050 5100 3050 5250
 $Comp
@@ -142,20 +128,6 @@ NoConn ~ 3950 4300
 NoConn ~ 3950 4400
 NoConn ~ 3950 4700
 NoConn ~ 3950 4800
-$Comp
-L power:+5V #PWR?
-U 1 1 5F0EA949
-P 4900 3050
-AR Path="/5F0EA949" Ref="#PWR?"  Part="1" 
-AR Path="/5F0C9147/5F0EA949" Ref="#PWR?"  Part="1" 
-AR Path="/5F3B0B4B/5F0EA949" Ref="#PWR062"  Part="1" 
-F 0 "#PWR062" H 4900 2900 50  0001 C CNN
-F 1 "+5V" H 4915 3223 50  0000 C CNN
-F 2 "" H 4900 3050 50  0001 C CNN
-F 3 "" H 4900 3050 50  0001 C CNN
-	1    4900 3050
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:PWR_FLAG #FLG05
 U 1 1 5F0ED557
@@ -346,7 +318,7 @@ $EndComp
 Wire Wire Line
 	5550 3600 5550 3450
 Wire Wire Line
-	5550 3050 5550 2550
+	5550 3050 5550 2850
 Connection ~ 5550 2550
 Wire Wire Line
 	4150 3600 4900 3600
@@ -355,6 +327,20 @@ Wire Wire Line
 Connection ~ 4900 3600
 Wire Wire Line
 	4900 3600 5000 3600
+$Comp
+L power:+BATT #PWR0101
+U 1 1 5F932DC5
+P 5850 2850
+F 0 "#PWR0101" H 5850 2700 50  0001 C CNN
+F 1 "+BATT" V 5865 2978 50  0000 L CNN
+F 2 "" H 5850 2850 50  0001 C CNN
+F 3 "" H 5850 2850 50  0001 C CNN
+	1    5850 2850
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	4900 3150 4900 3050
+	5850 2850 5550 2850
+Connection ~ 5550 2850
+Wire Wire Line
+	5550 2850 5550 2550
 $EndSCHEMATC
