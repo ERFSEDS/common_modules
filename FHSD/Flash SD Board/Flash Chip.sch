@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 21
+Sheet 20 21
 Title ""
 Date ""
 Rev ""
@@ -16,9 +16,9 @@ $EndDescr
 Text HLabel 6000 3450 2    50   Input ~ 0
 SCLK
 Text HLabel 6000 3550 2    50   Input ~ 0
-MOSI
+IO0
 Text HLabel 4850 3350 0    50   Input ~ 0
-MISO
+IO1
 Text HLabel 4850 3250 0    50   Input ~ 0
 CS_FLASH
 Wire Wire Line
@@ -54,9 +54,9 @@ F 3 "" H 6700 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 6000 3350 2    50   Input ~ 0
-HOLD
+IO3
 Text HLabel 4850 3450 0    50   Input ~ 0
-WP
+IO2
 Wire Wire Line
 	6000 3350 5800 3350
 Wire Wire Line
