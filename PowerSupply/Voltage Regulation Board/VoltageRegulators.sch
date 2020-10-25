@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 21
+Sheet 19 22
 Title ""
 Date "2020-07-12"
 Rev "1"
@@ -320,13 +320,6 @@ Wire Wire Line
 Wire Wire Line
 	5550 3050 5550 2850
 Connection ~ 5550 2550
-Wire Wire Line
-	4150 3600 4900 3600
-Wire Wire Line
-	4900 3550 4900 3600
-Connection ~ 4900 3600
-Wire Wire Line
-	4900 3600 5000 3600
 $Comp
 L power:+BATT #PWR0101
 U 1 1 5F932DC5
@@ -343,4 +336,6 @@ Wire Wire Line
 Connection ~ 5550 2850
 Wire Wire Line
 	5550 2850 5550 2550
+Wire Wire Line
+	4150 3600 5000 3600
 $EndSCHEMATC

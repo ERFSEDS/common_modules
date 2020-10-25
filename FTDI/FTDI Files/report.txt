@@ -1,0 +1,31 @@
+Info: Checking netlist symbol footprint “C2:/5F77D207/5F82AA02:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “USB4085:/5F77D207/5F78019D:Connector_USB:USB_C_Receptacle_GCT_USB4085”.
+Info: Checking netlist symbol footprint “U1:/5F77CFCF/5F77F3E1:FTDI:SON45P300X300X80-13N”.
+Info: Checking netlist symbol footprint “R1805:/5F77CFCF/5F78D5AA:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1804:/5F77D207/5F7C3CBB:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1803:/5F77D207/5F7C4B56:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R2:/5F77D207/5F82AA1D:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1:/5F77D207/5F82A9FC:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “J1:/5F77CF0D/5F7C055C:Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical”.
+Info: Checking netlist symbol footprint “FB1:/5F77D207/5F82F8D0:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder”.
+Info: Checking netlist symbol footprint “F1:/5F77D207/5F82F8C6:Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder”.
+Info: Checking netlist symbol footprint “D1801:/5F77CFCF/5F78BEC6:LED_SMD:LED_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1804:/5F77CFCF/5F7C7635:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C3:/5F77D207/5F82F8AF:Capacitor_SMD:C_0603_1608Metric”.
+Info: Checking netlist symbol footprint “C1:/5F77D207/5F82AA08:Capacitor_SMD:C_0603_1608Metric”.
+Error: Symbol USB4085 pad B2 not found in footprint Connector_USB:USB_C_Receptacle_GCT_USB4085.
+
+Error: Symbol USB4085 pad B3 not found in footprint Connector_USB:USB_C_Receptacle_GCT_USB4085.
+
+Error: Symbol USB4085 pad A11 not found in footprint Connector_USB:USB_C_Receptacle_GCT_USB4085.
+
+Error: Symbol USB4085 pad A10 not found in footprint Connector_USB:USB_C_Receptacle_GCT_USB4085.
+
+Error: Symbol USB4085 pad A2 not found in footprint Connector_USB:USB_C_Receptacle_GCT_USB4085.
+
+Error: Symbol USB4085 pad A3 not found in footprint Connector_USB:USB_C_Receptacle_GCT_USB4085.
+
+Error: Symbol USB4085 pad B10 not found in footprint Connector_USB:USB_C_Receptacle_GCT_USB4085.
+
+Error: Symbol USB4085 pad B11 not found in footprint Connector_USB:USB_C_Receptacle_GCT_USB4085.
+
