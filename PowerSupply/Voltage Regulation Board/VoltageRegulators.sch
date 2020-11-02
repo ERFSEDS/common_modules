@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 22
+Sheet 17 22
 Title ""
 Date "2020-07-12"
 Rev "1"
@@ -13,22 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	3050 5100 3050 5250
-$Comp
-L power:GND #PWR?
-U 1 1 5F0EA8E3
-P 3200 5400
-AR Path="/5F0EA8E3" Ref="#PWR?"  Part="1" 
-AR Path="/5F0C9147/5F0EA8E3" Ref="#PWR?"  Part="1" 
-AR Path="/5F3B0B4B/5F0EA8E3" Ref="#PWR060"  Part="1" 
-F 0 "#PWR060" H 3200 5150 50  0001 C CNN
-F 1 "GND" H 3205 5227 50  0000 C CNN
-F 2 "" H 3200 5400 50  0001 C CNN
-F 3 "" H 3200 5400 50  0001 C CNN
-	1    3200 5400
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5F0EA8F3
@@ -46,66 +30,6 @@ $EndComp
 Connection ~ 4150 3600
 Wire Wire Line
 	3950 3600 4150 3600
-$Comp
-L Connector:USB_C_Receptacle_USB2.0 USBC?
-U 1 1 5F0EA902
-P 3350 4200
-AR Path="/5F0EA902" Ref="USBC?"  Part="1" 
-AR Path="/5F0C9147/5F0EA902" Ref="USBC?"  Part="1" 
-AR Path="/5F3B0B4B/5F0EA902" Ref="USBC1"  Part="1" 
-F 0 "USBC1" H 3457 5067 50  0000 C CNN
-F 1 "USB_C_2.0" H 3457 4976 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 3500 4200 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3500 4200 50  0001 C CNN
-	1    3350 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5F0EA908
-P 4500 4200
-AR Path="/5F0EA908" Ref="R?"  Part="1" 
-AR Path="/5F0C9147/5F0EA908" Ref="R?"  Part="1" 
-AR Path="/5F3B0B4B/5F0EA908" Ref="R20"  Part="1" 
-F 0 "R20" V 4295 4200 50  0000 C CNN
-F 1 "5k" V 4386 4200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4540 4190 50  0001 C CNN
-F 3 "~" H 4500 4200 50  0001 C CNN
-	1    4500 4200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5F0EA90E
-P 4300 4200
-AR Path="/5F0EA90E" Ref="R?"  Part="1" 
-AR Path="/5F0C9147/5F0EA90E" Ref="R?"  Part="1" 
-AR Path="/5F3B0B4B/5F0EA90E" Ref="R19"  Part="1" 
-F 0 "R19" V 4505 4200 50  0000 C CNN
-F 1 "5k" V 4414 4200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4340 4190 50  0001 C CNN
-F 3 "~" H 4300 4200 50  0001 C CNN
-	1    4300 4200
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F0EA914
-P 4400 4550
-AR Path="/5F0EA914" Ref="#PWR?"  Part="1" 
-AR Path="/5F0C9147/5F0EA914" Ref="#PWR?"  Part="1" 
-AR Path="/5F3B0B4B/5F0EA914" Ref="#PWR061"  Part="1" 
-F 0 "#PWR061" H 4400 4300 50  0001 C CNN
-F 1 "GND" V 4405 4422 50  0000 R CNN
-F 2 "" H 4400 4550 50  0001 C CNN
-F 3 "" H 4400 4550 50  0001 C CNN
-	1    4400 4550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4500 4350 4500 4550
-Wire Wire Line
-	4300 4550 4300 4350
 Wire Wire Line
 	5450 2500 5450 2550
 $Comp
@@ -122,12 +46,6 @@ F 3 "" H 5450 2700 50  0001 C CNN
 	1    5450 2700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3950 4100
-NoConn ~ 3950 4200
-NoConn ~ 3950 4300
-NoConn ~ 3950 4400
-NoConn ~ 3950 4700
-NoConn ~ 3950 4800
 $Comp
 L power:PWR_FLAG #FLG05
 U 1 1 5F0ED557
@@ -150,15 +68,6 @@ F 3 "~" H 5450 2300 50  0001 C CNN
 	1    5450 2300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3350 5100 3350 5250
-Wire Wire Line
-	3050 5250 3200 5250
-Connection ~ 3200 5250
-Wire Wire Line
-	3200 5250 3350 5250
-Wire Wire Line
-	3200 5250 3200 5400
 Connection ~ 5450 2550
 Wire Wire Line
 	5450 2550 5450 2700
@@ -173,19 +82,6 @@ F 3 "~" H 5550 2550 50  0001 C CNN
 	1    5550 2550
 	0    1    1    0   
 $EndComp
-Connection ~ 4400 4550
-Wire Wire Line
-	4400 4550 4300 4550
-Wire Wire Line
-	4400 4550 4500 4550
-Wire Wire Line
-	4300 4050 4300 3900
-Wire Wire Line
-	3950 3900 4300 3900
-Wire Wire Line
-	3950 3800 4500 3800
-Wire Wire Line
-	4500 3800 4500 4050
 $Comp
 L pspice:DIODE D?
 U 1 1 5F891B29
@@ -220,31 +116,20 @@ F 3 "~" H 5550 3950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9100 3600 9250 3600
-Wire Wire Line
-	8650 3600 9100 3600
 $Comp
-L TLV1117LV33DCYR:TLV1117LV33DCYR 3v3Reg?
+L AZ1117EH-3.3TRG1:AZ1117EH-3.3TRG1 3v3Reg?
 U 1 1 5F123DAD
-P 8650 3700
+P 6950 3700
 AR Path="/5F123DAD" Ref="3v3Reg?"  Part="1" 
 AR Path="/5F0C9147/5F123DAD" Ref="3v3Reg?"  Part="1" 
 AR Path="/5F3B0B4B/5F123DAD" Ref="3v3Reg1"  Part="1" 
-F 0 "3v3Reg1" H 10050 3213 60  0000 C CNN
-F 1 "TLV1117LV33DCYR" H 10050 3319 60  0000 C CNN
-F 2 "Power:TLV1117LV33DCYR" H 10050 3940 60  0001 C CNN
-F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv1117lv" H 11550 4200 60  0001 C CNN
-	1    8650 3700
-	-1   0    0    1   
+F 0 "3v3Reg1" H 8350 3213 60  0000 C CNN
+F 1 "AZ1117EH-3.3TRG1" H 8350 3319 60  0000 C CNN
+F 2 "Power:SOT230P700X180-4N" H 8350 3940 60  0001 C CNN
+F 3 "" H 9850 4200 60  0001 C CNN
+	1    6950 3700
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8800 4350 9100 4350
-Connection ~ 8800 4350
-Wire Wire Line
-	8800 3700 8800 4350
-Wire Wire Line
-	8650 3700 8800 3700
-Wire Wire Line
-	7000 4350 8800 4350
 $Comp
 L pspice:C C?
 U 1 1 5F0EA8A7
@@ -264,28 +149,12 @@ Wire Wire Line
 Wire Wire Line
 	7000 4350 7000 4550
 Wire Wire Line
-	5550 3600 5850 3600
-Wire Wire Line
 	5550 4350 7000 4350
 Wire Wire Line
 	5550 4200 5550 4350
 Wire Wire Line
 	9100 4350 9100 4200
 Connection ~ 7000 4350
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5F0EA942
-P 9250 3600
-AR Path="/5F0EA942" Ref="#PWR?"  Part="1" 
-AR Path="/5F0C9147/5F0EA942" Ref="#PWR?"  Part="1" 
-AR Path="/5F3B0B4B/5F0EA942" Ref="#PWR065"  Part="1" 
-F 0 "#PWR065" H 9250 3450 50  0001 C CNN
-F 1 "+3V3" V 9265 3728 50  0000 L CNN
-F 2 "" H 9250 3600 50  0001 C CNN
-F 3 "" H 9250 3600 50  0001 C CNN
-	1    9250 3600
-	0    1    1    0   
-$EndComp
 Connection ~ 9100 3600
 Wire Wire Line
 	9100 3600 9100 3700
@@ -338,4 +207,51 @@ Wire Wire Line
 	5550 2850 5550 2550
 Wire Wire Line
 	4150 3600 5000 3600
+$Comp
+L power:+3.3V #PWR0115
+U 1 1 5F98F30A
+P 9250 3600
+F 0 "#PWR0115" H 9250 3450 50  0001 C CNN
+F 1 "+3.3V" V 9265 3728 50  0000 L CNN
+F 2 "" H 9250 3600 50  0001 C CNN
+F 3 "" H 9250 3600 50  0001 C CNN
+	1    9250 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 5F991D36
+P 3950 3600
+AR Path="/5F7762C3/5F991D36" Ref="#PWR?"  Part="1" 
+AR Path="/5F7762C3/5F77D207/5F991D36" Ref="#PWR?"  Part="1" 
+AR Path="/5F77D207/5F991D36" Ref="#PWR?"  Part="1" 
+AR Path="/5F319D4B/5F77D207/5F991D36" Ref="#PWR?"  Part="1" 
+AR Path="/5F319D4B/5F991D36" Ref="#PWR?"  Part="1" 
+AR Path="/5F3B0B4B/5F991D36" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 3950 3450 50  0001 C CNN
+F 1 "VBUS" V 3850 3700 50  0000 C CNN
+F 2 "" H 3950 3600 50  0001 C CNN
+F 3 "" H 3950 3600 50  0001 C CNN
+	1    3950 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 3600 6550 3600
+Wire Wire Line
+	7350 3600 9100 3600
+Wire Wire Line
+	7350 3800 7550 3800
+Wire Wire Line
+	7000 4350 9100 4350
+$Comp
+L power:GND #PWR0117
+U 1 1 5F9D5642
+P 7550 3800
+F 0 "#PWR0117" H 7550 3550 50  0001 C CNN
+F 1 "GND" V 7555 3672 50  0000 R CNN
+F 2 "" H 7550 3800 50  0001 C CNN
+F 3 "" H 7550 3800 50  0001 C CNN
+	1    7550 3800
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

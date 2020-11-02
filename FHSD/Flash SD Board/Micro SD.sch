@@ -48,12 +48,11 @@ U 1 1 5F05B5EB
 P 5900 3550
 F 0 "Micro_SD1" H 5850 4267 50  0000 C CNN
 F 1 "Micro_SD_Card" H 5850 4176 50  0000 C CNN
-F 2 "Connector_Card:microSD_HC_Molex_104031-0811" H 7050 3850 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 5900 3550 50  0001 C CNN
+F 2 "Connector_Card:microSD_HC_Wuerth_693072010801" H 7050 3850 50  0001 C CNN
+F 3 "http://katalog.we-https://www.digikey.com/htmldatasheets/production/1048480/0/0/1/693072010801-drawing.html" H 5900 3550 50  0001 C CNN
 	1    5900 3550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6700 4150
 NoConn ~ 5000 3950
 NoConn ~ 5000 3250
 $Comp
@@ -102,4 +101,17 @@ Wire Wire Line
 	4050 3850 4050 4000
 Wire Wire Line
 	3900 3550 4050 3550
+$Comp
+L power:GND #PWR0118
+U 1 1 5F997307
+P 6800 4150
+F 0 "#PWR0118" H 6800 3900 50  0001 C CNN
+F 1 "GND" V 6805 4022 50  0000 R CNN
+F 2 "" H 6800 4150 50  0001 C CNN
+F 3 "" H 6800 4150 50  0001 C CNN
+	1    6800 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 4150 6800 4150
 $EndSCHEMATC

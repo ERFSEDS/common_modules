@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# AZ1117EH-3.3TRG1
+#
+DEF AZ1117EH-3.3TRG1 U 0 40 Y Y 1 L N
+F0 "U" -300 200 50 H V L BNN
+F1 "AZ1117EH-3.3TRG1" -300 -300 50 H V L BNN
+F2 "SOT230P700X180-4N" 0 0 50 H I L BNN
+F3 "DIODES" 0 0 50 H I L BNN
+F4 "3-2" 0 0 50 H I L BNN
+F5 "IPC-7351B" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 -300 200 300 200 N
+P 2 0 0 6 300 200 300 -200 N
+P 2 0 0 6 300 -200 -300 -200 N
+P 2 0 0 6 -300 -200 -300 200 N
+X IN 3 -400 100 100 R 40 40 0 0 I 
+X ADJ/GND 1 400 -100 100 L 40 40 0 0 W 
+X OUT 2 400 100 100 L 40 40 0 0 O 
+X OUT 4 400 100 100 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
