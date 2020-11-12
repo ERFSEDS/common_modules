@@ -13,21 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Gyroscope:BMI088 IC?
-U 1 1 5F19ED4D
-P 5100 4250
-AR Path="/5F19ED4D" Ref="IC?"  Part="1" 
-AR Path="/5F191085/5F19ED4D" Ref="IC?"  Part="1" 
-AR Path="/5F440A67/5F19ED4D" Ref="IC1"  Part="1" 
-F 0 "IC1" H 5728 4354 50  0000 L CNN
-F 1 "BMI088" H 5728 4263 50  0000 L CNN
-F 2 "Gyroscope:16-LGA-(4.5x3)" H 5150 4400 50  0001 C CNN
-F 3 "" H 5150 4400 50  0001 C CNN
-F 4 "828-1082-1-ND" H 5100 4250 50  0001 C CNN "digikey"
-	1    5100 4250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4400 3850 4100 3850
 Wire Wire Line
@@ -48,7 +33,6 @@ Wire Wire Line
 	5100 3450 5200 3450
 Wire Wire Line
 	5200 3300 5200 3450
-Connection ~ 5200 3450
 Wire Wire Line
 	4100 4850 4400 4850
 Wire Wire Line
@@ -134,8 +118,6 @@ F 4 "399-1177-2-ND" H 5950 2850 50  0001 C CNN "digikey"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5200 3450 5550 3450
-Wire Wire Line
 	4350 4050 4350 4150
 Wire Wire Line
 	4100 4050 4350 4050
@@ -158,4 +140,25 @@ Text HLabel 4100 4750 0    50   Output ~ 0
 CSB_ACCEL
 Text HLabel 4100 4850 0    50   Output ~ 0
 CSB_GYRO
+Connection ~ 5200 3450
+$Comp
+L Gyroscope:BMI088 IC?
+U 1 1 5F19ED4D
+P 5100 4250
+AR Path="/5F19ED4D" Ref="IC?"  Part="1" 
+AR Path="/5F191085/5F19ED4D" Ref="IC?"  Part="1" 
+AR Path="/5F440A67/5F19ED4D" Ref="IC1"  Part="1" 
+F 0 "IC1" H 5728 4354 50  0000 L CNN
+F 1 "BMI088" H 5728 4263 50  0000 L CNN
+F 2 "Gyroscope:16-LGA-(4.5x3)" H 5150 4400 50  0001 C CNN
+F 3 "" H 5150 4400 50  0001 C CNN
+F 4 "828-1082-1-ND" H 5100 4250 50  0001 C CNN "digikey"
+	1    5100 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3450 5450 3450
+Wire Wire Line
+	5200 3450 5450 3450
+Connection ~ 5450 3450
 $EndSCHEMATC

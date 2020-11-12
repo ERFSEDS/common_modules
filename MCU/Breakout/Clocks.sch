@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 22
+Sheet 10 22
 Title "Microcontroller"
 Date "2020-07-02"
 Rev "1"
@@ -127,7 +127,7 @@ L Device:R_US R4
 U 1 1 5EE707DE
 P 5250 3300
 F 0 "R4" V 5045 3300 50  0000 C CNN
-F 1 "TBD" V 5136 3300 50  0000 C CNN
+F 1 "10k" V 5136 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5290 3290 50  0001 C CNN
 F 3 "~" H 5250 3300 50  0001 C CNN
 	1    5250 3300
