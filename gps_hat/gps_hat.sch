@@ -1,0 +1,160 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6700 3500 6250 3500
+Wire Wire Line
+	6700 3625 6250 3625
+Wire Wire Line
+	6700 3750 6250 3750
+$Sheet
+S 1370 2990 3305 2135
+U 601F712A
+F0 "male_pin" 50
+F1 "male_pin.sch" 50
+F2 "GND" I R 4675 3050 50 
+F3 "+3.3" I R 4675 3150 50 
+F4 "+BATT" I R 4675 3250 50 
+F5 "H_TX" I R 4675 3350 50 
+F6 "H_RX" I R 4675 3450 50 
+F7 "H_PIN_10" I R 4675 4975 50 
+F8 "H_PIN_8" I R 4675 4775 50 
+F9 "H_PIN_6" I R 4675 4575 50 
+F10 "H_PIN_1" I R 4675 4075 50 
+F11 "H_PIN_4" I R 4675 4375 50 
+F12 "H_PIN_0" I R 4675 3975 50 
+F13 "H_PIN_11" I R 4675 5075 50 
+F14 "H_PIN_9" I R 4675 4875 50 
+F15 "H_PIN_7" I R 4675 4675 50 
+F16 "H_PIN_2" I R 4675 4175 50 
+F17 "H_PIN_3" I R 4675 4275 50 
+F18 "H_PIN_5" I R 4675 4475 50 
+F19 "MOSI" I R 4675 3650 50 
+F20 "MISO" I R 4675 3550 50 
+F21 "SCLK" I R 4675 3750 50 
+$EndSheet
+Wire Wire Line
+	6700 3875 6250 3875
+Wire Wire Line
+	5125 3050 4675 3050
+Wire Wire Line
+	5125 3150 4675 3150
+Wire Wire Line
+	5125 3250 4675 3250
+Wire Wire Line
+	5125 3350 4675 3350
+Wire Wire Line
+	5125 3450 4675 3450
+Wire Wire Line
+	5125 3550 4675 3550
+Wire Wire Line
+	5125 3650 4675 3650
+Wire Wire Line
+	5125 3750 4675 3750
+Wire Wire Line
+	5125 3975 4675 3975
+Wire Wire Line
+	5125 4075 4675 4075
+Wire Wire Line
+	5125 4175 4675 4175
+Wire Wire Line
+	5125 4275 4675 4275
+Wire Wire Line
+	5125 4375 4675 4375
+Wire Wire Line
+	5125 4475 4675 4475
+Wire Wire Line
+	5125 4575 4675 4575
+Wire Wire Line
+	5125 4675 4675 4675
+Wire Wire Line
+	5125 4775 4675 4775
+Wire Wire Line
+	5125 4875 4675 4875
+Wire Wire Line
+	5125 4975 4675 4975
+Wire Wire Line
+	5125 5075 4675 5075
+$Comp
+L power:GND #PWR?
+U 1 1 60225022
+P 5125 3050
+F 0 "#PWR?" H 5125 2800 50  0001 C CNN
+F 1 "GND" V 5130 2922 50  0000 R CNN
+F 2 "" H 5125 3050 50  0001 C CNN
+F 3 "" H 5125 3050 50  0001 C CNN
+	1    5125 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60225320
+P 5125 3150
+F 0 "#PWR?" H 5125 3000 50  0001 C CNN
+F 1 "+3.3V" V 5140 3278 50  0000 L CNN
+F 2 "" H 5125 3150 50  0001 C CNN
+F 3 "" H 5125 3150 50  0001 C CNN
+	1    5125 3150
+	0    1    1    0   
+$EndComp
+$Sheet
+S 6700 2990 3300 2010
+U 601F7432
+F0 "gps" 50
+F1 "gps.sch" 50
+F2 "NRESET" I L 6700 3500 50 
+F3 "RX" I L 6700 3625 50 
+F4 "TX" O L 6700 3750 50 
+F5 "EX_ANT" I L 6700 3875 50 
+F6 "1PPS" I L 6700 4000 50 
+$EndSheet
+NoConn ~ 5125 3250
+NoConn ~ 5125 3550
+NoConn ~ 5125 3650
+NoConn ~ 5125 3750
+NoConn ~ 5125 5075
+NoConn ~ 5125 4975
+NoConn ~ 5125 4875
+NoConn ~ 5125 4775
+NoConn ~ 5125 4675
+NoConn ~ 5125 4575
+NoConn ~ 5125 4475
+NoConn ~ 5125 4275
+Text HLabel 5125 3975 2    50   Input ~ 0
+NRESET
+Text HLabel 5125 4175 2    50   Input ~ 0
+EX_ANT
+NoConn ~ 5125 4075
+Text HLabel 5125 3350 2    50   Input ~ 0
+TX
+Text HLabel 5125 3450 2    50   Input ~ 0
+RX
+Text Label 4790 3350 2    50   ~ 0
+TX
+Text Label 4790 3450 2    50   ~ 0
+RX
+Text Label 5050 3975 2    39   ~ 0
+IdkWhatToDo
+Text Label 5000 4175 2    50   ~ 0
+Antenna
+Wire Wire Line
+	6700 4000 6250 4000
+Text HLabel 5125 4375 2    50   Input ~ 0
+1PPS
+Text Label 5100 4375 2    35   ~ 0
+TimeMarkOutput
+Text Notes 3650 2375 0    118  ~ 24
+I do not know what antenna we are using for the GPS, \nso I do not know to apply the pin to the schematic. \nEX_ANT
+$EndSCHEMATC
