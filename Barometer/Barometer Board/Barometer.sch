@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 19
+Sheet 18 20
 Title ""
 Date ""
 Rev ""
@@ -14,16 +14,17 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MS560702BA03-50:MS560702BA03-50 Barometer?
+L MS560702BA03-50:MS560702BA03-50 U?
 U 1 1 5F01D3E2
 P 6000 3600
-AR Path="/5F01D3E2" Ref="Barometer?"  Part="1" 
+AR Path="/5F01D3E2" Ref="U?"  Part="1" 
 AR Path="/5F013144/5F01D3E2" Ref="Barometer?"  Part="1" 
-AR Path="/5F3A063C/5F01D3E2" Ref="Barometer1"  Part="1" 
-F 0 "Barometer1" H 6000 4187 60  0000 C CNN
-F 1 "MS560702BA03-50" H 6000 4081 60  0000 C CNN
+AR Path="/5F3A063C/5F01D3E2" Ref="U?"  Part="1" 
+F 0 "U?" H 6000 4187 60  0000 C CNN
+F 1 "TE_MS560702BA03-50" H 6000 4081 60  0000 C CNN
 F 2 "" H 6000 4040 60  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/418/5/NG_DS_MS5607-02BA03_B-1134558.pdf" H 6000 3600 60  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/te-connectivity-measurement-specialties/MS560702BA03-50/4700921" H 6000 3600 50  0001 C CNN "Order Link"
 	1    6000 3600
 	1    0    0    -1  
 $EndComp
@@ -38,21 +39,8 @@ F 3 "" H 4450 3300 50  0001 C CNN
 	1    4450 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L pspice:C C3
-U 1 1 5F01D3EE
-P 4450 3750
-F 0 "C3" H 4628 3796 50  0000 L CNN
-F 1 "100nF" H 4628 3705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4450 3750 50  0001 C CNN
-F 3 "~" H 4450 3750 50  0001 C CNN
-	1    4450 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4450 3300 4450 3400
-Wire Wire Line
-	4450 4000 4450 4100
 $Comp
 L power:GND #PWR08
 U 1 1 5F01D3F6
@@ -68,8 +56,6 @@ Wire Wire Line
 	5100 3400 4450 3400
 Connection ~ 4450 3400
 Wire Wire Line
-	4450 3400 4450 3500
-Wire Wire Line
 	5100 3600 4950 3600
 Wire Wire Line
 	4950 3600 4950 4100
@@ -83,14 +69,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 3500 4950 3600
 Connection ~ 4950 3600
-Text HLabel 7150 3400 2    50   Input ~ 0
-SCLK
-Text HLabel 7150 3500 2    50   Input ~ 0
-SDI
-Text HLabel 7150 3600 2    50   Input ~ 0
-SDO
-Text HLabel 7150 3700 2    50   Input ~ 0
-CSB
 Wire Wire Line
 	6900 3400 7150 3400
 Wire Wire Line
@@ -106,4 +84,27 @@ Wire Wire Line
 Wire Wire Line
 	6900 4050 6900 3700
 Connection ~ 6900 3700
+$Comp
+L Device:C C?
+U 1 1 60246AF1
+P 4450 3750
+F 0 "C?" H 4565 3796 50  0000 L CNN
+F 1 "100nF" H 4565 3705 50  0000 L CNN
+F 2 "" H 4488 3600 50  0001 C CNN
+F 3 "~" H 4450 3750 50  0001 C CNN
+	1    4450 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3400 4450 3600
+Wire Wire Line
+	4450 3900 4450 4100
+Text HLabel 7150 3400 2    50   Input ~ 0
+SCL
+Text HLabel 7150 3500 2    50   Input ~ 0
+MOSI
+Text HLabel 7150 3600 2    50   Output ~ 0
+MISO
+Text HLabel 7150 3700 2    50   Input ~ 0
+CS_BARO
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 19
+Sheet 17 20
 Title ""
 Date ""
 Rev ""
@@ -18,9 +18,10 @@ L Accelerometer_Breakout:H3LIS331DL U2
 U 1 1 5F0CD93E
 P 5750 3700
 F 0 "U2" H 5750 4950 50  0000 C CNN
-F 1 "H3LIS331DL" H 5750 4800 50  0000 C CNN
+F 1 "ST_H3LIS331DL" H 5750 4800 50  0000 C CNN
 F 2 "" H 5750 3750 50  0001 C CNN
-F 3 "" H 5750 3750 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/3e/48/02/c7/a4/e6/41/bb/DM00053090.pdf/files/DM00053090.pdf/jcr:content/translations/en.DM00053090.pdf" H 5750 3750 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/stmicroelectronics/H3LIS331DLTR/4311636" H 5750 3700 50  0001 C CNN "Order Link"
 	1    5750 3700
 	1    0    0    -1  
 $EndComp
@@ -57,22 +58,8 @@ F 3 "~" H 3500 3700 50  0001 C CNN
 	1    3500 3700
 	1    0    0    -1  
 $EndComp
-Text HLabel 6550 3650 2    50   Input ~ 0
-INT_1_ACC
-Text HLabel 6550 3950 2    50   Input ~ 0
-INT_2_ACC
 Text HLabel 5900 4450 3    50   Input ~ 0
 CS_ACC
-Text HLabel 5750 4450 3    50   Input ~ 0
-SDO_ACC
-Text HLabel 5600 4450 3    50   Input ~ 0
-SDA_ACC
-Text HLabel 4950 3800 0    50   Input ~ 0
-SCL_ACC
-Wire Wire Line
-	6550 3650 6450 3650
-Wire Wire Line
-	6550 3950 6450 3950
 Wire Wire Line
 	5600 4450 5600 4350
 Wire Wire Line
@@ -130,23 +117,18 @@ Wire Wire Line
 $Comp
 L power:+3.3V #PWR032
 U 1 1 5F0D7F44
-P 5800 2850
-F 0 "#PWR032" H 5800 2700 50  0001 C CNN
-F 1 "+3.3V" H 5815 3023 50  0000 C CNN
-F 2 "" H 5800 2850 50  0001 C CNN
-F 3 "" H 5800 2850 50  0001 C CNN
-	1    5800 2850
+P 5900 2850
+F 0 "#PWR032" H 5900 2700 50  0001 C CNN
+F 1 "+3.3V" H 5915 3023 50  0000 C CNN
+F 2 "" H 5900 2850 50  0001 C CNN
+F 3 "" H 5900 2850 50  0001 C CNN
+	1    5900 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5750 2950 5750 2850
 Wire Wire Line
-	5750 2850 5800 2850
-Wire Wire Line
 	5900 2950 5900 2850
-Wire Wire Line
-	5900 2850 5800 2850
-Connection ~ 5800 2850
 $Comp
 L power:+3.3V #PWR027
 U 1 1 5F0D93C7
@@ -224,4 +206,15 @@ F 3 "" H 4950 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5050 3350 4950 3350
+Connection ~ 5900 2850
+Wire Wire Line
+	5750 2850 5900 2850
+NoConn ~ 6450 3650
+NoConn ~ 6450 3950
+Text HLabel 4950 3800 0    50   Input ~ 0
+SCL
+Text HLabel 5750 4450 3    50   Output ~ 0
+MISO
+Text HLabel 5600 4450 3    50   Input ~ 0
+MOSI
 $EndSCHEMATC

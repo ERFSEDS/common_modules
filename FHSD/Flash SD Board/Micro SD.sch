@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 19
+Sheet 19 20
 Title ""
 Date ""
 Rev ""
@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 4650 3850 0    50   Input ~ 0
+Text HLabel 4650 3850 0    50   Output ~ 0
 MISO
 Wire Wire Line
 	4650 3850 5000 3850
@@ -47,9 +47,10 @@ L Connector:Micro_SD_Card Micro_SD1
 U 1 1 5F05B5EB
 P 5900 3550
 F 0 "Micro_SD1" H 5850 4267 50  0000 C CNN
-F 1 "Micro_SD_Card" H 5850 4176 50  0000 C CNN
+F 1 "WE_693072010801" H 5850 4176 50  0000 C CNN
 F 2 "" H 7050 3850 50  0001 C CNN
-F 3 "http://katalog.we-https://www.digikey.com/htmldatasheets/production/1048480/0/0/1/693072010801-drawing.html" H 5900 3550 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/693072010801.pdf" H 5900 3550 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/693072010801/3124584?s=N4IgTCBcDaIGwE4DMAGA7GFBGFAObIAugL5A" H 5900 3550 50  0001 C CNN "Order Link"
 	1    5900 3550
 	1    0    0    -1  
 $EndComp
