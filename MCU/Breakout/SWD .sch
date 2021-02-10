@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 21
+Sheet 6 19
 Title "Microcontroller"
 Date "2020-07-02"
 Rev "1"
@@ -19,7 +19,7 @@ U 1 1 5EF13F12
 P 5150 3600
 F 0 "J1" H 5258 3981 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 5258 3890 50  0000 C CNN
-F 2 "NOVA MCU (STM):j-link_6_pin_needle" H 5150 3600 50  0001 C CNN
+F 2 "" H 5150 3600 50  0001 C CNN
 F 3 "~" H 5150 3600 50  0001 C CNN
 	1    5150 3600
 	1    0    0    -1  

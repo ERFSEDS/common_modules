@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 21
+Sheet 8 19
 Title "Microcontroller"
 Date "2020-07-02"
 Rev "1"
@@ -19,14 +19,14 @@ U 1 1 5EE6B82C
 P 5850 3300
 F 0 "Y1" H 5800 4050 50  0000 L CNN
 F 1 "ECS-260-8-36B-CKY-TR" H 5350 3950 50  0000 L CNN
-F 2 "NOVA MCU (STM):ECX-2236B" H 5850 3300 50  0001 C CNN
+F 2 "" H 5850 3300 50  0001 C CNN
 F 3 "https://ecsxtal.com/store/pdf/ECX-2236B.pdf" H 5850 3300 50  0001 C CNN
 	1    5850 3300
 	1    0    0    -1  
 $EndComp
 Text HLabel 6400 3300 2    50   Input ~ 0
 CLOCKIN
-Text HLabel 4950 3300 0    50   Input ~ 0
+Text HLabel 4950 3300 0    50   Output ~ 0
 CLOCKOUT
 $Comp
 L power:GND #PWR025
@@ -60,14 +60,14 @@ U 1 1 5EE717EC
 P 5900 4450
 F 0 "Y2" H 5900 4718 50  0000 C CNN
 F 1 "JTX310" H 5900 4627 50  0000 C CNN
-F 2 "NOVA MCU (STM):JTX310" H 5900 4450 50  0001 C CNN
+F 2 "" H 5900 4450 50  0001 C CNN
 F 3 "https://www.jauch.com/downloadfile/57fde22d50dbf_d3c203011c87952f2834/jtx310-auto-2-210512.pdf" H 5900 4450 50  0001 C CNN
 	1    5900 4450
 	1    0    0    -1  
 $EndComp
 Text HLabel 6900 4450 2    50   Input ~ 0
 RTCCRYSTALIN
-Text HLabel 5050 4450 0    50   Input ~ 0
+Text HLabel 5050 4450 0    50   Output ~ 0
 RTCCRYSTALOUT
 Connection ~ 5850 3600
 Wire Wire Line
@@ -83,7 +83,7 @@ AR Path="/5EE654BB/5EE655E0/5EE74A4A" Ref="C?"  Part="1"
 AR Path="/5F319C9C/5EE74A4A" Ref="C18"  Part="1" 
 F 0 "C18" H 5565 4646 50  0000 L CNN
 F 1 "18pf" H 5565 4555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5488 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5488 4450 50  0001 C CNN
 F 3 "~" H 5450 4600 50  0001 C CNN
 	1    5450 4600
 	1    0    0    -1  
@@ -97,7 +97,7 @@ AR Path="/5EE654BB/5EE655E0/5EE7523E" Ref="C?"  Part="1"
 AR Path="/5F319C9C/5EE7523E" Ref="C21"  Part="1" 
 F 0 "C21" H 6515 4646 50  0000 L CNN
 F 1 "18pf" H 6515 4555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6438 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6438 4450 50  0001 C CNN
 F 3 "~" H 6400 4600 50  0001 C CNN
 	1    6400 4600
 	1    0    0    -1  
@@ -128,7 +128,7 @@ U 1 1 5EE707DE
 P 5250 3300
 F 0 "R4" V 5045 3300 50  0000 C CNN
 F 1 "10k" V 5136 3300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5290 3290 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5290 3290 50  0001 C CNN
 F 3 "~" H 5250 3300 50  0001 C CNN
 	1    5250 3300
 	0    1    1    0   
@@ -7776,7 +7776,7 @@ AR Path="/5EE654BB/5EE655E0/5EE74215" Ref="C?"  Part="1"
 AR Path="/5F319C9C/5EE74215" Ref="C20"  Part="1" 
 F 0 "C20" H 6315 3496 50  0000 L CNN
 F 1 "10pf" H 6315 3405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6238 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6238 3300 50  0001 C CNN
 F 3 "~" H 6200 3450 50  0001 C CNN
 	1    6200 3450
 	1    0    0    -1  
@@ -7790,7 +7790,7 @@ AR Path="/5EE654BB/5EE655E0/5EE73815" Ref="C?"  Part="1"
 AR Path="/5F319C9C/5EE73815" Ref="C19"  Part="1" 
 F 0 "C19" H 5200 3500 50  0000 L CNN
 F 1 "10pf" H 5200 3400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5538 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5538 3300 50  0001 C CNN
 F 3 "~" H 5500 3450 50  0001 C CNN
 	1    5500 3450
 	1    0    0    -1  

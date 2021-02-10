@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 21
+Sheet 13 19
 Title ""
 Date ""
 Rev ""
@@ -22,7 +22,7 @@ AR Path="/5F013144/5F01D3E2" Ref="Barometer?"  Part="1"
 AR Path="/5F3A063C/5F01D3E2" Ref="Barometer1"  Part="1" 
 F 0 "Barometer1" H 6000 4187 60  0000 C CNN
 F 1 "MS560702BA03-50" H 6000 4081 60  0000 C CNN
-F 2 "Barometer:MS560702BA03-50" H 6000 4040 60  0001 C CNN
+F 2 "" H 6000 4040 60  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/418/5/NG_DS_MS5607-02BA03_B-1134558.pdf" H 6000 3600 60  0001 C CNN
 	1    6000 3600
 	1    0    0    -1  
@@ -44,7 +44,7 @@ U 1 1 5F01D3EE
 P 4450 3750
 F 0 "C3" H 4628 3796 50  0000 L CNN
 F 1 "100nF" H 4628 3705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4450 3750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4450 3750 50  0001 C CNN
 F 3 "~" H 4450 3750 50  0001 C CNN
 	1    4450 3750
 	1    0    0    -1  
