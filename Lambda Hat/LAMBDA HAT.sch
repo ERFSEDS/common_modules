@@ -25,7 +25,7 @@ F 3 "https://www.rfsolutions.co.uk/downloads/1523890514DS-LAMBDA-1.pdf" H 4500 3
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0101
+L LAMBDA-HAT-rescue:+3.3V-power #PWR0101
 U 1 1 5FF79490
 P 3250 4100
 F 0 "#PWR0101" H 3250 3950 50  0001 C CNN
@@ -36,7 +36,7 @@ F 3 "" H 3250 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0102
+L LAMBDA-HAT-rescue:GND-power #PWR0102
 U 1 1 5FF7A1A0
 P 4100 4000
 F 0 "#PWR0102" H 4100 3750 50  0001 C CNN
@@ -49,7 +49,7 @@ $EndComp
 Wire Wire Line
 	4100 3900 3850 3900
 $Comp
-L Device:C_Small C1
+L LAMBDA-HAT-rescue:C_Small-Device C1
 U 1 1 5FF7DD84
 P 3450 3800
 F 0 "C1" H 3358 3754 50  0000 R CNN
@@ -60,7 +60,7 @@ F 3 "~" H 3450 3800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0104
+L LAMBDA-HAT-rescue:GND-power #PWR0104
 U 1 1 5FF7EBBB
 P 3450 3700
 F 0 "#PWR0104" H 3450 3450 50  0001 C CNN
@@ -83,7 +83,7 @@ NoConn ~ 5100 4600
 NoConn ~ 4100 4600
 NoConn ~ 4100 4500
 $Comp
-L power:+3.3V #PWR0105
+L LAMBDA-HAT-rescue:+3.3V-power #PWR0105
 U 1 1 5FF8AAF4
 P 6650 4050
 F 0 "#PWR0105" H 6650 3900 50  0001 C CNN
@@ -94,7 +94,7 @@ F 3 "" H 6650 4050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0106
+L LAMBDA-HAT-rescue:GND-power #PWR0106
 U 1 1 5FF8BF51
 P 6650 3850
 F 0 "#PWR0106" H 6650 3600 50  0001 C CNN
@@ -107,7 +107,7 @@ $EndComp
 Text Notes 5100 3850 0    50   ~ 0
 Device active low\n
 $Comp
-L Device:Antenna AE1
+L LAMBDA-HAT-rescue:Antenna-Device AE1
 U 1 1 5FFA59EB
 P 3850 3400
 F 0 "AE1" H 3930 3389 50  0000 L CNN
@@ -120,7 +120,7 @@ F 5 "https://www.snapeda.com/parts/142-0701-801/Cinch%20Connectivity%20Solutions
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x10_Counter_Clockwise J1
+L LAMBDA-HAT-rescue:Conn_02x10_Counter_Clockwise-Connector_Generic J1
 U 1 1 5FFA9BC7
 P 6850 4250
 F 0 "J1" H 6900 4867 50  0000 C CNN
@@ -141,7 +141,7 @@ NoConn ~ 6650 4550
 NoConn ~ 6650 4650
 NoConn ~ 6650 4750
 $Comp
-L Mechanical:MountingHole H1
+L LAMBDA-HAT-rescue:MountingHole-Mechanical H1
 U 1 1 5FFB1B80
 P 8550 4000
 F 0 "H1" H 8650 4046 50  0000 L CNN
@@ -152,7 +152,7 @@ F 3 "~" H 8550 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L LAMBDA-HAT-rescue:MountingHole-Mechanical H2
 U 1 1 5FFB2BD8
 P 8550 4200
 F 0 "H2" H 8650 4246 50  0000 L CNN
@@ -163,7 +163,7 @@ F 3 "~" H 8550 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L LAMBDA-HAT-rescue:MountingHole-Mechanical H3
 U 1 1 5FFB2DC8
 P 8550 4400
 F 0 "H3" H 8650 4446 50  0000 L CNN
@@ -174,7 +174,7 @@ F 3 "~" H 8550 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L LAMBDA-HAT-rescue:MountingHole-Mechanical H4
 U 1 1 5FFB304B
 P 8550 4600
 F 0 "H4" H 8650 4646 50  0000 L CNN
