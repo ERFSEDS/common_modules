@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L lambda-9s-global:LAMBDA-9S-Global U1
+L lambda:LAMBDA-9S-Global U1
 U 1 1 5FF78303
 P 4500 3800
 F 0 "U1" H 4600 3925 50  0000 C CNN
@@ -25,18 +25,18 @@ F 3 "https://www.rfsolutions.co.uk/downloads/1523890514DS-LAMBDA-1.pdf" H 4500 3
 	1    0    0    -1  
 $EndComp
 $Comp
-L LAMBDA-HAT-rescue:+3.3V-power #PWR0101
+L power:+3V3 #PWR0101
 U 1 1 5FF79490
 P 3250 4100
 F 0 "#PWR0101" H 3250 3950 50  0001 C CNN
-F 1 "+3.3V" V 3265 4228 50  0000 L CNN
+F 1 "+3V3" V 3265 4228 50  0000 L CNN
 F 2 "" H 3250 4100 50  0001 C CNN
 F 3 "" H 3250 4100 50  0001 C CNN
 	1    3250 4100
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LAMBDA-HAT-rescue:GND-power #PWR0102
+L power:GND #PWR0102
 U 1 1 5FF7A1A0
 P 4100 4000
 F 0 "#PWR0102" H 4100 3750 50  0001 C CNN
@@ -49,25 +49,25 @@ $EndComp
 Wire Wire Line
 	4100 3900 3850 3900
 $Comp
-L LAMBDA-HAT-rescue:C_Small-Device C1
+L Device:C C1
 U 1 1 5FF7DD84
-P 3450 3800
-F 0 "C1" H 3358 3754 50  0000 R CNN
-F 1 "100n" H 3358 3845 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3450 3800 50  0001 C CNN
-F 3 "~" H 3450 3800 50  0001 C CNN
-	1    3450 3800
+P 3450 3750
+F 0 "C1" H 3358 3704 50  0000 R CNN
+F 1 "100n" H 3358 3795 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3450 3750 50  0001 C CNN
+F 3 "~" H 3450 3750 50  0001 C CNN
+	1    3450 3750
 	-1   0    0    1   
 $EndComp
 $Comp
-L LAMBDA-HAT-rescue:GND-power #PWR0104
+L power:GND #PWR0104
 U 1 1 5FF7EBBB
-P 3450 3700
-F 0 "#PWR0104" H 3450 3450 50  0001 C CNN
-F 1 "GND" H 3455 3527 50  0000 C CNN
-F 2 "" H 3450 3700 50  0001 C CNN
-F 3 "" H 3450 3700 50  0001 C CNN
-	1    3450 3700
+P 3450 3600
+F 0 "#PWR0104" H 3450 3350 50  0001 C CNN
+F 1 "GND" H 3455 3427 50  0000 C CNN
+F 2 "" H 3450 3600 50  0001 C CNN
+F 3 "" H 3450 3600 50  0001 C CNN
+	1    3450 3600
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -83,31 +83,31 @@ NoConn ~ 5100 4600
 NoConn ~ 4100 4600
 NoConn ~ 4100 4500
 $Comp
-L LAMBDA-HAT-rescue:+3.3V-power #PWR0105
+L power:+3V3 #PWR0105
 U 1 1 5FF8AAF4
-P 6650 4050
-F 0 "#PWR0105" H 6650 3900 50  0001 C CNN
-F 1 "+3.3V" V 6665 4178 50  0000 L CNN
-F 2 "" H 6650 4050 50  0001 C CNN
-F 3 "" H 6650 4050 50  0001 C CNN
-	1    6650 4050
+P 6600 4050
+F 0 "#PWR0105" H 6600 3900 50  0001 C CNN
+F 1 "+3V3" V 6615 4178 50  0000 L CNN
+F 2 "" H 6600 4050 50  0001 C CNN
+F 3 "" H 6600 4050 50  0001 C CNN
+	1    6600 4050
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LAMBDA-HAT-rescue:GND-power #PWR0106
+L power:GND #PWR0106
 U 1 1 5FF8BF51
-P 6650 3850
-F 0 "#PWR0106" H 6650 3600 50  0001 C CNN
-F 1 "GND" V 6655 3722 50  0000 R CNN
-F 2 "" H 6650 3850 50  0001 C CNN
-F 3 "" H 6650 3850 50  0001 C CNN
-	1    6650 3850
+P 6600 3850
+F 0 "#PWR0106" H 6600 3600 50  0001 C CNN
+F 1 "GND" V 6605 3722 50  0000 R CNN
+F 2 "" H 6600 3850 50  0001 C CNN
+F 3 "" H 6600 3850 50  0001 C CNN
+	1    6600 3850
 	0    1    1    0   
 $EndComp
 Text Notes 5100 3850 0    50   ~ 0
 Device active low\n
 $Comp
-L LAMBDA-HAT-rescue:Antenna-Device AE1
+L Device:Antenna AE1
 U 1 1 5FFA59EB
 P 3850 3400
 F 0 "AE1" H 3930 3389 50  0000 L CNN
@@ -120,7 +120,7 @@ F 5 "https://www.snapeda.com/parts/142-0701-801/Cinch%20Connectivity%20Solutions
 	1    0    0    -1  
 $EndComp
 $Comp
-L LAMBDA-HAT-rescue:Conn_02x10_Counter_Clockwise-Connector_Generic J1
+L Connector_Generic:Conn_02x10_Counter_Clockwise J1
 U 1 1 5FFA9BC7
 P 6850 4250
 F 0 "J1" H 6900 4867 50  0000 C CNN
@@ -141,7 +141,7 @@ NoConn ~ 6650 4550
 NoConn ~ 6650 4650
 NoConn ~ 6650 4750
 $Comp
-L LAMBDA-HAT-rescue:MountingHole-Mechanical H1
+L Mechanical:MountingHole H1
 U 1 1 5FFB1B80
 P 8550 4000
 F 0 "H1" H 8650 4046 50  0000 L CNN
@@ -152,7 +152,7 @@ F 3 "~" H 8550 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LAMBDA-HAT-rescue:MountingHole-Mechanical H2
+L Mechanical:MountingHole H2
 U 1 1 5FFB2BD8
 P 8550 4200
 F 0 "H2" H 8650 4246 50  0000 L CNN
@@ -163,7 +163,7 @@ F 3 "~" H 8550 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LAMBDA-HAT-rescue:MountingHole-Mechanical H3
+L Mechanical:MountingHole H3
 U 1 1 5FFB2DC8
 P 8550 4400
 F 0 "H3" H 8650 4446 50  0000 L CNN
@@ -174,7 +174,7 @@ F 3 "~" H 8550 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LAMBDA-HAT-rescue:MountingHole-Mechanical H4
+L Mechanical:MountingHole H4
 U 1 1 5FFB304B
 P 8550 4600
 F 0 "H4" H 8650 4646 50  0000 L CNN
@@ -186,36 +186,72 @@ F 3 "~" H 8550 4600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3850 3900 3850 3600
-Text HLabel 5100 3900 2    50   Input ~ 0
+Text HLabel 5150 3900 2    50   Input ~ 0
 nCS
-Text HLabel 5100 4000 2    50   Input ~ 0
+Text HLabel 5150 4000 2    50   Input ~ 0
 MOSI
-Text HLabel 5100 4100 2    50   Input ~ 0
+Text HLabel 5150 4100 2    50   Input ~ 0
 MISO
-Text HLabel 5100 4200 2    50   Input ~ 0
+Text HLabel 5150 4200 2    50   Input ~ 0
 SCK
-Text HLabel 5100 4300 2    50   Input ~ 0
+Text HLabel 5150 4300 2    50   Input ~ 0
 RESET
-Text HLabel 4100 4200 0    50   Input ~ 0
+Text HLabel 4050 4200 0    50   Input ~ 0
 RX_SWITCH
-Text HLabel 4100 4300 0    50   Input ~ 0
+Text HLabel 4050 4300 0    50   Input ~ 0
 TX_SWITCH
-Text HLabel 4100 4400 0    50   Input ~ 0
+Text HLabel 4050 4400 0    50   Input ~ 0
 DIO
-Text HLabel 7150 4350 2    50   Input ~ 0
+Text HLabel 7200 4350 2    50   Input ~ 0
 nCS
-Text HLabel 7150 4250 2    50   Input ~ 0
+Text HLabel 7200 4250 2    50   Input ~ 0
 MOSI
-Text HLabel 7150 4050 2    50   Input ~ 0
+Text HLabel 7200 4050 2    50   Input ~ 0
 MISO
-Text HLabel 7150 4450 2    50   Input ~ 0
+Text HLabel 7200 4450 2    50   Input ~ 0
 RESET
-Text HLabel 7150 4150 2    50   Input ~ 0
+Text HLabel 7200 4150 2    50   Input ~ 0
 SCK
-Text HLabel 7150 4750 2    50   Input ~ 0
+Text HLabel 7200 4750 2    50   Input ~ 0
 DIO
-Text HLabel 7150 4650 2    50   Input ~ 0
+Text HLabel 7200 4650 2    50   Input ~ 0
 TX_SWITCH
-Text HLabel 7150 4550 2    50   Input ~ 0
+Text HLabel 7200 4550 2    50   Input ~ 0
 RX_SWITCH
+Wire Wire Line
+	6600 3850 6650 3850
+Wire Wire Line
+	6650 4050 6600 4050
+Wire Wire Line
+	5100 3900 5150 3900
+Wire Wire Line
+	5150 4000 5100 4000
+Wire Wire Line
+	5100 4100 5150 4100
+Wire Wire Line
+	5150 4200 5100 4200
+Wire Wire Line
+	5100 4300 5150 4300
+Wire Wire Line
+	4100 4200 4050 4200
+Wire Wire Line
+	4050 4300 4100 4300
+Wire Wire Line
+	4100 4400 4050 4400
+Wire Wire Line
+	7150 4050 7200 4050
+Wire Wire Line
+	7150 4150 7200 4150
+Wire Wire Line
+	7150 4250 7200 4250
+Wire Wire Line
+	7150 4350 7200 4350
+Wire Wire Line
+	7150 4450 7200 4450
+Wire Wire Line
+	7150 4550 7200 4550
+Wire Wire Line
+	7150 4650 7200 4650
+Wire Wire Line
+	7150 4750 7200 4750
 $EndSCHEMATC
