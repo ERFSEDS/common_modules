@@ -100,20 +100,6 @@ Wire Wire Line
 	5550 2500 5550 2550
 Wire Wire Line
 	5400 3600 5550 3600
-$Comp
-L pspice:C C?
-U 1 1 5F0EA8AD
-P 5550 3950
-AR Path="/5F0EA8AD" Ref="C?"  Part="1" 
-AR Path="/5F0C9147/5F0EA8AD" Ref="C?"  Part="1" 
-AR Path="/5F3B0B4B/5F0EA8AD" Ref="C27"  Part="1" 
-F 0 "C27" H 5728 3996 50  0000 L CNN
-F 1 "0.33uF" H 5728 3905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5550 3950 50  0001 C CNN
-F 3 "~" H 5550 3950 50  0001 C CNN
-	1    5550 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9100 3600 9250 3600
 $Comp
@@ -130,34 +116,12 @@ F 3 "" H 9850 4200 60  0001 C CNN
 	1    6950 3700
 	1    0    0    -1  
 $EndComp
-$Comp
-L pspice:C C?
-U 1 1 5F0EA8A7
-P 9100 3950
-AR Path="/5F0EA8A7" Ref="C?"  Part="1" 
-AR Path="/5F0C9147/5F0EA8A7" Ref="C?"  Part="1" 
-AR Path="/5F3B0B4B/5F0EA8A7" Ref="C28"  Part="1" 
-F 0 "C28" H 8922 3904 50  0000 R CNN
-F 1 "100nF" H 8922 3995 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9100 3950 50  0001 C CNN
-F 3 "~" H 9100 3950 50  0001 C CNN
-	1    9100 3950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5550 3700 5550 3600
 Wire Wire Line
 	7000 4350 7000 4550
 Wire Wire Line
 	5550 4350 7000 4350
-Wire Wire Line
-	5550 4200 5550 4350
-Wire Wire Line
-	9100 4350 9100 4200
 Connection ~ 7000 4350
 Connection ~ 9100 3600
-Wire Wire Line
-	9100 3600 9100 3700
 $Comp
 L power:GND #PWR?
 U 1 1 5F0EA8A1
@@ -254,4 +218,41 @@ F 3 "" H 7550 3800 50  0001 C CNN
 	1    7550 3800
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:C C?
+U 1 1 60417AE0
+P 5550 3950
+AR Path="/5F0430E6/5F04B12E/60417AE0" Ref="C?"  Part="1" 
+AR Path="/5F0430E6/5F04B2FC/60417AE0" Ref="C?"  Part="1" 
+AR Path="/5F3B5BD1/60417AE0" Ref="C?"  Part="1" 
+AR Path="/5F3B0B4B/60417AE0" Ref="C?"  Part="1" 
+F 0 "C?" V 5298 3950 50  0000 C CNN
+F 1 "0.33uF" V 5389 3950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5588 3800 50  0001 C CNN
+F 3 "~" H 5550 3950 50  0001 C CNN
+	1    5550 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6041865F
+P 9100 3950
+AR Path="/5F0430E6/5F04B12E/6041865F" Ref="C?"  Part="1" 
+AR Path="/5F0430E6/5F04B2FC/6041865F" Ref="C?"  Part="1" 
+AR Path="/5F3B5BD1/6041865F" Ref="C?"  Part="1" 
+F 0 "C?" V 8848 3950 50  0000 C CNN
+F 1 "100nF" V 8939 3950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9138 3800 50  0001 C CNN
+F 3 "~" H 9100 3950 50  0001 C CNN
+	1    9100 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9100 3600 9100 3800
+Wire Wire Line
+	9100 4100 9100 4350
+Wire Wire Line
+	5550 3600 5550 3800
+Wire Wire Line
+	5550 4100 5550 4350
 $EndSCHEMATC
