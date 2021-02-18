@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 20 21
+Sheet 19 21
 Title ""
 Date ""
 Rev ""
@@ -35,9 +35,9 @@ Text HLabel 4800 3850 0    50   Input ~ 0
 SCL
 Text HLabel 4800 4250 0    50   Output ~ 0
 MISO
-Text HLabel 4800 4350 0    50   Input ~ 0
+Text HLabel 4800 4350 0    50   Output ~ 0
 INT1
-Text HLabel 4800 4450 0    50   Input ~ 0
+Text HLabel 4800 4450 0    50   Output ~ 0
 INT2
 Text HLabel 4800 4550 0    50   Input ~ 0
 DEN
@@ -55,11 +55,11 @@ Wire Wire Line
 	4950 3850 4800 3850
 Text HLabel 6500 3850 2    50   Input ~ 0
 CS_M
-Text HLabel 6500 3950 2    50   Input ~ 0
+Text HLabel 6500 3950 2    50   Output ~ 0
 MISO
 Text HLabel 6500 4050 2    50   Input ~ 0
 DRDYM
-Text HLabel 6500 4150 2    50   Input ~ 0
+Text HLabel 6500 4150 2    50   Output ~ 0
 INTM
 Wire Wire Line
 	5550 5050 5550 5100
