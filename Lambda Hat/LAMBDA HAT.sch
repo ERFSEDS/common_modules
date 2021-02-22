@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L lambda:LAMBDA-9S-Global U1
+L lambda-9s-global:LAMBDA-9S-Global U1
 U 1 1 5FF78303
 P 4500 3800
 F 0 "U1" H 4600 3925 50  0000 C CNN
