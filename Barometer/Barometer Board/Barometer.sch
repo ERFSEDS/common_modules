@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 21
+Sheet 17 21
 Title ""
 Date ""
 Rev ""
@@ -19,10 +19,10 @@ U 1 1 5F01D3E2
 P 6000 3600
 AR Path="/5F01D3E2" Ref="U?"  Part="1" 
 AR Path="/5F013144/5F01D3E2" Ref="Barometer?"  Part="1" 
-AR Path="/5F3A063C/5F01D3E2" Ref="U?"  Part="1" 
-F 0 "U?" H 6000 4187 60  0000 C CNN
+AR Path="/5F3A063C/5F01D3E2" Ref="U6"  Part="1" 
+F 0 "U6" H 6000 4187 60  0000 C CNN
 F 1 "TE_MS560702BA03-50" H 6000 4081 60  0000 C CNN
-F 2 "" H 6000 4040 60  0001 C CNN
+F 2 "Barometer:MS560702BA03-50" H 6000 4040 60  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/418/5/NG_DS_MS5607-02BA03_B-1134558.pdf" H 6000 3600 60  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/te-connectivity-measurement-specialties/MS560702BA03-50/4700921" H 6000 3600 50  0001 C CNN "Order Link"
 	1    6000 3600
@@ -85,12 +85,12 @@ Wire Wire Line
 	6900 4050 6900 3700
 Connection ~ 6900 3700
 $Comp
-L Device:C C?
+L Device:C C3
 U 1 1 60246AF1
 P 4450 3750
-F 0 "C?" H 4565 3796 50  0000 L CNN
+F 0 "C3" H 4565 3796 50  0000 L CNN
 F 1 "100nF" H 4565 3705 50  0000 L CNN
-F 2 "" H 4488 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4488 3600 50  0001 C CNN
 F 3 "~" H 4450 3750 50  0001 C CNN
 	1    4450 3750
 	1    0    0    -1  

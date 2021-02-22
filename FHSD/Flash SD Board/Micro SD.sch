@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 21
+Sheet 18 21
 Title ""
 Date ""
 Rev ""
@@ -48,7 +48,7 @@ U 1 1 5F05B5EB
 P 5900 3550
 F 0 "Micro_SD1" H 5850 4267 50  0000 C CNN
 F 1 "WE_693072010801" H 5850 4176 50  0000 C CNN
-F 2 "" H 7050 3850 50  0001 C CNN
+F 2 "Connector_Card:microSD_HC_Wuerth_693072010801" H 7050 3850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/693072010801.pdf" H 5900 3550 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/693072010801/3124584?s=N4IgTCBcDaIGwE4DMAGA7GFBGFAObIAugL5A" H 5900 3550 50  0001 C CNN "Order Link"
 	1    5900 3550

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 21
+Sheet 16 21
 Title ""
 Date ""
 Rev ""
@@ -19,7 +19,7 @@ U 1 1 5F0CD93E
 P 5750 3700
 F 0 "U2" H 5750 4950 50  0000 C CNN
 F 1 "ST_H3LIS331DL" H 5750 4800 50  0000 C CNN
-F 2 "" H 5750 3750 50  0001 C CNN
+F 2 "Accelerometer_Breakout:TFLGA-16_3x3mm" H 5750 3750 50  0001 C CNN
 F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/3e/48/02/c7/a4/e6/41/bb/DM00053090.pdf/files/DM00053090.pdf/jcr:content/translations/en.DM00053090.pdf" H 5750 3750 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/stmicroelectronics/H3LIS331DLTR/4311636" H 5750 3700 50  0001 C CNN "Order Link"
 	1    5750 3700
