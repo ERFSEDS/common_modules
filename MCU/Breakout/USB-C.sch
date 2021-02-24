@@ -7989,7 +7989,6 @@ Wire Wire Line
 Wire Wire Line
 	6200 3100 6300 3100
 NoConn ~ 6300 3200
-NoConn ~ 6300 3300
 NoConn ~ 6300 3400
 NoConn ~ 6300 3500
 NoConn ~ 6300 2900
@@ -7997,7 +7996,6 @@ NoConn ~ 6300 2800
 NoConn ~ 6300 2700
 NoConn ~ 8100 2900
 NoConn ~ 8100 3200
-NoConn ~ 8100 3300
 NoConn ~ 6300 4300
 NoConn ~ 6300 4400
 NoConn ~ 6300 4500
