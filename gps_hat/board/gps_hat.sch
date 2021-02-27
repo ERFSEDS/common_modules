@@ -46,11 +46,9 @@ F20 "MISO" I R 4675 3550 50
 F21 "SCLK" I R 4675 3750 50 
 $EndSheet
 Wire Wire Line
-	6700 3875 6250 3875
-Wire Wire Line
 	5125 3050 4675 3050
 Wire Wire Line
-	5125 3150 4675 3150
+	5125 3150 5075 3150
 Wire Wire Line
 	5125 3250 4675 3250
 Wire Wire Line
@@ -88,10 +86,10 @@ Wire Wire Line
 Wire Wire Line
 	5125 5075 4675 5075
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 60225022
 P 5125 3050
-F 0 "#PWR?" H 5125 2800 50  0001 C CNN
+F 0 "#PWR0101" H 5125 2800 50  0001 C CNN
 F 1 "GND" V 5130 2922 50  0000 R CNN
 F 2 "" H 5125 3050 50  0001 C CNN
 F 3 "" H 5125 3050 50  0001 C CNN
@@ -99,27 +97,16 @@ F 3 "" H 5125 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0102
 U 1 1 60225320
 P 5125 3150
-F 0 "#PWR?" H 5125 3000 50  0001 C CNN
+F 0 "#PWR0102" H 5125 3000 50  0001 C CNN
 F 1 "+3.3V" V 5140 3278 50  0000 L CNN
 F 2 "" H 5125 3150 50  0001 C CNN
 F 3 "" H 5125 3150 50  0001 C CNN
 	1    5125 3150
 	0    1    1    0   
 $EndComp
-$Sheet
-S 6700 2990 3300 2010
-U 601F7432
-F0 "gps" 50
-F1 "gps.sch" 50
-F2 "NRESET" I L 6700 3500 50 
-F3 "RX" I L 6700 3625 50 
-F4 "TX" O L 6700 3750 50 
-F5 "EX_ANT" I L 6700 3875 50 
-F6 "1PPS" I L 6700 4000 50 
-$EndSheet
 NoConn ~ 5125 3250
 NoConn ~ 5125 3550
 NoConn ~ 5125 3650
@@ -129,32 +116,51 @@ NoConn ~ 5125 4975
 NoConn ~ 5125 4875
 NoConn ~ 5125 4775
 NoConn ~ 5125 4675
-NoConn ~ 5125 4575
+NoConn ~ 5125 4375
 NoConn ~ 5125 4475
 NoConn ~ 5125 4275
-Text HLabel 5125 3975 2    50   Input ~ 0
-NRESET
-Text HLabel 5125 4175 2    50   Input ~ 0
-EX_ANT
 NoConn ~ 5125 4075
-Text HLabel 5125 3350 2    50   Input ~ 0
-TX
-Text HLabel 5125 3450 2    50   Input ~ 0
-RX
 Text Label 4790 3350 2    50   ~ 0
-TX
-Text Label 4790 3450 2    50   ~ 0
 RX
-Text Label 5050 3975 2    39   ~ 0
-IdkWhatToDo
-Text Label 5000 4175 2    50   ~ 0
-Antenna
+Text Label 4790 3450 2    50   ~ 0
+TX
+Text Label 4900 3975 2    39   ~ 0
+NRESET
 Wire Wire Line
-	6700 4000 6250 4000
-Text HLabel 5125 4375 2    50   Input ~ 0
+	6700 3850 6250 3850
+Text Label 4850 4575 2    35   ~ 0
 1PPS
-Text Label 5100 4375 2    35   ~ 0
-TimeMarkOutput
-Text Notes 3650 2375 0    118  ~ 24
-I do not know what antenna we are using for the GPS, \nso I do not know to apply the pin to the schematic. \nEX_ANT
+$Sheet
+S 6700 2990 3300 2010
+U 601F7432
+F0 "gps" 50
+F1 "gps.sch" 50
+F2 "NRESET" I L 6700 3500 50 
+F3 "RX" I L 6700 3625 50 
+F4 "TX" O L 6700 3750 50 
+F5 "1PPS" I L 6700 3850 50 
+$EndSheet
+NoConn ~ 5125 4175
+Text Label 6600 3625 2    50   ~ 0
+TX
+Text Label 6600 3750 2    50   ~ 0
+RX
+Text Label 6625 3850 2    35   ~ 0
+1PPS
+Text Label 6650 3500 2    39   ~ 0
+NRESET
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 6034AAD7
+P 5075 3150
+F 0 "#FLG0101" H 5075 3225 50  0001 C CNN
+F 1 "PWR_FLAG" V 5075 3277 50  0000 L CNN
+F 2 "" H 5075 3150 50  0001 C CNN
+F 3 "~" H 5075 3150 50  0001 C CNN
+	1    5075 3150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5075 3150
+Wire Wire Line
+	5075 3150 4675 3150
 $EndSCHEMATC
