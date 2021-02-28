@@ -121,9 +121,9 @@ NoConn ~ 5125 4475
 NoConn ~ 5125 4275
 NoConn ~ 5125 4075
 Text Label 4790 3350 2    50   ~ 0
-RX
-Text Label 4790 3450 2    50   ~ 0
 TX
+Text Label 4790 3450 2    50   ~ 0
+RX
 Text Label 4900 3975 2    39   ~ 0
 NRESET
 Wire Wire Line
