@@ -884,12 +884,12 @@ C8 24 80 5C 90 49 00 B9 20 93 00 72 41 26 01 E4 82 4C 02 C8 05 99 04 90 0B 32 09
 EndData
 $EndBitmap
 $Comp
-L Connector:Conn_01x05_Male J?
+L Connector:Conn_01x05_Male J1
 U 1 1 60422C5E
 P 5150 3600
-F 0 "J?" H 5258 3981 50  0000 C CNN
-F 1 "Conn_01x05_Male" H 5258 3890 50  0000 C CNN
-F 2 "" H 5150 3600 50  0001 C CNN
+F 0 "J1" H 5258 3981 50  0000 C CNN
+F 1 "Conn_01x05_Male_Programmer" H 5258 3890 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5150 3600 50  0001 C CNN
 F 3 "~" H 5150 3600 50  0001 C CNN
 	1    5150 3600
 	1    0    0    -1  
