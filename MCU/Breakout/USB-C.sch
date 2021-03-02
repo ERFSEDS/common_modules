@@ -7659,8 +7659,9 @@ AR Path="/5F319D4B/5F77D207/5F9B6A06" Ref="USB?"  Part="1"
 AR Path="/5F319D4B/5F9B6A06" Ref="USB1"  Part="1" 
 F 0 "USB1" H 2800 4450 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 3000 4350 50  0000 C CNN
-F 2 "" H 3150 3200 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 3150 3200 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/GCT%20PDFs/Ionex_USB_Conn_Br.pdf" H 3150 3200 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/gct/USB4085-GF-A/9859662" H 3000 3200 50  0001 C CNN "Order Link"
 	1    3000 3200
 	1    0    0    -1  
 $EndComp
