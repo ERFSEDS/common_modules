@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 21
+Sheet 4 20
 Title "Microcontroller"
 Date "2020-07-02"
 Rev "1"
@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:Conn_01x06_Male J1
-U 1 1 5EF13F12
-P 5150 3600
-F 0 "J1" H 5258 3981 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 5258 3890 50  0000 C CNN
-F 2 "NOVA MCU (STM):j-link_6_pin_needle" H 5150 3600 50  0001 C CNN
-F 3 "~" H 5150 3600 50  0001 C CNN
-	1    5150 3600
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3.3V #PWR09
 U 1 1 5EF1469E
@@ -38,31 +27,30 @@ $EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 5EF14A6C
-P 5800 3800
-F 0 "#PWR010" H 5800 3550 50  0001 C CNN
-F 1 "GND" V 5805 3672 50  0000 R CNN
-F 2 "" H 5800 3800 50  0001 C CNN
-F 3 "" H 5800 3800 50  0001 C CNN
-	1    5800 3800
+P 5800 3500
+F 0 "#PWR010" H 5800 3250 50  0001 C CNN
+F 1 "GND" V 5805 3372 50  0000 R CNN
+F 2 "" H 5800 3500 50  0001 C CNN
+F 3 "" H 5800 3500 50  0001 C CNN
+	1    5800 3500
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5350 3400 5800 3400
 Wire Wire Line
-	5350 3800 5800 3800
-Text HLabel 5800 3500 2    50   Input ~ 0
+	5350 3500 5800 3500
+Text HLabel 5800 3600 2    50   Input ~ 0
 JTMS-SWDIO
-Text HLabel 5800 3700 2    50   Input ~ 0
+Text HLabel 5800 3800 2    50   Input ~ 0
 JTCK-SWCLK
 Wire Wire Line
-	5350 3500 5800 3500
-Wire Wire Line
 	5350 3600 5800 3600
-NoConn ~ 5350 3900
-Text HLabel 5800 3600 2    50   Input ~ 0
-RESET
 Wire Wire Line
 	5350 3700 5800 3700
+Text HLabel 5800 3700 2    50   Input ~ 0
+RESET
+Wire Wire Line
+	5350 3800 5800 3800
 $Bitmap
 Pos 9100 7700
 Scale 1.000000
@@ -895,4 +883,15 @@ C8 24 80 5C 90 49 00 B9 20 93 00 72 41 26 01 E4 82 4C 02 C8 05 99 04 90 0B 32 09
 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 60422C5E
+P 5150 3600
+F 0 "J?" H 5258 3981 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 5258 3890 50  0000 C CNN
+F 2 "" H 5150 3600 50  0001 C CNN
+F 3 "~" H 5150 3600 50  0001 C CNN
+	1    5150 3600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

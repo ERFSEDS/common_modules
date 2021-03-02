@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 21
+Sheet 5 20
 Title "Microcontroller"
 Date "2020-07-02"
 Rev "1"
@@ -7659,7 +7659,7 @@ AR Path="/5F319D4B/5F77D207/5F9B6A06" Ref="USB?"  Part="1"
 AR Path="/5F319D4B/5F9B6A06" Ref="USB1"  Part="1" 
 F 0 "USB1" H 2900 5000 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 3100 4900 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" H 3250 3750 50  0001 C CNN
+F 2 "" H 3250 3750 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/GCT%20PDFs/Ionex_USB_Conn_Br.pdf" H 3250 3750 50  0001 C CNN
 	1    3100 3750
 	1    0    0    -1  
@@ -8051,4 +8051,12 @@ Text Label 3800 3450 0    50   ~ 0
 D+
 Text Label 6100 4000 0    50   ~ 0
 D+
+Wire Wire Line
+	6300 3300 6200 3300
+Wire Wire Line
+	8100 3300 8200 3300
+Text HLabel 8200 3300 2    50   Input ~ 0
+RTS
+Text HLabel 6200 3300 0    50   Output ~ 0
+CTS
 $EndSCHEMATC
