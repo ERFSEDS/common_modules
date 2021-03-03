@@ -7651,20 +7651,6 @@ Text Notes 8850 7400 2    50   Italic 0
 October 10, 2020
 Text Notes 7900 6700 2    50   Italic 0
 HOPE THIS IS GOOD!!
-$Comp
-L Connector:USB_C_Receptacle USB?
-U 1 1 5F9B6A06
-P 3000 3200
-AR Path="/5F319D4B/5F77D207/5F9B6A06" Ref="USB?"  Part="1" 
-AR Path="/5F319D4B/5F9B6A06" Ref="USB1"  Part="1" 
-F 0 "USB1" H 2800 4450 50  0000 C CNN
-F 1 "USB_C_Receptacle" H 3000 4350 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 3150 3200 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/GCT%20PDFs/Ionex_USB_Conn_Br.pdf" H 3150 3200 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/gct/USB4085-GF-A/9859662" H 3000 3200 50  0001 C CNN "Order Link"
-	1    3000 3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3600 2400 4650 2400
 $Comp
@@ -7681,22 +7667,22 @@ F 3 "" H 5200 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2700 4800 2700 5000
+	2700 3700 2700 3900
 Wire Wire Line
-	2700 5000 2850 5000
+	2700 3900 2850 3900
 Wire Wire Line
-	3000 5000 3000 4800
+	3000 3900 3000 3700
 $Comp
 L power:GND #PWR?
 U 1 1 5F9B6A18
-P 2850 5000
+P 2850 3900
 AR Path="/5F319D4B/5F77D207/5F9B6A18" Ref="#PWR?"  Part="1" 
 AR Path="/5F319D4B/5F9B6A18" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 2850 4750 50  0001 C CNN
-F 1 "GND" H 2855 4827 50  0000 C CNN
-F 2 "" H 2850 5000 50  0001 C CNN
-F 3 "" H 2850 5000 50  0001 C CNN
-	1    2850 5000
+F 0 "#PWR0103" H 2850 3650 50  0001 C CNN
+F 1 "GND" H 2855 3727 50  0000 C CNN
+F 2 "" H 2850 3900 50  0001 C CNN
+F 3 "" H 2850 3900 50  0001 C CNN
+	1    2850 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -7835,18 +7821,6 @@ Wire Wire Line
 	5700 2200 5950 2200
 Wire Wire Line
 	5050 2050 5050 2200
-NoConn ~ 3600 2800
-NoConn ~ 3600 3000
-NoConn ~ 3600 3300
-NoConn ~ 3600 3200
-NoConn ~ 3600 3500
-NoConn ~ 3600 3600
-NoConn ~ 3600 3800
-NoConn ~ 3600 3900
-NoConn ~ 3600 4100
-NoConn ~ 3600 4200
-NoConn ~ 3600 4400
-NoConn ~ 3600 4500
 $Comp
 L FT232RL-REEL:FT232RL-REEL U?
 U 1 1 5F9B7DFA
@@ -7860,9 +7834,9 @@ F 3 "Future Technology Devices International Ltd" H 7200 3600 50  0001 L BNN
 	1    7200 3600
 	1    0    0    -1  
 $EndComp
-Connection ~ 2850 5000
+Connection ~ 2850 3900
 Wire Wire Line
-	2850 5000 3000 5000
+	2850 3900 3000 3900
 Wire Wire Line
 	4950 2400 5100 2400
 Wire Wire Line
@@ -8152,4 +8126,16 @@ Wire Wire Line
 Connection ~ 5250 4350
 Wire Wire Line
 	5250 4350 5250 4450
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J7
+U 1 1 603FA324
+P 3000 2800
+F 0 "J7" H 3107 3667 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 3107 3576 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 3150 2800 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3150 2800 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/gct/USB4085-GF-A/9859662" H 3000 2800 50  0001 C CNN "Order Link"
+	1    3000 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
