@@ -8138,4 +8138,8 @@ F 4 "https://www.digikey.com/en/products/detail/gct/USB4085-GF-A/9859662" H 3000
 	1    3000 2800
 	1    0    0    -1  
 $EndComp
+NoConn ~ 3600 2800
+NoConn ~ 3600 3000
+NoConn ~ 3600 3300
+NoConn ~ 3600 3400
 $EndSCHEMATC
