@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GPS:FGPMMOPA6H-FGPMMOPA6H IC1
+L FGPMMOPA6H:FGPMMOPA6H IC1
 U 1 1 602030A1
 P 4700 3280
 AR Path="/602030A1" Ref="IC1"  Part="1" 
@@ -23,14 +23,10 @@ F 0 "IC1" H 5400 3545 50  0000 C CNN
 F 1 "MTK3339" H 5400 3454 50  0000 C CNN
 F 2 "gps:FGPMMOPA6H" H 5950 3380 50  0001 L CNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/GlobalTop-FGPMMOPA6H-Datasheet-V0A.pdf" H 5950 3280 50  0001 L CNN
-F 4 "GPS Standalone Module, 20-pin" H 5950 3180 50  0001 L CNN "Description"
-F 5 "" H 5950 3080 50  0001 L CNN "Height"
+F 4 "https://www.adafruit.com/product/790#description" H 5950 2780 50  0001 L CNN "Adafruit Order Link"
+F 5 "GPS Standalone Module, 20-pin" H 5950 3180 50  0001 L CNN "Description"
 F 6 "GlobalTop Technology Inc." H 5950 2980 50  0001 L CNN "Manufacturer_Name"
 F 7 "FGPMMOPA6H" H 5950 2880 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 5950 2780 50  0001 L CNN "Mouser Part Number"
-F 9 "" H 5950 2680 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 5950 2580 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 5950 2480 50  0001 L CNN "Arrow Price/Stock"
 	1    4700 3280
 	1    0    0    -1  
 $EndComp
@@ -114,7 +110,8 @@ P 3910 4250
 F 0 "D1" V 4000 4360 50  0000 R CNN
 F 1 "LED" V 3810 4390 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3910 4250 50  0001 C CNN
-F 3 "~" H 3910 4250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/216/AA1608SURSK-1951973.pdf" H 3910 4250 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Kingbright/AA1608SURSK/?qs=eP2BKZSCXI6pqonvuMmTFg%3D%3D" V 3910 4250 50  0001 C CNN "Mouser Order Link"
 	1    3910 4250
 	0    -1   -1   0   
 $EndComp
@@ -298,26 +295,28 @@ F 0 "BT1" V 3134 4240 50  0000 L CNN
 F 1 "BATT" V 3330 4110 50  0000 L CNN
 F 2 "gps:BAT_120591-1" H 3180 4110 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=408-8381&DocType=SS&DocLang=EN" H 3180 4110 50  0001 L BNN
-F 4 "H" H 3180 4110 50  0001 L BNN "PARTREV"
-F 5 "MANUFACTURER RECOMMENDATIONS" H 3180 4110 50  0001 L BNN "STANDARD"
-F 6 "TE CONNECTIVITY" H 3180 4110 50  0001 L BNN "MANUFACTURER"
-F 7 "https://www.grainger.com/product/54ZU76?cm_mmc=PPC:+Google+PLA&ef_id=Cj0KCQiAyJOBBhDCARIsAJG2h5dG1I9HA8Y-1Jy0dn5zxa4oarU4HCvy6Nmy-2u_cFKtvLr5jTa34UcaAlkAEALw_wcB:G:s&s_kwcid=AL!2966!3!281698275288!!!g!472902723078!&gucid=N:N:PS:Paid:GGL:CSM-2295:4P7A1P:20501231&gclid=Cj0KCQiAyJOBBhDCARIsAJG2h5dG1I9HA8Y-1Jy0dn5zxa4oarU4HCvy6Nmy-2u_cFKtvLr5jTa34UcaAlkAEALw_wcB" V 3180 4110 50  0001 C CNN "Battery coin cell"
+F 4 "https://www.mouser.com/ProductDetail/TE-Connectivity/120591-1/?qs=cB%252bprIo57OeZ1n1mnEiYEw%3D%3D&gclid=Cj0KCQiAyoeCBhCTARIsAOfpKxhiRHlfbtJ4T5cthMqmPlLASLaTFf-VZOFzNS6P-S40gg6FOagnHlkaAnC9EALw_wcB" V 3180 4110 50  0001 C CNN "Mouser Order Link"
+F 5 "$2.27" V 3180 4110 50  0001 C CNN "Price "
+F 6 "https://www.grainger.com/product/54ZU76?cm_mmc=PPC:+Google+PLA&ef_id=Cj0KCQiAyJOBBhDCARIsAJG2h5dG1I9HA8Y-1Jy0dn5zxa4oarU4HCvy6Nmy-2u_cFKtvLr5jTa34UcaAlkAEALw_wcB:G:s&s_kwcid=AL!2966!3!281698275288!!!g!472902723078!&gucid=N:N:PS:Paid:GGL:CSM-2295:4P7A1P:20501231&gclid=Cj0KCQiAyJOBBhDCARIsAJG2h5dG1I9HA8Y-1Jy0dn5zxa4oarU4HCvy6Nmy-2u_cFKtvLr5jTa34UcaAlkAEALw_wcB" V 3180 4110 50  0001 C CNN "Battery coin cell"
+F 7 "H" H 3180 4110 50  0001 L BNN "PARTREV"
+F 8 "MANUFACTURER RECOMMENDATIONS" H 3180 4110 50  0001 L BNN "STANDARD"
+F 9 "TE CONNECTIVITY" H 3180 4110 50  0001 L BNN "MANUFACTURER"
 	1    3180 4110
 	0    1    1    0   
 $EndComp
 $Comp
-L SMT:U.FL-R-SMT(10) J2
+L U.FL-R-SMT_10_:U.FL-R-SMT(10) J2
 U 1 1 6034230D
 P 6770 4170
 F 0 "J2" H 6610 4114 50  0000 R CNN
 F 1 "U.FL-R-SMT(10)" H 6610 4205 50  0000 R CNN
 F 2 "gps:HRS_U.FL-R-SMT(10)" H 6770 4170 50  0001 L BNN
-F 3 "" H 6770 4170 50  0001 L BNN
-F 4 "None" H 6770 4170 50  0001 L BNN "PRICE"
-F 5 "FakePackage u" H 6770 4170 50  0001 L BNN "PACKAGE"
-F 6 "Hirose" H 6770 4170 50  0001 L BNN "MF"
-F 7 "U.FL Series 50 Ohm Receptacle Male Pins Ultra Small SMT Coaxial Connector" H 6770 4170 50  0001 L BNN "DESCRIPTION"
-F 8 "Unavailable" H 6770 4170 50  0001 L BNN "AVAILABILITY"
+F 3 "https://www.mouser.com/datasheet/2/185/U.FL_catalog-939761.pdf" H 6770 4170 50  0001 L BNN
+F 4 "https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT10/?qs=Ux3WWAnHpjBT1CWD8UMEMQ%3D%3D" H 6770 4170 50  0001 C CNN "Mouser Order Link"
+F 5 "$1.26" H 6770 4170 50  0001 L BNN "PRICE"
+F 6 "https://www.mouser.com/ProductDetail/Linx-Technologies/CSJ-RGFB-100-MHF4?qs=wnTfsH77Xs7%252BPoXIKM672Q%3D%3D&mgh=1&gclid=Cj0KCQiAyoeCBhCTARIsAOfpKxgnKh4w1IuNSV_W1QrrNbA83laTBCTBs5pqCXZLcJA1DrnUFEzFSHUaAnv0EALw_wcB" H 6770 4170 50  0001 C CNN "UFL -> SMA Order"
+F 7 "Hirose" H 6770 4170 50  0001 L BNN "MF"
+F 8 "U.FL Series 50 Ohm Receptacle Male Pins Ultra Small SMT Coaxial Connector" H 6770 4170 50  0001 L BNN "DESCRIPTION"
 F 9 "U.FL-R-SMT_10_" H 6770 4170 50  0001 L BNN "MP"
 	1    6770 4170
 	-1   0    0    1   
@@ -338,9 +337,10 @@ L FBMH1608HL601-T:FBMH1608HL601-T FB1
 U 1 1 60341F0A
 P 3290 3280
 F 0 "FB1" H 3290 3597 50  0000 C CNN
-F 1 "FBMH1608HL601-T" H 3290 3506 50  0000 C CNN
+F 1 "600 Ohm" H 3290 3506 50  0000 C CNN
 F 2 "gps:BEADC1608X90N" H 3290 3280 50  0001 L BNN
-F 3 "" H 3290 3280 50  0001 L BNN
+F 3 "https://www.yuden.co.jp/productdata/catalog/chipbeads01_e.pdf" H 3290 3280 50  0001 L BNN
+F 4 "https://www.digikey.com/en/products/detail/taiyo-yuden/FBMH1608HL601-T/957787" H 3290 3280 50  0001 C CNN "DigiKey Order Link"
 	1    3290 3280
 	1    0    0    -1  
 $EndComp
