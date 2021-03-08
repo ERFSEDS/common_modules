@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name 120591-1)(type Legacy)(uri ${KIPRJMOD}/../gps_symbols/120591-1.lib)(options "")(descr ""))
+  (lib (name FBMH1608HL601-T)(type Legacy)(uri ${KIPRJMOD}/../gps_symbols/FBMH1608HL601-T.lib)(options "")(descr ""))
+  (lib (name FGPMMOPA6H)(type Legacy)(uri ${KIPRJMOD}/../gps_symbols/FGPMMOPA6H.lib)(options "")(descr ""))
+  (lib (name U.FL-R-SMT_10_)(type Legacy)(uri ${KIPRJMOD}/../gps_symbols/U.FL-R-SMT_10_.lib)(options "")(descr ""))
+)
