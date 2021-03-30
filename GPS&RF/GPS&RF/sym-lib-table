@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name 142-0701-201)(type Legacy)(uri C:/Users/surfs/OneDrive/Desktop/Nova_Flight_Computer/Electrical/Common_Modules/GPS&RF/Symbols/142-0701-201.lib)(options "")(descr ""))
+  (lib (name 142-0701-801)(type Legacy)(uri C:/Users/surfs/OneDrive/Desktop/Nova_Flight_Computer/Electrical/Common_Modules/GPS&RF/Symbols/142-0701-801.lib)(options "")(descr ""))
+  (lib (name 120591-1)(type Legacy)(uri C:/Users/surfs/OneDrive/Desktop/Nova_Flight_Computer/Electrical/Common_Modules/GPS&RF/Symbols/120591-1.lib)(options "")(descr ""))
+  (lib (name FBMH1608HL601-T)(type Legacy)(uri C:/Users/surfs/OneDrive/Desktop/Nova_Flight_Computer/Electrical/Common_Modules/GPS&RF/Symbols/FBMH1608HL601-T.lib)(options "")(descr ""))
+  (lib (name FGPMMOPA6H)(type Legacy)(uri C:/Users/surfs/OneDrive/Desktop/Nova_Flight_Computer/Electrical/Common_Modules/GPS&RF/Symbols/FGPMMOPA6H.lib)(options "")(descr ""))
+  (lib (name lambda-9s-global)(type Legacy)(uri C:/Users/surfs/OneDrive/Desktop/Nova_Flight_Computer/Electrical/Common_Modules/GPS&RF/Symbols/lambda-9s-global.lib)(options "")(descr ""))
+  (lib (name SMA_CONNECTOR)(type Legacy)(uri C:/Users/surfs/OneDrive/Desktop/Nova_Flight_Computer/Electrical/Common_Modules/GPS&RF/Symbols/SMA_CONNECTOR.lib)(options "")(descr ""))
+  (lib (name U.FL-R-SMT_10_)(type Legacy)(uri C:/Users/surfs/OneDrive/Desktop/Nova_Flight_Computer/Electrical/Common_Modules/GPS&RF/Symbols/U.FL-R-SMT_10_.lib)(options "")(descr ""))
+)
