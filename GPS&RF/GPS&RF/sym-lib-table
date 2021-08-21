@@ -7,4 +7,5 @@
   (lib (name lambda-9s-global)(type Legacy)(uri C:/Users/surfs/OneDrive/Desktop/Nova_Flight_Computer/Electrical/Common_Modules/GPS&RF/Symbols/lambda-9s-global.lib)(options "")(descr ""))
   (lib (name SMA_CONNECTOR)(type Legacy)(uri C:/Users/surfs/OneDrive/Desktop/Nova_Flight_Computer/Electrical/Common_Modules/GPS&RF/Symbols/SMA_CONNECTOR.lib)(options "")(descr ""))
   (lib (name U.FL-R-SMT_10_)(type Legacy)(uri C:/Users/surfs/OneDrive/Desktop/Nova_Flight_Computer/Electrical/Common_Modules/GPS&RF/Symbols/U.FL-R-SMT_10_.lib)(options "")(descr ""))
+  (lib (name GPS&RF-rescue)(type Legacy)(uri ${KIPRJMOD}/GPS&RF-rescue.lib)(options "")(descr ""))
 )

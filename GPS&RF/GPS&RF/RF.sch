@@ -14,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L lambda-9s-global:LAMBDA-9S-Global U1
+L GPS&RF-rescue:LAMBDA-9S-Global-lambda-9s-global U1
 U 1 1 606260CA
 P 5030 3580
+AR Path="/60625EDB/606260CA" Ref="U1"  Part="1" 
+AR Path="/606260CA" Ref="U1"  Part="1" 
 F 0 "U1" H 5130 3705 50  0000 C CNN
 F 1 "LAMBDA-9S-Global" H 5130 3614 50  0000 C CNN
 F 2 "gps:LAMBDA-9S" H 5030 3580 50  0001 C CNN
@@ -39,8 +41,6 @@ Wire Wire Line
 	4630 3980 4450 3980
 Wire Wire Line
 	4630 4080 4450 4080
-Wire Wire Line
-	4630 4180 4450 4180
 Wire Wire Line
 	5810 4080 5630 4080
 Wire Wire Line
@@ -114,8 +114,6 @@ Text HLabel 4450 3980 0    50   Input ~ 0
 RX
 Text HLabel 4450 4080 0    50   Input ~ 0
 TX
-Text HLabel 4450 4180 0    50   Input ~ 0
-DIO
 Text HLabel 5810 3680 2    50   Input ~ 0
 CS
 Text HLabel 5810 3780 2    50   Input ~ 0
@@ -133,4 +131,5 @@ NoConn ~ 4630 4280
 NoConn ~ 4630 4380
 Text Notes 6370 3630 2    50   ~ 0
 DEVICE ACTIVE LOW
+NoConn ~ 4630 4180
 $EndSCHEMATC

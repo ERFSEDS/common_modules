@@ -14,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L lambda-9s-global:LAMBDA-9S-Global U1
+L GPS&RF-rescue:LAMBDA-9S-Global-lambda-9s-global U1
 U 1 1 606260CA
 P 5030 3580
+AR Path="/60625EDB/606260CA" Ref="U1"  Part="1" 
+AR Path="/606260CA" Ref="U1"  Part="1" 
 F 0 "U1" H 5130 3705 50  0000 C CNN
 F 1 "LAMBDA-9S-Global" H 5130 3614 50  0000 C CNN
 F 2 "gps:LAMBDA-9S" H 5030 3580 50  0001 C CNN
@@ -39,8 +41,6 @@ Wire Wire Line
 	4630 3980 4450 3980
 Wire Wire Line
 	4630 4080 4450 4080
-Wire Wire Line
-	4630 4180 4450 4180
 Wire Wire Line
 	5810 4080 5630 4080
 Wire Wire Line
@@ -114,8 +114,6 @@ Text HLabel 4450 3980 0    50   Input ~ 0
 RX
 Text HLabel 4450 4080 0    50   Input ~ 0
 TX
-Text HLabel 4450 4180 0    50   Input ~ 0
-DIO
 Text HLabel 5810 3680 2    50   Input ~ 0
 CS
 Text HLabel 5810 3780 2    50   Input ~ 0
@@ -131,50 +129,7 @@ NoConn ~ 5630 4280
 NoConn ~ 5630 4380
 NoConn ~ 4630 4280
 NoConn ~ 4630 4380
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 606323A1
-P 6880 3650
-F 0 "H1" H 6980 3696 50  0000 L CNN
-F 1 "MountingHole" H 6980 3605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 6880 3650 50  0001 C CNN
-F 3 "~" H 6880 3650 50  0001 C CNN
-	1    6880 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 60632656
-P 6880 3850
-F 0 "H2" H 6980 3896 50  0000 L CNN
-F 1 "MountingHole" H 6980 3805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 6880 3850 50  0001 C CNN
-F 3 "~" H 6880 3850 50  0001 C CNN
-	1    6880 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 606329F3
-P 6880 4060
-F 0 "H3" H 6980 4106 50  0000 L CNN
-F 1 "MountingHole" H 6980 4015 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 6880 4060 50  0001 C CNN
-F 3 "~" H 6880 4060 50  0001 C CNN
-	1    6880 4060
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 60632E64
-P 6880 4270
-F 0 "H4" H 6980 4316 50  0000 L CNN
-F 1 "MountingHole" H 6980 4225 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 6880 4270 50  0001 C CNN
-F 3 "~" H 6880 4270 50  0001 C CNN
-	1    6880 4270
-	1    0    0    -1  
-$EndComp
 Text Notes 6370 3630 2    50   ~ 0
 DEVICE ACTIVE LOW
+NoConn ~ 4630 4180
 $EndSCHEMATC
