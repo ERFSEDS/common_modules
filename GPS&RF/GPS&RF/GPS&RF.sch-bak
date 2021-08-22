@@ -19,15 +19,17 @@ U 60625D95
 F0 "GPS" 50
 F1 "GPS.sch" 50
 F2 "NRESET" I R 4610 3070 50 
-F3 "1PPS" I R 4610 3290 50 
+F3 "1PPS" I R 4610 3270 50 
+F4 "TX_D2" I R 4610 3460 50 
+F5 "RX_D2" I R 4610 3660 50 
 $EndSheet
 $Sheet
 S 7360 2650 2840 2820
 U 60625EDB
 F0 "RF" 50
 F1 "RF.sch" 50
-F2 "RX" I L 7360 2990 50 
-F3 "TX" I L 7360 3210 50 
+F2 "RX_D1" I L 7360 2990 50 
+F3 "TX_D1" I L 7360 3210 50 
 F4 "CS" I L 7360 3430 50 
 F5 "MOSI" I L 7360 3660 50 
 F6 "MISO" I L 7360 3890 50 
@@ -37,7 +39,7 @@ $EndSheet
 Wire Wire Line
 	4610 3070 4980 3070
 Wire Wire Line
-	4610 3290 4980 3290
+	4610 3270 4980 3270
 Wire Wire Line
 	6990 2990 7360 2990
 Wire Wire Line
@@ -52,10 +54,10 @@ Wire Wire Line
 	6990 4140 7360 4140
 Wire Wire Line
 	6990 4370 7360 4370
-Text Label 7180 2990 0    50   ~ 0
-TX
-Text Label 7170 3210 0    50   ~ 0
-RX
+Text Label 7130 2990 0    50   ~ 0
+TX_D1
+Text Label 7120 3210 0    50   ~ 0
+RX_D1
 Text Label 7160 3430 0    50   ~ 0
 CS
 Text Label 7150 3660 0    50   ~ 0
@@ -68,7 +70,7 @@ Text Label 7110 4370 0    50   ~ 0
 RFRST
 Text Label 4640 3070 0    50   ~ 0
 GPSRST
-Text Label 4650 3290 0    50   ~ 0
+Text Label 4650 3270 0    50   ~ 0
 1PPS
 $Comp
 L Connector:Conn_01x13_Male J2
@@ -136,20 +138,34 @@ Wire Wire Line
 Wire Wire Line
 	3020 7030 2650 7030
 Text Label 2750 6930 0    50   ~ 0
-RX
+RX_D1
 Text Label 2750 7030 0    50   ~ 0
-TX
-NoConn ~ 2650 6330
-NoConn ~ 2650 6430
+TX_D1
 $Comp
-L power:PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG0102
 U 1 1 612340ED
-P 2620 6230
-F 0 "#FLG?" H 2620 6305 50  0001 C CNN
-F 1 "PWR_FLAG" V 2620 5790 50  0000 L CNN
-F 2 "" H 2620 6230 50  0001 C CNN
-F 3 "~" H 2620 6230 50  0001 C CNN
-	1    2620 6230
+P 2650 6230
+F 0 "#FLG0102" H 2650 6305 50  0001 C CNN
+F 1 "PWR_FLAG" V 2650 5770 50  0000 L CNN
+F 2 "" H 2650 6230 50  0001 C CNN
+F 3 "~" H 2650 6230 50  0001 C CNN
+	1    2650 6230
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	4610 3460 4980 3460
+Wire Wire Line
+	4610 3660 4980 3660
+Text Label 4650 3460 0    50   ~ 0
+RX_D2
+Text Label 4650 3660 0    50   ~ 0
+TX_D2
+Wire Wire Line
+	2650 6430 3020 6430
+Wire Wire Line
+	2650 6330 3020 6330
+Text Label 2760 6330 0    50   ~ 0
+RX_D2
+Text Label 2760 6430 0    50   ~ 0
+TX_D2
 $EndSCHEMATC

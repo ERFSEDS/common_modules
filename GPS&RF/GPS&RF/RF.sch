@@ -90,7 +90,7 @@ U 1 1 60628A6B
 P 4080 3470
 F 0 "C1" H 4195 3516 50  0000 L CNN
 F 1 "100nF" H 4110 3380 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4118 3320 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4118 3320 50  0001 C CNN
 F 3 "~" H 4080 3470 50  0001 C CNN
 	1    4080 3470
 	1    0    0    -1  
@@ -111,9 +111,9 @@ $EndComp
 Wire Wire Line
 	4080 3140 4080 3320
 Text HLabel 4450 3980 0    50   Input ~ 0
-RX
+RX_D1
 Text HLabel 4450 4080 0    50   Input ~ 0
-TX
+TX_D1
 Text HLabel 5810 3680 2    50   Input ~ 0
 CS
 Text HLabel 5810 3780 2    50   Input ~ 0
