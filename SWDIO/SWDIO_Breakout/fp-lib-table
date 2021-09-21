@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name .pretty)(type KiCad)(uri C:/ERFSEDS/CERBERUS/common_modules/SWDIO/Footprints/.pretty)(options "")(descr ""))
+)
