@@ -1,0 +1,172 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R2
+U 1 1 6154AF5A
+P 4650 3750
+F 0 "R2" V 4443 3750 50  0000 C CNN
+F 1 "R" V 4534 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4580 3750 50  0001 C CNN
+F 3 "~" H 4650 3750 50  0001 C CNN
+	1    4650 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 6154E241
+P 4650 3300
+F 0 "D2" H 4643 3517 50  0000 C CNN
+F 1 "LED" H 4643 3426 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 4650 3300 50  0001 C CNN
+F 3 "~" H 4650 3300 50  0001 C CNN
+	1    4650 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 6154EEAB
+P 4650 2950
+F 0 "#PWR03" H 4650 2700 50  0001 C CNN
+F 1 "GND" H 4655 2777 50  0000 C CNN
+F 2 "" H 4650 2950 50  0001 C CNN
+F 3 "" H 4650 2950 50  0001 C CNN
+	1    4650 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 3900 4650 4250
+Wire Wire Line
+	4650 3450 4650 3600
+Wire Wire Line
+	4650 2950 4650 3150
+$Comp
+L power:+5V #PWR01
+U 1 1 6155E49C
+P 3750 4250
+F 0 "#PWR01" H 3750 4100 50  0001 C CNN
+F 1 "+5V" H 3765 4423 50  0000 C CNN
+F 2 "" H 3750 4250 50  0001 C CNN
+F 3 "" H 3750 4250 50  0001 C CNN
+	1    3750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6155E4A3
+P 5500 3750
+F 0 "R1" V 5293 3750 50  0000 C CNN
+F 1 "R" V 5384 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5430 3750 50  0001 C CNN
+F 3 "~" H 5500 3750 50  0001 C CNN
+	1    5500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 6155E4A9
+P 5500 3300
+F 0 "D1" H 5493 3517 50  0000 C CNN
+F 1 "LED" H 5493 3426 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5500 3300 50  0001 C CNN
+F 3 "~" H 5500 3300 50  0001 C CNN
+	1    5500 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 6155E4AF
+P 5500 2950
+F 0 "#PWR02" H 5500 2700 50  0001 C CNN
+F 1 "GND" H 5505 2777 50  0000 C CNN
+F 2 "" H 5500 2950 50  0001 C CNN
+F 3 "" H 5500 2950 50  0001 C CNN
+	1    5500 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 3900 5500 4250
+Wire Wire Line
+	5500 3450 5500 3600
+Wire Wire Line
+	5500 2950 5500 3150
+Connection ~ 4650 4250
+Text HLabel 6100 4250 2    50   Output ~ 0
+ArmingSwitch
+Wire Wire Line
+	5500 4250 5700 4250
+Connection ~ 5500 4250
+Wire Wire Line
+	5700 4150 5700 4050
+Wire Wire Line
+	6000 4050 6000 4250
+Wire Wire Line
+	6000 4250 6100 4250
+Wire Wire Line
+	4650 4250 4950 4250
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 615BBA8C
+P 5150 4250
+F 0 "J2" H 5258 4431 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5258 4340 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5150 4250 50  0001 C CNN
+F 3 "~" H 5150 4250 50  0001 C CNN
+	1    5150 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 4250 5250 4050
+Wire Wire Line
+	5250 4050 4950 4050
+Wire Wire Line
+	4950 4050 4950 4150
+Wire Wire Line
+	5250 4250 5500 4250
+Wire Wire Line
+	6000 4050 5700 4050
+Wire Wire Line
+	4400 4250 4650 4250
+Wire Wire Line
+	4400 4250 4400 4050
+Wire Wire Line
+	4400 4050 4100 4050
+Wire Wire Line
+	4100 4050 4100 4150
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 615BF4D9
+P 4300 4250
+F 0 "J1" H 4408 4431 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4408 4340 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4300 4250 50  0001 C CNN
+F 3 "~" H 4300 4250 50  0001 C CNN
+	1    4300 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3750 4250 4100 4250
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 615B4D77
+P 5900 4250
+F 0 "J3" H 6008 4431 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6008 4340 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5900 4250 50  0001 C CNN
+F 3 "~" H 5900 4250 50  0001 C CNN
+	1    5900 4250
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
