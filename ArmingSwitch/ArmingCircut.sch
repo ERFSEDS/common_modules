@@ -89,8 +89,6 @@ Wire Wire Line
 	5500 3900 5500 4250
 Wire Wire Line
 	4650 3450 4650 3600
-Wire Wire Line
-	5500 2950 5500 3150
 Connection ~ 4650 4250
 Text HLabel 6100 4250 2    50   Output ~ 0
 ArmingSwitch
@@ -105,17 +103,6 @@ Wire Wire Line
 	6000 4250 6100 4250
 Wire Wire Line
 	4650 4250 4950 4250
-$Comp
-L Connector:Conn_01x02_Male J2
-U 1 1 615BBA8C
-P 5150 4250
-F 0 "J2" H 5258 4431 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 5258 4340 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5150 4250 50  0001 C CNN
-F 3 "~" H 5150 4250 50  0001 C CNN
-	1    5150 4250
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5250 4250 5250 4050
 Wire Wire Line
@@ -134,30 +121,8 @@ Wire Wire Line
 	4400 4050 4100 4050
 Wire Wire Line
 	4100 4050 4100 4150
-$Comp
-L Connector:Conn_01x02_Male J1
-U 1 1 615BF4D9
-P 4300 4250
-F 0 "J1" H 4408 4431 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 4408 4340 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4300 4250 50  0001 C CNN
-F 3 "~" H 4300 4250 50  0001 C CNN
-	1    4300 4250
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3750 4250 4100 4250
-$Comp
-L Connector:Conn_01x02_Male J3
-U 1 1 615B4D77
-P 5900 4250
-F 0 "J3" H 6008 4431 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 6008 4340 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5900 4250 50  0001 C CNN
-F 3 "~" H 5900 4250 50  0001 C CNN
-	1    5900 4250
-	-1   0    0    1   
-$EndComp
 $Comp
 L Device:R R2
 U 1 1 6154AF5A
@@ -169,4 +134,39 @@ F 3 "~" H 5500 3750 50  0001 C CNN
 	1    5500 3750
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 6155E93E
+P 4300 4150
+F 0 "J1" H 4250 3850 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 3900 3950 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 4300 4150 50  0001 C CNN
+F 3 "~" H 4300 4150 50  0001 C CNN
+	1    4300 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 61561F80
+P 5150 4150
+F 0 "J2" H 5100 3850 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 4750 3950 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5150 4150 50  0001 C CNN
+F 3 "~" H 5150 4150 50  0001 C CNN
+	1    5150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 61562435
+P 5900 4150
+F 0 "J3" H 5850 3850 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 5500 3950 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5900 4150 50  0001 C CNN
+F 3 "~" H 5900 4150 50  0001 C CNN
+	1    5900 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3150 5500 2950
 $EndSCHEMATC
