@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 6)
+    (drawings 8)
     (tracks 24)
     (zones 0)
     (modules 7)
@@ -354,13 +354,15 @@
     )
   )
 
+  (gr_line (start 133.35 101.6) (end 133.35 102.87) (layer Edge.Cuts) (width 0.1) (tstamp 61553424))
+  (gr_line (start 161.29 101.6) (end 161.29 102.87) (layer Edge.Cuts) (width 0.1) (tstamp 61553421))
   (gr_text "Arming\nSwitch" (at 147.32 115.57) (layer F.Cu)
     (effects (font (size 0.75 0.75) (thickness 0.125)))
   )
   (gr_line (start 161.29 116.84) (end 161.29 115.57) (layer Edge.Cuts) (width 0.1) (tstamp 6154E60E))
   (gr_line (start 133.35 116.84) (end 161.29 116.84) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 133.35 102.87) (end 133.35 116.84) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 161.29 102.87) (end 133.35 102.87) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 161.29 101.6) (end 133.35 101.6) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 161.29 115.57) (end 161.29 102.87) (layer Edge.Cuts) (width 0.1))
 
   (segment (start 136.605 108.505) (end 137.16 107.95) (width 0.25) (layer F.Cu) (net 0))
