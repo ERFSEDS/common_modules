@@ -13,126 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Nova_Microcontroller:Crystal_GND24 Y1
-U 1 1 5EE6B82C
-P 5850 3300
-F 0 "Y1" H 5800 4050 50  0000 L CNN
-F 1 "ECS-260-8-36B-CKY-TR" H 5350 3950 50  0000 L CNN
-F 2 "NOVA MCU (STM):ECX-2236B" H 5850 3300 50  0001 C CNN
-F 3 "https://ecsxtal.com/store/pdf/ECX-2236B.pdf" H 5850 3300 50  0001 C CNN
-	1    5850 3300
-	1    0    0    -1  
-$EndComp
-Text HLabel 6400 3300 2    50   Input ~ 0
-CLOCKIN
-Text HLabel 4950 3300 0    50   Output ~ 0
-CLOCKOUT
-$Comp
-L power:GND #PWR025
-U 1 1 5EE6F36D
-P 5850 3700
-F 0 "#PWR025" H 5850 3450 50  0001 C CNN
-F 1 "GND" H 5855 3527 50  0000 C CNN
-F 2 "" H 5850 3700 50  0001 C CNN
-F 3 "" H 5850 3700 50  0001 C CNN
-	1    5850 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR024
-U 1 1 5EE6FC19
-P 5850 2900
-F 0 "#PWR024" H 5850 2650 50  0001 C CNN
-F 1 "GND" H 5855 2727 50  0000 C CNN
-F 2 "" H 5850 2900 50  0001 C CNN
-F 3 "" H 5850 2900 50  0001 C CNN
-	1    5850 2900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5850 3700 5850 3600
-Wire Wire Line
-	5850 3100 5850 2900
-$Comp
-L Nova_Microcontroller:Crystal Y2
-U 1 1 5EE717EC
-P 5900 4450
-F 0 "Y2" H 5900 4718 50  0000 C CNN
-F 1 "JTX310" H 5900 4627 50  0000 C CNN
-F 2 "NOVA MCU (STM):JTX310" H 5900 4450 50  0001 C CNN
-F 3 "https://www.jauch.com/downloadfile/57fde22d50dbf_d3c203011c87952f2834/jtx310-auto-2-210512.pdf" H 5900 4450 50  0001 C CNN
-	1    5900 4450
-	1    0    0    -1  
-$EndComp
-Text HLabel 6900 4450 2    50   Input ~ 0
-RTCCRYSTALIN
-Text HLabel 5050 4450 0    50   Output ~ 0
-RTCCRYSTALOUT
-Connection ~ 5850 3600
-Wire Wire Line
-	5850 3600 5850 3500
-Wire Wire Line
-	5850 3600 6200 3600
-$Comp
-L Device:C C?
-U 1 1 5EE74A4A
-P 5450 4600
-AR Path="/5EE74A4A" Ref="C?"  Part="1" 
-AR Path="/5EE654BB/5EE655E0/5EE74A4A" Ref="C?"  Part="1" 
-AR Path="/5F319C9C/5EE74A4A" Ref="C18"  Part="1" 
-F 0 "C18" H 5565 4646 50  0000 L CNN
-F 1 "18pf" H 5565 4555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5488 4450 50  0001 C CNN
-F 3 "~" H 5450 4600 50  0001 C CNN
-	1    5450 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5EE7523E
-P 6400 4600
-AR Path="/5EE7523E" Ref="C?"  Part="1" 
-AR Path="/5EE654BB/5EE655E0/5EE7523E" Ref="C?"  Part="1" 
-AR Path="/5F319C9C/5EE7523E" Ref="C21"  Part="1" 
-F 0 "C21" H 6515 4646 50  0000 L CNN
-F 1 "18pf" H 6515 4555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6438 4450 50  0001 C CNN
-F 3 "~" H 6400 4600 50  0001 C CNN
-	1    6400 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5450 4750 5950 4750
-$Comp
-L power:GND #PWR026
-U 1 1 5EE75B51
-P 5950 4750
-F 0 "#PWR026" H 5950 4500 50  0001 C CNN
-F 1 "GND" H 5955 4577 50  0000 C CNN
-F 2 "" H 5950 4750 50  0001 C CNN
-F 3 "" H 5950 4750 50  0001 C CNN
-	1    5950 4750
-	1    0    0    -1  
-$EndComp
-Connection ~ 5950 4750
-Wire Wire Line
-	5950 4750 6400 4750
-Wire Wire Line
-	5500 3600 5850 3600
-Wire Wire Line
-	5100 3300 4950 3300
-$Comp
-L Device:R_US R4
-U 1 1 5EE707DE
-P 5250 3300
-F 0 "R4" V 5045 3300 50  0000 C CNN
-F 1 "10k" V 5136 3300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5290 3290 50  0001 C CNN
-F 3 "~" H 5250 3300 50  0001 C CNN
-	1    5250 3300
-	0    1    1    0   
-$EndComp
 $Bitmap
 Pos 9100 7700
 Scale 0.250000
@@ -7767,20 +7647,9 @@ C8 58 4D 2A 25 01 58 BA C4 D5 64 3F 3A 43 29 09 C0 0B 90 38 26 BB 65 54 0D 70 05
 FD 2F F4 F9 A0 3B 67 FA D8 61 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-$Comp
-L Device:C C?
-U 1 1 5EE74215
-P 6200 3450
-AR Path="/5EE74215" Ref="C?"  Part="1" 
-AR Path="/5EE654BB/5EE655E0/5EE74215" Ref="C?"  Part="1" 
-AR Path="/5F319C9C/5EE74215" Ref="C20"  Part="1" 
-F 0 "C20" H 6315 3496 50  0000 L CNN
-F 1 "10pf" H 6315 3405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6238 3300 50  0001 C CNN
-F 3 "~" H 6200 3450 50  0001 C CNN
-	1    6200 3450
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	5400 3300 5500 3300
+Connection ~ 5500 3300
 $Comp
 L Device:C C?
 U 1 1 5EE73815
@@ -7796,23 +7665,160 @@ F 3 "~" H 5500 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 3300 6200 3300
-Wire Wire Line
-	5050 4450 5450 4450
-Wire Wire Line
-	6050 4450 6400 4450
-Wire Wire Line
-	5400 3300 5500 3300
-Connection ~ 5500 3300
-Wire Wire Line
-	5500 3300 5700 3300
-Connection ~ 6200 3300
-Wire Wire Line
 	6200 3300 6400 3300
-Connection ~ 5450 4450
 Wire Wire Line
-	5450 4450 5750 4450
-Connection ~ 6400 4450
+	6000 3300 6200 3300
+Connection ~ 6200 3300
+$Comp
+L Device:C C?
+U 1 1 5EE74215
+P 6200 3450
+AR Path="/5EE74215" Ref="C?"  Part="1" 
+AR Path="/5EE654BB/5EE655E0/5EE74215" Ref="C?"  Part="1" 
+AR Path="/5F319C9C/5EE74215" Ref="C20"  Part="1" 
+F 0 "C20" H 6315 3496 50  0000 L CNN
+F 1 "10pf" H 6315 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6238 3300 50  0001 C CNN
+F 3 "~" H 6200 3450 50  0001 C CNN
+	1    6200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 5EE707DE
+P 5250 3300
+F 0 "R4" V 5045 3300 50  0000 C CNN
+F 1 "10k" V 5136 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5290 3290 50  0001 C CNN
+F 3 "~" H 5250 3300 50  0001 C CNN
+	1    5250 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5100 3300 4950 3300
+Connection ~ 5500 3600
+Wire Wire Line
+	5400 3600 5500 3600
+Wire Wire Line
+	5950 4750 6400 4750
+$Comp
+L power:GND #PWR026
+U 1 1 5EE75B51
+P 5950 4750
+F 0 "#PWR026" H 5950 4500 50  0001 C CNN
+F 1 "GND" H 5955 4577 50  0000 C CNN
+F 2 "" H 5950 4750 50  0001 C CNN
+F 3 "" H 5950 4750 50  0001 C CNN
+	1    5950 4750
+	1    0    0    -1  
+$EndComp
+Connection ~ 5950 4750
+Wire Wire Line
+	5450 4750 5950 4750
 Wire Wire Line
 	6400 4450 6900 4450
+Wire Wire Line
+	6050 4450 6400 4450
+Connection ~ 6400 4450
+$Comp
+L Device:C C?
+U 1 1 5EE7523E
+P 6400 4600
+AR Path="/5EE7523E" Ref="C?"  Part="1" 
+AR Path="/5EE654BB/5EE655E0/5EE7523E" Ref="C?"  Part="1" 
+AR Path="/5F319C9C/5EE7523E" Ref="C21"  Part="1" 
+F 0 "C21" H 6515 4646 50  0000 L CNN
+F 1 "18pf" H 6515 4555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6438 4450 50  0001 C CNN
+F 3 "~" H 6400 4600 50  0001 C CNN
+	1    6400 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4450 5750 4450
+Wire Wire Line
+	5050 4450 5450 4450
+Connection ~ 5450 4450
+$Comp
+L Device:C C?
+U 1 1 5EE74A4A
+P 5450 4600
+AR Path="/5EE74A4A" Ref="C?"  Part="1" 
+AR Path="/5EE654BB/5EE655E0/5EE74A4A" Ref="C?"  Part="1" 
+AR Path="/5F319C9C/5EE74A4A" Ref="C18"  Part="1" 
+F 0 "C18" H 5565 4646 50  0000 L CNN
+F 1 "18pf" H 5565 4555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5488 4450 50  0001 C CNN
+F 3 "~" H 5450 4600 50  0001 C CNN
+	1    5450 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3600 5750 3500
+Wire Wire Line
+	5500 3600 5750 3600
+Wire Wire Line
+	5750 3600 6100 3600
+Connection ~ 5750 3600
+Text HLabel 5050 4450 0    50   Output ~ 0
+RTCCRYSTALOUT
+Text HLabel 6900 4450 2    50   Input ~ 0
+RTCCRYSTALIN
+$Comp
+L Nova_Microcontroller:Crystal Y2
+U 1 1 5EE717EC
+P 5900 4450
+F 0 "Y2" H 5900 4718 50  0000 C CNN
+F 1 "JTX310" H 5900 4627 50  0000 C CNN
+F 2 "NOVA MCU (STM):JTX310" H 5900 4450 50  0001 C CNN
+F 3 "https://www.jauch.com/downloadfile/57fde22d50dbf_d3c203011c87952f2834/jtx310-auto-2-210512.pdf" H 5900 4450 50  0001 C CNN
+	1    5900 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3100 5750 2900
+Wire Wire Line
+	5750 3700 5750 3600
+$Comp
+L power:GND #PWR024
+U 1 1 5EE6FC19
+P 5850 2900
+F 0 "#PWR024" H 5850 2650 50  0001 C CNN
+F 1 "GND" H 5855 2727 50  0000 C CNN
+F 2 "" H 5850 2900 50  0001 C CNN
+F 3 "" H 5850 2900 50  0001 C CNN
+	1    5850 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 5EE6F36D
+P 5750 3700
+F 0 "#PWR025" H 5750 3450 50  0001 C CNN
+F 1 "GND" H 5755 3527 50  0000 C CNN
+F 2 "" H 5750 3700 50  0001 C CNN
+F 3 "" H 5750 3700 50  0001 C CNN
+	1    5750 3700
+	1    0    0    -1  
+$EndComp
+Text HLabel 4950 3300 0    50   Output ~ 0
+CLOCKOUT
+Text HLabel 6400 3300 2    50   Input ~ 0
+CLOCKIN
+Wire Wire Line
+	5600 3300 5700 3300
+Wire Wire Line
+	5500 3300 5600 3300
+Connection ~ 5600 3300
+$Comp
+L Nova_Microcontroller:Crystal_GND24 Y1
+U 1 1 5EE6B82C
+P 5750 3300
+F 0 "Y1" H 5700 4050 50  0000 L CNN
+F 1 "ECS-260-8-36B-CKY-TR" H 5250 3950 50  0000 L CNN
+F 2 "NOVA MCU (STM):ECX-2236B" H 5750 3300 50  0001 C CNN
+F 3 "https://ecsxtal.com/store/pdf/ECX-2236B.pdf" H 5750 3300 50  0001 C CNN
+	1    5750 3300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
