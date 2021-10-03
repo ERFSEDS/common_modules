@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 20
+Sheet 7 15
 Title ""
 Date "2020-07-12"
 Rev "1"
@@ -102,20 +102,6 @@ Wire Wire Line
 	5400 3600 5550 3600
 Wire Wire Line
 	9100 3600 9250 3600
-$Comp
-L AZ1117EH-3.3TRG1:AZ1117EH-3.3TRG1 3v3Reg?
-U 1 1 5F123DAD
-P 6950 3700
-AR Path="/5F123DAD" Ref="3v3Reg?"  Part="1" 
-AR Path="/5F0C9147/5F123DAD" Ref="3v3Reg?"  Part="1" 
-AR Path="/5F3B0B4B/5F123DAD" Ref="3v3Reg1"  Part="1" 
-F 0 "3v3Reg1" H 6950 4050 60  0000 C CNN
-F 1 "AZ1117EH-3.3TRG1" H 6950 4150 60  0000 C CNN
-F 2 "Power:SOT230P700X180-4N" H 8350 3940 60  0001 C CNN
-F 3 "" H 9850 4200 60  0001 C CNN
-	1    6950 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7000 4350 7000 4550
 Wire Wire Line
