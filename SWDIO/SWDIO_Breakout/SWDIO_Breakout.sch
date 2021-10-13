@@ -31,7 +31,7 @@ RESET
 Text GLabel 5175 4200 0    50   Input ~ 0
 SWCLK
 $Comp
-L 8.06.16:8.06.16 J1
+L SWDIO_Breakout-rescue:8.06.16-8.06.16 J1
 U 1 1 614AA599
 P 5175 4000
 F 0 "J1" H 5575 4265 50  0000 C CNN
@@ -51,17 +51,6 @@ F 11 "" H 5825 3200 50  0001 L CNN "Arrow Price/Stock"
 $EndComp
 NoConn ~ 5975 4200
 $Comp
-L Connector:Conn_01x05_Male J2
-U 1 1 614ADCB1
-P 5595 4835
-F 0 "J2" V 5749 4547 50  0000 R CNN
-F 1 "Conn_01x05_Male" V 5658 4547 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5595 4835 50  0001 C CNN
-F 3 "~" H 5595 4835 50  0001 C CNN
-	1    5595 4835
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 614B0BBC
 P 5495 4635
@@ -74,12 +63,53 @@ F 3 "" H 5495 4635 50  0001 C CNN
 $EndComp
 Text GLabel 5175 4000 0    50   Input ~ 0
 +3.3V
-Text GLabel 5395 4635 1    50   Input ~ 0
-+3.3V
 Text GLabel 5595 4635 1    50   Input ~ 0
 SWDIO
 Text GLabel 5695 4635 1    50   Input ~ 0
 RESET
 Text GLabel 5795 4635 1    50   Input ~ 0
+SWCLK
+$Comp
+L Connector:Conn_01x20_Male J3
+U 1 1 616638E0
+P 5650 5300
+F 0 "J3" V 5577 5228 50  0000 C CNN
+F 1 "Conn_01x20_Male" V 5486 5228 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 5650 5300 50  0001 C CNN
+F 3 "~" H 5650 5300 50  0001 C CNN
+	1    5650 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J2
+U 1 1 614ADCB1
+P 5595 4835
+F 0 "J2" V 5749 4547 50  0000 R CNN
+F 1 "Conn_01x05_Male" V 5658 4547 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5595 4835 50  0001 C CNN
+F 3 "~" H 5595 4835 50  0001 C CNN
+	1    5595 4835
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5395 4635 1    50   Input ~ 0
++3.3V
+Text GLabel 6550 5100 1    50   Input ~ 0
++3.3V
+$Comp
+L power:GND #PWR01
+U 1 1 6166D2C6
+P 6650 5100
+F 0 "#PWR01" H 6650 4850 50  0001 C CNN
+F 1 "GND" V 6650 4920 50  0000 C CNN
+F 2 "" H 6650 5100 50  0001 C CNN
+F 3 "" H 6650 5100 50  0001 C CNN
+	1    6650 5100
+	-1   0    0    1   
+$EndComp
+Text GLabel 5350 5100 1    50   Input ~ 0
+SWDIO
+Text GLabel 6150 5100 1    50   Input ~ 0
+RESET
+Text GLabel 5550 5100 1    50   Input ~ 0
 SWCLK
 $EndSCHEMATC
