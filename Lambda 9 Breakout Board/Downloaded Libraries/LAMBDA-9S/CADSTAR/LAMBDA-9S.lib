@@ -1,0 +1,18 @@
+.LAMBDA-9S :1 ;915MHz LORA RF Fcc Certified Module 16km
+LAMBDA9S
+*STM IC
+*NGS
+*PLB 1="N/C" 2="GND" 3="VCC" 4="RX_SWITCH" 5="TX_SWITCH" 6="DIO0" 7="DIO1" 8="DIO2" 9="DIO3" 10="DIO4" 11="DIO5" 12="RESET" 13="SCLK" 14="SDO" 15="SDI" 16="NSEL"
+*MXP 16
+*DFN LAMBDA-9S
+~!Manufacturer_Name (RF SOLUTIONS)
+~!Manufacturer_Part_Number (LAMBDA-9S)
+~!Mouser Part Number (223-LAMBDA-9S)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/RF-Solutions/LAMBDA-9S?qs=17u8i%2FzlE88b0wd4JeoCNg%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.rfsolutions.co.uk/downloads/1523890514DS-LAMBDA-1.pdf)
+~!Height (2mm)
+~!3D_Model (LAMBDA-9S)
+LAMBDA-9S
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 

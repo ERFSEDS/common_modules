@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "Lambda Tranciever")(type KiCad)(uri "${KIPRJMOD}/footprints/Lambda Tranciever.pretty")(options "")(descr ""))
+  (lib (name "Capacitor UMA1H0R1MCD2TP")(type KiCad)(uri "E:/Nova/Lanmda 9s/Downloaded Libraries/Creaated Libraries/Capacitor UMA1H0R1MCD2TP.pretty")(options "")(descr "")(disabled))
+  (lib (name "Capacitor uma1h0r1mcd2tp")(type KiCad)(uri "D:/Nova/Lanmda 9s/Downloaded Libraries/Creaated Libraries/Capacitor UMA1H0R1MCD2TP.pretty/Capacitor uma1h0r1mcd2tp.pretty")(options "")(descr "")(disabled))
+  (lib (name ul_PPTC081LFBN-RC)(type KiCad)(uri "D:/Nova/Lanmda 9s/Downloaded Libraries/Creaated Libraries/ul_PPTC081LFBN-RC/KiCAD/2021-10-19_12-05-50/footprints.pretty")(options "")(descr ""))
+  (lib (name UMA1H0R1MCD2TP)(type KiCad)(uri "D:/Nova/Lanmda 9s/Downloaded Libraries/ul_UMA1H0R1MCD2TP/KiCAD/2021-10-20_00-42-17/footprints.pretty")(options "")(descr ""))
+)

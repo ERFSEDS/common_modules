@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name U.FL-R-SMT_10_)(type Legacy)(uri ${KIPRJMOD}/symbol/U.FL-R-SMT_10_.lib)(options "")(descr ""))
+  (lib (name Lambda_Tranciever-cache)(type Legacy)(uri "${KIPRJMOD}/symbol/Lambda Tranciever-cache.lib")(options "")(descr ""))
+  (lib (name lambda-9s-global)(type Legacy)(uri ${KIPRJMOD}/symbol/lambda-9s-global.lib)(options "")(descr ""))
+)

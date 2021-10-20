@@ -1,0 +1,9 @@
+Manufacturer=RF SOLUTIONS
+PartNumber=LAMBDA-9S
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=16
+Version=1.3
+Released=2019-05-16 11:13:54
+Downloaded=2021-10-11 22:36:44
+3D=Y

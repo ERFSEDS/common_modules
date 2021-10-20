@@ -1,4 +1,4 @@
-19214441882153106
+19222613413997202
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56209,6 +56209,27 @@ Yellow 5381 Series LED
 0
 2
 2
+Lambda Tranciever
+HRS_U.FL-R-SMT(10)
+U.FL Series 50 Ohm Receptacle Male Pins Ultra Small SMT Coaxial Connector
+
+0
+3
+3
+Lambda Tranciever
+LAMBDA-9S
+
+
+0
+16
+16
+Lambda Tranciever
+LAMBDA9S
+LAMBDA-9S-1
+Integrated Circuit
+0
+16
+16
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -82256,6 +82277,13 @@ transformer flyback
 0
 10
 10
+UMA1H0R1MCD2TP
+UMA1H0R1MCD2TP
+
+
+0
+2
+2
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -83033,3 +83061,10 @@ UMA1H0R1MCD2TP
 0
 2
 2
+ul_PPTC081LFBN-RC
+PPTC081LFBN-RC
+
+
+0
+8
+8
