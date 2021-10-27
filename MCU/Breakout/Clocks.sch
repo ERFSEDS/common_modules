@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 15
+Sheet 6 19
 Title "Microcontroller"
 Date "2020-07-02"
 Rev "1"
@@ -7659,17 +7659,6 @@ F 3 "~" H 5050 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Crystal_GND24 Y2
-U 1 1 61C67266
-P 7400 3850
-F 0 "Y2" V 7354 4094 50  0000 L CNN
-F 1 "25MHz" V 7445 4094 50  0000 L CNN
-F 2 "" H 7400 3850 50  0001 C CNN
-F 3 "~" H 7400 3850 50  0001 C CNN
-	1    7400 3850
-	0    1    1    0   
-$EndComp
-$Comp
 L pspice:CAP C7
 U 1 1 61C6928D
 P 4100 3350
@@ -7689,28 +7678,6 @@ F 1 "1.5pF" V 3876 4300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4100 4300 50  0001 C CNN
 F 3 "~" H 4100 4300 50  0001 C CNN
 	1    4100 4300
-	0    1    1    0   
-$EndComp
-$Comp
-L pspice:CAP C9
-U 1 1 61C69D3A
-P 6450 3350
-F 0 "C9" V 6135 3350 50  0000 C CNN
-F 1 "8pF" V 6226 3350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6450 3350 50  0001 C CNN
-F 3 "~" H 6450 3350 50  0001 C CNN
-	1    6450 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L pspice:CAP C11
-U 1 1 61C69E7C
-P 6450 4300
-F 0 "C11" V 6135 4300 50  0000 C CNN
-F 1 "8pF" V 6226 4300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6450 4300 50  0001 C CNN
-F 3 "~" H 6450 4300 50  0001 C CNN
-	1    6450 4300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -7740,20 +7707,43 @@ F 3 "" H 3700 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6050 3350 6200 3350
-$Comp
-L power:GND #PWR0138
-U 1 1 61C6F2A6
-P 6050 3350
-F 0 "#PWR0138" H 6050 3100 50  0001 C CNN
-F 1 "GND" V 6055 3222 50  0000 R CNN
-F 2 "" H 6050 3350 50  0001 C CNN
-F 3 "" H 6050 3350 50  0001 C CNN
-	1    6050 3350
-	0    1    1    0   
-$EndComp
+	4350 4300 5050 4300
 Wire Wire Line
-	6050 4300 6200 4300
+	5050 4300 5050 4000
+Wire Wire Line
+	5050 3700 5050 3350
+Wire Wire Line
+	5050 3350 4350 3350
+Text HLabel 5200 3350 2    50   Input ~ 0
+CLOCKIN
+Text HLabel 5200 4300 2    50   Output ~ 0
+CLOCKOUT
+Wire Wire Line
+	5200 4300 5050 4300
+Connection ~ 5050 4300
+Wire Wire Line
+	5050 3350 5200 3350
+Connection ~ 5050 3350
+Connection ~ 7400 3350
+Wire Wire Line
+	7400 3350 7550 3350
+Connection ~ 7400 4300
+Wire Wire Line
+	7400 4300 7550 4300
+Text HLabel 7550 4300 2    50   Output ~ 0
+32CLOCKOUT
+Text HLabel 7550 3350 2    50   Input ~ 0
+32CLOCKIN
+NoConn ~ 7200 3850
+NoConn ~ 7600 3850
+Wire Wire Line
+	7400 4000 7400 4300
+Wire Wire Line
+	7400 3350 7400 3700
+Wire Wire Line
+	7400 3350 6700 3350
+Wire Wire Line
+	6700 4300 7400 4300
 $Comp
 L power:GND #PWR0139
 U 1 1 61C6F38D
@@ -7766,41 +7756,51 @@ F 3 "" H 6050 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6700 4300 7400 4300
+	6050 4300 6200 4300
+$Comp
+L power:GND #PWR0138
+U 1 1 61C6F2A6
+P 6050 3350
+F 0 "#PWR0138" H 6050 3100 50  0001 C CNN
+F 1 "GND" V 6055 3222 50  0000 R CNN
+F 2 "" H 6050 3350 50  0001 C CNN
+F 3 "" H 6050 3350 50  0001 C CNN
+	1    6050 3350
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	7400 3350 6700 3350
-Wire Wire Line
-	7400 3350 7400 3700
-Wire Wire Line
-	7400 4000 7400 4300
-Wire Wire Line
-	4350 4300 5050 4300
-Wire Wire Line
-	5050 4300 5050 4000
-Wire Wire Line
-	5050 3700 5050 3350
-Wire Wire Line
-	5050 3350 4350 3350
-NoConn ~ 7600 3850
-NoConn ~ 7200 3850
-Text HLabel 5200 3350 2    50   Input ~ 0
-CLOCKIN
-Text HLabel 5200 4300 2    50   Output ~ 0
-CLOCKOUT
-Wire Wire Line
-	5200 4300 5050 4300
-Connection ~ 5050 4300
-Wire Wire Line
-	5050 3350 5200 3350
-Connection ~ 5050 3350
-Text HLabel 7550 3350 2    50   Input ~ 0
-32CLOCKIN
-Text HLabel 7550 4300 2    50   Output ~ 0
-32CLOCKOUT
-Wire Wire Line
-	7400 4300 7550 4300
-Connection ~ 7400 4300
-Wire Wire Line
-	7400 3350 7550 3350
-Connection ~ 7400 3350
+	6050 3350 6200 3350
+$Comp
+L pspice:CAP C11
+U 1 1 61C69E7C
+P 6450 4300
+F 0 "C11" V 6135 4300 50  0000 C CNN
+F 1 "8pF" V 6226 4300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6450 4300 50  0001 C CNN
+F 3 "~" H 6450 4300 50  0001 C CNN
+	1    6450 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:CAP C9
+U 1 1 61C69D3A
+P 6450 3350
+F 0 "C9" V 6135 3350 50  0000 C CNN
+F 1 "8pF" V 6226 3350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6450 3350 50  0001 C CNN
+F 3 "~" H 6450 3350 50  0001 C CNN
+	1    6450 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Crystal_GND24 Y2
+U 1 1 61C67266
+P 7400 3850
+F 0 "Y2" V 7354 4094 50  0000 L CNN
+F 1 "25MHz" V 7445 4094 50  0000 L CNN
+F 2 "" H 7400 3850 50  0001 C CNN
+F 3 "~" H 7400 3850 50  0001 C CNN
+	1    7400 3850
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
