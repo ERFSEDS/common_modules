@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name kem-3661)(type Legacy)(uri ${KIPRJMOD}/symbol/kem-3661.lib)(options "")(descr ""))
+  (lib (name TM1637__SOP_)(type Legacy)(uri ${KIPRJMOD}/symbol/TM1637__SOP_.lib)(options "")(descr ""))
+)
