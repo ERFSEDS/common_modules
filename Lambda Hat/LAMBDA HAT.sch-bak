@@ -20,7 +20,7 @@ P 4500 3800
 F 0 "U1" H 4600 3925 50  0000 C CNN
 F 1 "LAMBDA-9S-Global" H 4600 3834 50  0000 C CNN
 F 2 "Global:LAMBDA-9S" H 4500 3800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/975/1538123051DS-LAMBDA-1-1591514.pdf" H 4500 3800 50  0001 C CNN
+F 3 "https://www.rfsolutions.co.uk/downloads/1523890514DS-LAMBDA-1.pdf" H 4500 3800 50  0001 C CNN
 	1    4500 3800
 	1    0    0    -1  
 $EndComp
