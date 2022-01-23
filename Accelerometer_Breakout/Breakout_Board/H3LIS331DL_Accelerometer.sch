@@ -209,12 +209,18 @@ Wire Wire Line
 Connection ~ 5900 2850
 Wire Wire Line
 	5750 2850 5900 2850
-NoConn ~ 6450 3650
-NoConn ~ 6450 3950
 Text HLabel 4950 3800 0    50   Input ~ 0
 SCL
 Text HLabel 5750 4450 3    50   Output ~ 0
 MISO
 Text HLabel 5600 4450 3    50   Input ~ 0
 MOSI
+Wire Wire Line
+	6450 3650 6550 3650
+Wire Wire Line
+	6450 3950 6550 3950
+Text HLabel 6550 3650 2    50   Input ~ 0
+INT1
+Text HLabel 6550 3950 2    50   Input ~ 0
+INT2
 $EndSCHEMATC
