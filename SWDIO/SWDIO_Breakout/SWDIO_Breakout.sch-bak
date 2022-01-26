@@ -63,8 +63,6 @@ F 3 "" H 5495 4635 50  0001 C CNN
 $EndComp
 Text GLabel 5175 4000 0    50   Input ~ 0
 +3.3V
-Text GLabel 5395 4635 1    50   Input ~ 0
-+3.3V
 Text GLabel 5595 4635 1    50   Input ~ 0
 SWDIO
 Text GLabel 5695 4635 1    50   Input ~ 0
@@ -93,4 +91,25 @@ F 3 "~" H 5595 4835 50  0001 C CNN
 	1    5595 4835
 	0    -1   -1   0   
 $EndComp
+Text GLabel 5395 4635 1    50   Input ~ 0
++3.3V
+Text GLabel 6550 5100 1    50   Input ~ 0
++3.3V
+$Comp
+L power:GND #PWR01
+U 1 1 6166D2C6
+P 6650 5100
+F 0 "#PWR01" H 6650 4850 50  0001 C CNN
+F 1 "GND" V 6650 4920 50  0000 C CNN
+F 2 "" H 6650 5100 50  0001 C CNN
+F 3 "" H 6650 5100 50  0001 C CNN
+	1    6650 5100
+	-1   0    0    1   
+$EndComp
+Text GLabel 5350 5100 1    50   Input ~ 0
+SWDIO
+Text GLabel 6150 5100 1    50   Input ~ 0
+RESET
+Text GLabel 5550 5100 1    50   Input ~ 0
+SWCLK
 $EndSCHEMATC
