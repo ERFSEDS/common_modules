@@ -370,7 +370,7 @@
     (pin "9" (uuid d0c5561a-ecf5-4fb9-9963-743c221a8335))
   )
 
-  (symbol (lib_id "power:+3.3V") (at 99.06 90.17 90)
+  (symbol (lib_id "power:+3.3V") (at 99.06 90.17 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f06f178)
     (property "Reference" "#PWR054" (id 0) (at 102.87 90.17 0)
@@ -388,7 +388,7 @@
     (pin "1" (uuid 201a8082-80bc-49cb-a857-a9c917ee8418))
   )
 
-  (symbol (lib_id "Device:C") (at 102.87 93.98 180)
+  (symbol (lib_id "Device:C") (at 102.87 93.98 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f06f17e)
     (property "Reference" "C25" (id 0) (at 109.2708 93.98 90))

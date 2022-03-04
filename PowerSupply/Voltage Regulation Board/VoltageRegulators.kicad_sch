@@ -504,7 +504,7 @@
     (pin "2" (uuid 3785db90-bbe9-4018-bab6-3a4673f84f27))
   )
 
-  (symbol (lib_id "power:GND") (at 177.8 115.57 0)
+  (symbol (lib_id "power:GND") (at 177.8 115.57 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f0ea8a1)
     (property "Reference" "#PWR064" (id 0) (at 177.8 121.92 0)
@@ -520,7 +520,7 @@
     (pin "1" (uuid 2952439a-4d93-45a3-a998-2b2fce2c5fe9))
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 105.41 91.44 0)
+  (symbol (lib_id "power:PWR_FLAG") (at 105.41 91.44 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f0ea8f3)
     (property "Reference" "#FLG04" (id 0) (at 105.41 89.535 0)
@@ -536,7 +536,7 @@
     (pin "1" (uuid 745a27e0-733b-4d2b-b0f0-d4c1457e893e))
   )
 
-  (symbol (lib_id "power:GND") (at 138.43 68.58 0)
+  (symbol (lib_id "power:GND") (at 138.43 68.58 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f0ea92b)
     (property "Reference" "#PWR063" (id 0) (at 138.43 74.93 0)
@@ -588,7 +588,7 @@
     (pin "1" (uuid bc007755-47dc-4b01-a9a3-8f34e8741895))
   )
 
-  (symbol (lib_id "pspice:DIODE") (at 132.08 91.44 0)
+  (symbol (lib_id "pspice:DIODE") (at 132.08 91.44 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f891b29)
     (property "Reference" "D3" (id 0) (at 132.08 84.709 0))
@@ -658,7 +658,7 @@
     (pin "1" (uuid fb7b20d7-70ea-48e6-baf1-01a0d3c92377))
   )
 
-  (symbol (lib_id "power:VBUS") (at 100.33 91.44 90)
+  (symbol (lib_id "power:VBUS") (at 100.33 91.44 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f991d36)
     (property "Reference" "#PWR0116" (id 0) (at 104.14 91.44 0)
@@ -692,7 +692,7 @@
     (pin "1" (uuid 9ceeff0a-ae63-43da-8fd2-e3d57063537d))
   )
 
-  (symbol (lib_id "Device:C") (at 140.97 100.33 180)
+  (symbol (lib_id "Device:C") (at 140.97 100.33 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060417ae0)
     (property "Reference" "C1" (id 0) (at 147.3708 100.33 90))
@@ -707,7 +707,7 @@
     (pin "2" (uuid 8672a05d-b750-4ddd-a92d-4c58fddcdd4e))
   )
 
-  (symbol (lib_id "Device:C") (at 231.14 100.33 180)
+  (symbol (lib_id "Device:C") (at 231.14 100.33 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006041865f)
     (property "Reference" "C2" (id 0) (at 237.5408 100.33 90))

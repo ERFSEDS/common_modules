@@ -317,7 +317,7 @@
     (uuid 978f967d-6cc0-4f07-b852-e2800feefa07)
   )
 
-  (symbol (lib_id "MS560702BA03-50:MS560702BA03-50") (at 152.4 91.44 0)
+  (symbol (lib_id "MS560702BA03-50:MS560702BA03-50") (at 152.4 91.44 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f01d3e2)
     (property "Reference" "U6" (id 0) (at 152.4 76.5302 0)
